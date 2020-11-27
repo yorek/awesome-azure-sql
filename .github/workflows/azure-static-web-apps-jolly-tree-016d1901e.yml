@@ -19,7 +19,7 @@ jobs:
         with:
           submodules: true
       - name: Set up Ruby
-        uses: ruby/setup-ruby@ec106b438a1ff6ff109590de34ddc62c540232e0
+        uses: ruby/setup-ruby@v1.52.0
         with:
           ruby-version: 2.6
       - name: Install dependencies
