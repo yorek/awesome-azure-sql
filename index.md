@@ -4,3 +4,8 @@
 
 layout: home
 ---
+
+# A list of awesome Azure SQL resources
+
+## Getting started
+
