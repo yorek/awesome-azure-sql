@@ -13,13 +13,15 @@ A curated awesome list of resources for taking advantage of everything Azure SQL
 
 ## Development
 
+- [ScriptDOM Samples](https://github.com/arvindshmicrosoft/SQLScriptDomSamples): Samples on how to use the ScriptDOM parser to parse T-SQL statements
+
 ## Scripts
 
 - [sp_whoisactive](https://github.com/amachanic/sp_whoisactive): comprehensive activity monitoring stored procedure
 - [Azure SQL Diagnostic Queries](https://glennsqlperformance.com/resources/): comprehensive diagnostic and health-check queries
 
-
 ## Tools
+
 - [Smart Bulk Copy](https://github.com/Azure-Samples/smartbulkcopy/tree/master/): High-Speed Bulk Copy tool to move data from one Azure SQL / SQL Server database to another
 
 ## Videos
