@@ -13,7 +13,7 @@ A curated awesome list of resources for taking advantage of everything Azure SQL
 
 ## Articles 
 
-- [How to use batching to improve Azure SQL Database and Azure SQL Managed Instance application performance](https://docs.microsoft.com/en-us/azure/azure-sql/performance-improve-use-batching): An explanation of batching techniques that can be used to improve performance by a lot
+- [How to use batching to improve application performance](https://docs.microsoft.com/en-us/azure/azure-sql/performance-improve-use-batching): An explanation of batching techniques that can be used to improve performance by a lot
 
 ## Development
 
