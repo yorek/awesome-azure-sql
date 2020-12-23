@@ -11,6 +11,10 @@ A curated awesome list of resources for taking advantage of everything Azure SQL
 
 - [sqlworkshops](https://aka.ms/sqlworkshops): Lab and Workshops on Azure SQL (and more)
 
+## Articles 
+
+- [How to use batching to improve Azure SQL Database and Azure SQL Managed Instance application performance](https://docs.microsoft.com/en-us/azure/azure-sql/performance-improve-use-batching): An explanation of batching techniques that can be used to improve performance by a lot
+
 ## Development
 
 - [ScriptDOM Samples](https://github.com/arvindshmicrosoft/SQLScriptDomSamples): Samples on how to use the ScriptDOM parser to parse T-SQL statements
@@ -27,7 +31,6 @@ A curated awesome list of resources for taking advantage of everything Azure SQL
 ## Videos
 
 - [Azure SQL for Beginners](https://www.youtube.com/playlist?list=PLlrxD0HtieHi5c9-i_Dnxw9vxBY-TqaeN&_lrsc=b0140d7c-6896-492f-a931-236cdf0858c8): 61 small videos to learn everything to get started
-
 
 ## Books
 
