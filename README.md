@@ -31,6 +31,7 @@ A curated awesome list of resources for taking advantage of everything Azure SQL
 
 ## Articles 
 
+- [Bandwidth-friendly Query Profiling for Azure SQL Database](https://sqlperformance.com/2020/04/sql-performance/bandwidth-friendly-query-profiling-azure-sql-database)
 - [How to use batching to improve application performance](https://docs.microsoft.com/en-us/azure/azure-sql/performance-improve-use-batching): An explanation of batching techniques that can be used to improve performance by a lot
 - [ScriptDOM Samples](https://github.com/arvindshmicrosoft/SQLScriptDomSamples): Samples on how to use the ScriptDOM parser to parse T-SQL statements
 
@@ -42,6 +43,10 @@ A curated awesome list of resources for taking advantage of everything Azure SQL
 ## Tools
 
 - [Smart Bulk Copy](https://github.com/Azure-Samples/smartbulkcopy/tree/master/): High-Speed Bulk Copy tool to move data from one Azure SQL / SQL Server database to another
+
+## Libraries 
+
+- [Knex.js](https://knexjs.org/): "batteries included" SQL query builder
 
 ## Videos
 
