@@ -46,6 +46,12 @@ A curated awesome list of resources for taking advantage of everything Azure SQL
 
 ## Libraries 
 
+## .NET
+
+- [Dapper](https://github.com/StackExchange/Dapper): a simple object mapper for .Net
+
+### Node
+
 - [Knex.js](https://knexjs.org/): "batteries included" SQL query builder
 
 ## Videos
