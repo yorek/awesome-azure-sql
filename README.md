@@ -15,6 +15,7 @@ A curated awesome list of resources for taking advantage of everything Azure SQL
 
 - [Azure SQL & GraphQL Samples](https://docs.microsoft.com/en-us/samples/azure-samples/azure-sql-db-graphql/azure-sql-db-graphql/)
 - [Azure SQL Database CI/CD Pipeline with GitHub Actions](https://docs.microsoft.com/en-us/samples/azure-samples/azure-sql-db-ci-cd/azure-sql-db-ci-cd/)
+- [Azure SQL DB Samples and Best Practices](https://github.com/yorek/azure-sql-db-samples)
 - [Azure SQL Hyperscale Autoscaler](https://docs.microsoft.com/en-us/samples/azure-samples/azure-sql-db-hyperscale-autoscaler/azure-sql-hyperscale-autoscaler/)
 - [Creating API to securely access data using Azure SQL Row Level Security](https://docs.microsoft.com/en-us/samples/azure-samples/azure-sql-db-secure-data-access-api/azure-sql-db-secure-data-access-api/)
 - [Creating a REST API with .NET Core and Azure SQL](https://docs.microsoft.com/en-us/samples/azure-samples/azure-sql-db-dotnet-rest-api/azure-sql-db-dotnet-rest-api/)
