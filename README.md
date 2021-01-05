@@ -39,15 +39,14 @@ A curated awesome list of resources for taking advantage of everything Azure SQL
 
 ## Scripts
 
-- [Azure SQL Diagnostic Queries](https://glennsqlperformance.com/resources/): comprehensive diagnostic and health-check queries
-- [Azure SQL Tips](https://github.com/microsoft/azure-sql-tips): get tips to improve database design, health, and performance
-- [sp_whoisactive](https://github.com/amachanic/sp_whoisactive): omprehensive activity monitoring stored procedure
+- [Azure SQL Diagnostic Queries](https://glennsqlperformance.com/resources/): COmprehensive diagnostic and health-check queries
+- [Azure SQL Tips](https://github.com/microsoft/azure-sql-tips): Get tips to improve database design, health, and performance
+- [sp_whoisactive](https://github.com/amachanic/sp_whoisactive): Comprehensive activity monitoring stored procedure
 
 ## Tools
 
 - [Azure SQL Monitoring](https://github.com/denzilribeiro/sqldbmonitoring): Solution for near-realtime monitoring using Grafana and the Telegraf SQL plugin. 
 - [Smart Bulk Copy](https://github.com/Azure-Samples/smartbulkcopy/tree/master/): High-Speed Bulk Copy tool to move data from one Azure SQL / SQL Server database to another
-
 
 ## Libraries 
 
@@ -59,6 +58,10 @@ A curated awesome list of resources for taking advantage of everything Azure SQL
 ### Node
 
 - [Knex.js](https://knexjs.org/): "Batteries included" SQL query builder
+
+### Python
+
+WIP
 
 ## Videos
 
