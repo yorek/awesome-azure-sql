@@ -1,5 +1,4 @@
-# Awesome Azure SQL resources
-
+# Awesome Azure SQL resources [![Awesome](https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg)](https://github.com/sindresorhus/awesome)
 
 A curated awesome list of resources for taking advantage of everything Azure SQL as to offer, useful for the beginners and the veteran.
 
