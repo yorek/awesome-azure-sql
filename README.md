@@ -40,8 +40,8 @@ A curated awesome list of resources for taking advantage of everything Azure SQL
 ## Scripts
 
 - [Azure SQL Diagnostic Queries](https://glennsqlperformance.com/resources/): comprehensive diagnostic and health-check queries
-- [Azure SQL Tips](https://github.com/microsoft/azure-sql-tips)
-- [sp_whoisactive](https://github.com/amachanic/sp_whoisactive): comprehensive activity monitoring stored procedure
+- [Azure SQL Tips](https://github.com/microsoft/azure-sql-tips): get tips to improve database design, health, and performance
+- [sp_whoisactive](https://github.com/amachanic/sp_whoisactive): omprehensive activity monitoring stored procedure
 
 ## Tools
 
