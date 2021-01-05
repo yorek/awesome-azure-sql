@@ -16,6 +16,7 @@ A curated awesome list of resources for taking advantage of everything Azure SQL
 - [Azure SQL & GraphQL Samples](https://docs.microsoft.com/en-us/samples/azure-samples/azure-sql-db-graphql/azure-sql-db-graphql/)
 - [Azure SQL Database CI/CD Pipeline with GitHub Actions](https://docs.microsoft.com/en-us/samples/azure-samples/azure-sql-db-ci-cd/azure-sql-db-ci-cd/)
 - [Azure SQL DB Samples and Best Practices](https://github.com/yorek/azure-sql-db-samples)
+- [Azure SQL DB Import Data Samples](https://github.com/Azure-Samples/azure-sql-db-import-data): Samples on how to import data (JSON, CSV, Flat-Files, etc) into Azure SQL
 - [Azure SQL Hyperscale Autoscaler](https://docs.microsoft.com/en-us/samples/azure-samples/azure-sql-db-hyperscale-autoscaler/azure-sql-hyperscale-autoscaler/)
 - [Creating API to securely access data using Azure SQL Row Level Security](https://docs.microsoft.com/en-us/samples/azure-samples/azure-sql-db-secure-data-access-api/azure-sql-db-secure-data-access-api/)
 - [Creating a REST API with .NET Core and Azure SQL](https://docs.microsoft.com/en-us/samples/azure-samples/azure-sql-db-dotnet-rest-api/azure-sql-db-dotnet-rest-api/)
@@ -43,7 +44,9 @@ A curated awesome list of resources for taking advantage of everything Azure SQL
 
 ## Tools
 
+- [Azure SQL Monitoring](https://github.com/denzilribeiro/sqldbmonitoring): Solution for near-realtime monitoring using Grafana and the Telegraf SQL plugin. 
 - [Smart Bulk Copy](https://github.com/Azure-Samples/smartbulkcopy/tree/master/): High-Speed Bulk Copy tool to move data from one Azure SQL / SQL Server database to another
+
 
 ## Libraries 
 
