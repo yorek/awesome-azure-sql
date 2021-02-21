@@ -65,6 +65,7 @@ WIP
 ## Videos
 
 - [Azure SQL for Beginners](https://www.youtube.com/playlist?list=PLlrxD0HtieHi5c9-i_Dnxw9vxBY-TqaeN&_lrsc=b0140d7c-6896-492f-a931-236cdf0858c8): 61 small videos to learn everything to get started
+- [Data Exposed Playlist](https://www.youtube.com/playlist?list=PLlrxD0HtieHieV7Jls72yFPSKyGqycbZR): an ongoing series to learn everything about the Azure Data platform, Azure SQL included
 
 ## Books
 
