@@ -43,7 +43,7 @@ A curated awesome list of resources for taking advantage of everything Azure SQL
 
 ## Articles 
 
-- [Bandwidth-friendly Query Profiling for Azure SQL Database](https://sqlperformance.com/2020/04/sql-performance/bandwidth-friendly-query-profiling-azure-sql-database)
+- [Bandwidth-friendly Query Profiling for Azure SQL Database](https://sqlperformance.com/2020/04/sql-performance/bandwidth-friendly-query-profiling-azure-sql-database): Using Extended Events to profile query execution
 - [How to use batching to improve application performance](https://docs.microsoft.com/en-us/azure/azure-sql/performance-improve-use-batching): An explanation of batching techniques that can be used to improve performance by a lot
 - [ScriptDOM Samples](https://github.com/arvindshmicrosoft/SQLScriptDomSamples): Samples on how to use the ScriptDOM parser to parse T-SQL statements
 
