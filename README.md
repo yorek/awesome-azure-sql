@@ -13,7 +13,7 @@ A curated awesome list of resources for taking advantage of everything Azure SQL
 ## Code Samples
 
 - [Azure SQL DB Samples and Best Practices](https://github.com/yorek/azure-sql-db-samples): Samples and Best practices to use Azure SQL DB to build modern, mission critical applications, with ease and confidence
-- [Azure SQL Hyperscale Autoscaler](https://docs.microsoft.com/en-us/samples/azure-samples/azure-sql-db-hyperscale-autoscaler/azure-sql-hyperscale-autoscaler/): Hwo to create a serverless solution to automatically scale Azure SQL Hyperscale, based on detected workload
+- [Azure SQL Hyperscale Autoscaler](https://docs.microsoft.com/en-us/samples/azure-samples/azure-sql-db-hyperscale-autoscaler/azure-sql-hyperscale-autoscaler/): How to create a serverless solution to automatically scale Azure SQL Hyperscale, based on detected workload
 - [Creating API to securely access data using Azure SQL Row Level Security](https://docs.microsoft.com/en-us/samples/azure-samples/azure-sql-db-secure-data-access-api/azure-sql-db-secure-data-access-api/)
 - [Creating a REST API with .NET Core and Azure SQL](https://docs.microsoft.com/en-us/samples/azure-samples/azure-sql-db-dotnet-rest-api/azure-sql-db-dotnet-rest-api/)
 - [Creating a REST API with Python and Azure SQL](https://docs.microsoft.com/en-us/samples/azure-samples/azure-sql-db-python-rest-api/azure-sql-db-python-rest-api/)
