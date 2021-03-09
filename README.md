@@ -12,22 +12,33 @@ A curated awesome list of resources for taking advantage of everything Azure SQL
 
 ## Code Samples
 
-- [Azure SQL & GraphQL Samples](https://docs.microsoft.com/en-us/samples/azure-samples/azure-sql-db-graphql/azure-sql-db-graphql/)
-- [Azure SQL Database CI/CD Pipeline with GitHub Actions](https://docs.microsoft.com/en-us/samples/azure-samples/azure-sql-db-ci-cd/azure-sql-db-ci-cd/)
-- [Azure SQL DB Samples and Best Practices](https://github.com/yorek/azure-sql-db-samples)
-- [Azure SQL DB Import Data Samples](https://github.com/Azure-Samples/azure-sql-db-import-data): Samples on how to import data (JSON, CSV, Flat-Files, etc) into Azure SQL
-- [Azure SQL Hyperscale Autoscaler](https://docs.microsoft.com/en-us/samples/azure-samples/azure-sql-db-hyperscale-autoscaler/azure-sql-hyperscale-autoscaler/)
+- [Azure SQL DB Samples and Best Practices](https://github.com/yorek/azure-sql-db-samples): Samples and Best practices to use Azure SQL DB to build modern, mission critical applications, with ease and confidence
+- [Azure SQL Hyperscale Autoscaler](https://docs.microsoft.com/en-us/samples/azure-samples/azure-sql-db-hyperscale-autoscaler/azure-sql-hyperscale-autoscaler/): Hwo to create a serverless solution to automatically scale Azure SQL Hyperscale, based on detected workload
 - [Creating API to securely access data using Azure SQL Row Level Security](https://docs.microsoft.com/en-us/samples/azure-samples/azure-sql-db-secure-data-access-api/azure-sql-db-secure-data-access-api/)
 - [Creating a REST API with .NET Core and Azure SQL](https://docs.microsoft.com/en-us/samples/azure-samples/azure-sql-db-dotnet-rest-api/azure-sql-db-dotnet-rest-api/)
 - [Creating a REST API with Python and Azure SQL](https://docs.microsoft.com/en-us/samples/azure-samples/azure-sql-db-python-rest-api/azure-sql-db-python-rest-api/)
-- [Fast Data Loading in Azure SQL DB using Azure Databricks](https://docs.microsoft.com/en-us/samples/azure-samples/azure-sql-db-databricks/azure-sql-db-databricks/)
-- [Monitor GeoFences in real-time using Azure SQL and Stream Analytics](https://docs.microsoft.com/en-us/samples/azure-samples/azure-sql-db-serverless-geospatial-stream-analytics/azure-sql-db-serverless-geospatial-stream-analytics/)
 - [Todo Backend Implementation with Azure Functions, Node and Azure SQL](https://docs.microsoft.com/en-us/samples/azure-samples/azure-sql-db-todo-backend-func-node/azure-sql-db-todo-backend-func-node/)
 - [TodoMVC Sample App Full Stack Implementation](https://docs.microsoft.com/en-us/samples/azure-samples/azure-sql-db-todo-mvc/azure-sql-db-todo-mvc/)
-- [Real-Time Serverless GeoSpatial Public Transportation GeoFencing Solution](https://docs.microsoft.com/en-us/samples/azure-samples/azure-sql-db-serverless-geospatial/azure-sql-db-serverless-geospatial/)
 - [Using Change Tracking API to sync data between Apps and the Cloud](https://docs.microsoft.com/en-us/samples/azure-samples/azure-sql-db-sync-api-change-tracking/azure-sql-db-dotnet-rest-api/)
-- [Million Song Dataset in Azure SQL DB / SQL Server](https://docs.microsoft.com/en-us/samples/azure-samples/millionsongdataset-sql/millionsongdataset-sql/): Using Graph object in Azure SQL with the Million Song dataset
 - [Serverless REST API with Azure Functions, Node and Azure SQL](https://docs.microsoft.com/en-us/samples/azure-samples/azure-sql-db-node-rest-api/azure-sql-db-node-rest-api/)
+
+###  Graph
+- [Azure SQL & GraphQL Samples](https://docs.microsoft.com/en-us/samples/azure-samples/azure-sql-db-graphql/azure-sql-db-graphql/)
+- [Million Song Dataset in Azure SQL DB / SQL Server](https://docs.microsoft.com/en-us/samples/azure-samples/millionsongdataset-sql/millionsongdataset-sql/): Using Graph object in Azure SQL with the Million Song dataset
+
+### DevOps
+- [Azure SQL Database CI/CD Pipeline with GitHub Actions](https://docs.microsoft.com/en-us/samples/azure-samples/azure-sql-db-ci-cd/azure-sql-db-ci-cd/)
+
+### Data Loading
+- [Azure SQL DB Import Data Samples](https://github.com/Azure-Samples/azure-sql-db-import-data): Samples on how to import data (JSON, CSV, Flat-Files, etc) into Azure SQL
+- [Fast Data Loading in Azure SQL DB using Azure Databricks](https://docs.microsoft.com/en-us/samples/azure-samples/azure-sql-db-databricks/azure-sql-db-databricks/)
+
+### Geospatial
+- [Monitor GeoFences in real-time using Azure SQL and Stream Analytics](https://docs.microsoft.com/en-us/samples/azure-samples/azure-sql-db-serverless-geospatial-stream-analytics/azure-sql-db-serverless-geospatial-stream-analytics/)
+- [Real-Time Serverless GeoSpatial Public Transportation GeoFencing Solution](https://docs.microsoft.com/en-us/samples/azure-samples/azure-sql-db-serverless-geospatial/azure-sql-db-serverless-geospatial/)
+
+### Streaming
+
 - [Streaming at Scale](https://docs.microsoft.com/en-us/samples/azure-samples/streaming-at-scale/streaming-at-scale/): End-to-end solution to implement a streaming at scale scenario
 
 ## Articles 
@@ -49,18 +60,21 @@ A curated awesome list of resources for taking advantage of everything Azure SQL
 
 ## Libraries 
 
-## .NET
+### .NET
 
 - [Dapper](https://github.com/StackExchange/Dapper): A simple object mapper for .Net
 - [SqlKata](https://sqlkata.com/): A fluent SQL query builder for C#
 
 ### Node
 
+- [node-mssql](https://www.npmjs.com/package/mssql): Microsoft SQL Server client for Node.js
 - [Knex.js](https://knexjs.org/): "Batteries included" SQL query builder
+- [Prisma](https://www.prisma.io/): Next-generation ORM for Node.js and TypeScript
+- [Sequelize](https://sequelize.org/): A promise-based Node.js ORM
 
 ### Python
 
-WIP
+- [SQLAlchemy](https://www.sqlalchemy.org/): Python SQL toolkit and Object Relational Mapper
 
 ## Videos
 
@@ -71,6 +85,4 @@ WIP
 
 - [Practical Azure SQL Database for Modern Developers](https://www.apress.com/it/book/9781484263693): Building Applications in the Microsoft Cloud with Azure SQL
 - [Azure SQL Revealed](https://www.apress.com/it/book/9781484263693): A Guide to the Cloud for SQL Server Professionals
-
-
 
