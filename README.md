@@ -10,6 +10,10 @@ A curated awesome list of resources for taking advantage of everything Azure SQL
 
 - [sqlworkshops](https://aka.ms/sqlworkshops): Lab and Workshops on Azure SQL (and more)
 
+## Community
+
+- [Azure Data Community](https://www.microsoft.com/en-us/sql-server/community?activetab=pivot_1:primaryr4)
+
 ## Code Samples
 
 - [Azure SQL DB Samples and Best Practices](https://github.com/yorek/azure-sql-db-samples): Samples and Best practices to use Azure SQL DB to build modern, mission critical applications, with ease and confidence
