@@ -9,10 +9,11 @@ A curated awesome list of resources for taking advantage of everything Azure SQL
 ## Labs & Workshops
 
 - [sqlworkshops](https://aka.ms/sqlworkshops): Lab and Workshops on Azure SQL (and more)
+- [Microsoft Learn - Build Serverless Full Stack Apps on Azure](https://docs.microsoft.com/en-us/learn/paths/build-serverless-full-stack-apps-azure/): Learn how to create, build, and deploy modern full stack applications in Azure by using the language of your choice (Python, Node.js, or .NET) and with a Vue.js frontend. Topics covered include modern database capabilities, CI/CD and DevOps, backend API development, REST, and more. 
 
 ## Community
 
-- [Azure Data Community](https://www.microsoft.com/en-us/sql-server/community?activetab=pivot_1:primaryr4)
+- [Azure Data Community](https://www.microsoft.com/en-us/sql-server/community)
 
 ## Code Samples
 
@@ -53,8 +54,8 @@ A curated awesome list of resources for taking advantage of everything Azure SQL
 
 ## Scripts
 
-- [Azure SQL Diagnostic Queries](https://glennsqlperformance.com/resources/): COmprehensive diagnostic and health-check queries
-- [Azure SQL Tips](https://github.com/microsoft/azure-sql-tips): Get tips to improve database design, health, and performance
+- [Azure SQL Diagnostic Queries](https://glennsqlperformance.com/resources/): Comprehensive diagnostic and health-check queries
+- [Azure SQL Tips](https://github.com/microsoft/azure-sql-tips): Get tips to improve database design, health, and performance right from the Azure SQL product group
 - [sp_whoisactive](https://github.com/amachanic/sp_whoisactive): Comprehensive activity monitoring stored procedure
 
 ## Tools
