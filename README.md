@@ -85,6 +85,7 @@ A curated awesome list of resources for taking advantage of everything Azure SQL
 
 - [Azure SQL for Beginners](https://www.youtube.com/playlist?list=PLlrxD0HtieHi5c9-i_Dnxw9vxBY-TqaeN&_lrsc=b0140d7c-6896-492f-a931-236cdf0858c8): 61 small videos to learn everything to get started
 - [Data Exposed Playlist](https://www.youtube.com/playlist?list=PLlrxD0HtieHieV7Jls72yFPSKyGqycbZR): an ongoing series to learn everything about the Azure Data platform, Azure SQL included
+- [Create secure API with .NET, Dapper and Azure SQL](https://dps10.com/create-secure-api-with-net-dapper-and-azure-sql/): Live coding recording of development of a backend API with security, full CI/CD - test included and unexpected requirements, just like the real world. Video is free but registration (free too) is required.
 
 ## Books
 
