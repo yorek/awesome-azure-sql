@@ -36,10 +36,10 @@ A curated awesome list of resources for taking advantage of everything Azure SQL
 - [Million Song Dataset in Azure SQL DB / SQL Server](https://docs.microsoft.com/en-us/samples/azure-samples/millionsongdataset-sql/millionsongdataset-sql/): Using Graph object in Azure SQL with the Million Song dataset
 
 ### DevOps
-- [Azure SQL Database CI/CD Pipeline with GitHub Actions](https://docs.microsoft.com/en-us/samples/azure-samples/azure-sql-db-ci-cd/azure-sql-db-ci-cd/)
-- [DevOps for Azure SQL](https://devblogs.microsoft.com/azure-sql/devops-for-azure-sql/): Everything you want to know around how to apply DevOps to databases, Azure SQL DB in particular
-- [Getting Started with DevOps for Azure SQL](https://www.youtube.com/watch?v=j7OnxOz7YDY): What is Data DevOps and a discussion around the first option: migration based deployment
-- [Using Azure Pipelines for Azure SQL Deployments](https://www.youtube.com/watch?v=G7H6HbzwAfs): Discussion state based deployment, and full demo on using Azure Pipelines to deploy the database 
+- :blue_book: [Azure SQL Database CI/CD Pipeline with GitHub Actions](https://docs.microsoft.com/en-us/samples/azure-samples/azure-sql-db-ci-cd/azure-sql-db-ci-cd/): Official documentation
+- :page_facing_up: [DevOps for Azure SQL](https://devblogs.microsoft.com/azure-sql/devops-for-azure-sql/): Everything you want to know around how to apply DevOps to databases, Azure SQL DB in particular
+- :tv: [Getting Started with DevOps for Azure SQL](https://www.youtube.com/watch?v=j7OnxOz7YDY): What is Data DevOps and a discussion around the first option: migration based deployment
+- :tv: [Using Azure Pipelines for Azure SQL Deployments](https://www.youtube.com/watch?v=G7H6HbzwAfs): Discussion state based deployment, and full demo on using Azure Pipelines to deploy the database 
 
 ### Data Loading
 - [Azure SQL DB Import Data Samples](https://github.com/Azure-Samples/azure-sql-db-import-data): Samples on how to import data (JSON, CSV, Flat-Files, etc) into Azure SQL
