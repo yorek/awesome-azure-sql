@@ -40,7 +40,7 @@ A curated awesome list of resources for taking advantage of everything Azure SQL
 - [DevOps for Azure SQL](https://devblogs.microsoft.com/azure-sql/devops-for-azure-sql/): Everything you want to know around how to apply DevOps to databases, Azure SQL DB in particular
 - [Getting Started with DevOps for Azure SQL](https://www.youtube.com/watch?v=j7OnxOz7YDY): What is Data DevOps and a discussion around the first option: migration based deployment
 - [Using Azure Pipelines for Azure SQL Deployments](https://www.youtube.com/watch?v=G7H6HbzwAfs): Discussion state based deployment, and full demo on using Azure Pipelines to deploy the database 
-- 
+
 ### Data Loading
 - [Azure SQL DB Import Data Samples](https://github.com/Azure-Samples/azure-sql-db-import-data): Samples on how to import data (JSON, CSV, Flat-Files, etc) into Azure SQL
 - [Fast Data Loading in Azure SQL DB using Azure Databricks](https://docs.microsoft.com/en-us/samples/azure-samples/azure-sql-db-databricks/azure-sql-db-databricks/)
