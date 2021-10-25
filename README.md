@@ -1,6 +1,6 @@
 # Awesome Azure SQL resources [![Awesome](https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg)](https://github.com/sindresorhus/awesome)
 
-A curated awesome list of resources for taking advantage of everything Azure SQL as to offer, useful for the beginners and the veteran.
+A curated awesome list of resources for taking advantage of everything Azure SQL has to offer, useful for the beginners and the veterans.
 
 ## Getting started
 
@@ -32,7 +32,7 @@ A curated awesome list of resources for taking advantage of everything Azure SQL
 - [Using Change Tracking API to sync data between Apps and the Cloud](https://docs.microsoft.com/en-us/samples/azure-samples/azure-sql-db-sync-api-change-tracking/azure-sql-db-dotnet-rest-api/)
 - [Serverless REST API with Azure Functions, Node and Azure SQL](https://docs.microsoft.com/en-us/samples/azure-samples/azure-sql-db-node-rest-api/azure-sql-db-node-rest-api/)
 
-###  Graph
+### Graph
 - [Azure SQL & GraphQL Samples](https://docs.microsoft.com/en-us/samples/azure-samples/azure-sql-db-graphql/azure-sql-db-graphql/)
 - [Million Song Dataset in Azure SQL DB / SQL Server](https://docs.microsoft.com/en-us/samples/azure-samples/millionsongdataset-sql/millionsongdataset-sql/): Using Graph object in Azure SQL with the Million Song dataset
 
@@ -63,7 +63,7 @@ A curated awesome list of resources for taking advantage of everything Azure SQL
 ## Scripts
 
 - [Azure SQL Diagnostic Queries](https://glennsqlperformance.com/resources/): Comprehensive diagnostic and health-check queries
-- [Azure SQL Tips](https://github.com/microsoft/azure-sql-tips): Get tips to improve database design, health, and performance right from the Azure SQL product group
+- [Azure SQL Tips](https://aka.ms/sqldbtips): Get tips to improve database design, health, and performance right from the Azure SQL product group
 - [sp_whoisactive](https://github.com/amachanic/sp_whoisactive): Comprehensive activity monitoring stored procedure
 
 ## Tools
