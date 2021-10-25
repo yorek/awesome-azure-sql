@@ -12,6 +12,7 @@ A curated awesome list of resources for taking advantage of everything Azure SQL
 
 ## Microsoft Learn
 
+- [Azure SQL Modules @ Microsoft Learn](https://docs.microsoft.com/en-us/learn/browse/?expanded=azure&products=azure-sql-database): all the Microsoft Learn modules related to Azure SQL. From security to development, from performances to maintenance.
 - [Build Serverless Full Stack Apps on Azure](https://docs.microsoft.com/en-us/learn/paths/build-serverless-full-stack-apps-azure/): learn how to create, build, and deploy modern full stack applications in Azure by using the language of your choice (Python, Node.js, or .NET) and with a Vue.js frontend. Topics covered include modern database capabilities, CI/CD and DevOps, backend API development, REST, and more. 
 - [Deploy IoT solutions with Azure SQL Database](https://docs.microsoft.com/en-us/learn/modules/deploy-iot-solution-azure-sql-database/): learn how Azure SQL Database provides a price-performant backend for IoT applications. You'll also deploy a template that includes Azure SQL Database, Azure VMs, Azure Functions, and Power BI which simplifies deploying and configuring IoT solutions.
 
