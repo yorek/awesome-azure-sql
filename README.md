@@ -100,3 +100,8 @@ A curated awesome list of resources for taking advantage of everything Azure SQL
 - [Practical Azure SQL Database for Modern Developers](https://www.apress.com/it/book/9781484263693): Building Applications in the Microsoft Cloud with Azure SQL
 - [Azure SQL Revealed](https://www.apress.com/it/book/9781484263693): A Guide to the Cloud for SQL Server Professionals
 
+## Blogs
+
+### Official
+- [Azure SQL Devs’ Corner](https://devblogs.microsoft.com/azure-sql/): Azure SQL team blog with focus on developers
+- [Azure SQL @ TechCommunity](https://techcommunity.microsoft.com/t5/azure-sql/bg-p/AzureSQLBlog): Azure SQL team blog with focus on IT Pros
