@@ -4,11 +4,11 @@ A curated awesome list of resources for taking advantage of everything Azure SQL
 
 ## Getting started
 
-- [Azure SQL for Beginners](https://www.youtube.com/playlist?list=PLlrxD0HtieHi5c9-i_Dnxw9vxBY-TqaeN&_lrsc=b0140d7c-6896-492f-a931-236cdf0858c8): 61 small videos to learn everything to get started
+- :tv: [Azure SQL for Beginners](https://www.youtube.com/playlist?list=PLlrxD0HtieHi5c9-i_Dnxw9vxBY-TqaeN&_lrsc=b0140d7c-6896-492f-a931-236cdf0858c8): 61 small videos to learn everything to get started
 
 ## Labs & Workshops
 
-- [sqlworkshops](https://aka.ms/sqlworkshops): Lab and Workshops on Azure SQL (and more)
+- :bar_chart: [sqlworkshops](https://aka.ms/sqlworkshops): Lab and Workshops on Azure SQL (and more)
 
 ## Microsoft Learn
 
@@ -18,7 +18,7 @@ A curated awesome list of resources for taking advantage of everything Azure SQL
 
 ## Community
 
-- [Azure Data Community](https://www.microsoft.com/en-us/sql-server/community)
+- [Azure Data Community](https://www.microsoft.com/en-us/sql-server/community): list of user groups and community resources like events, recordings, blogs and so on.
 
 ## Code Samples
 
@@ -41,6 +41,7 @@ A curated awesome list of resources for taking advantage of everything Azure SQL
 - :page_facing_up: [DevOps for Azure SQL](https://devblogs.microsoft.com/azure-sql/devops-for-azure-sql/): Everything you want to know around how to apply DevOps to databases, Azure SQL DB in particular
 - :tv: [Getting Started with DevOps for Azure SQL](https://www.youtube.com/watch?v=j7OnxOz7YDY): What is Data DevOps and a discussion around the first option: migration based deployment
 - :tv: [Using Azure Pipelines for Azure SQL Deployments](https://www.youtube.com/watch?v=G7H6HbzwAfs): Discussion state based deployment, and full demo on using Azure Pipelines to deploy the database 
+- 📄 [Advanced automated deployment of Azure SQL Database with Azure DevOps](https://erikej.github.io/sqlserver/2021/01/11/azure-sql-advanced-deployment-part1.html): Detailed tutorial on how to deploy Azure SQL with Azure DevOps 
 
 ### Data Loading
 - [Azure SQL DB Import Data Samples](https://github.com/Azure-Samples/azure-sql-db-import-data): Samples on how to import data (JSON, CSV, Flat-Files, etc) into Azure SQL
@@ -75,6 +76,7 @@ A curated awesome list of resources for taking advantage of everything Azure SQL
 
 ### .NET
 
+- [EF Core](https://docs.microsoft.com/en-us/ef/core/): Native .NET Core OR/M mapping tool. 
 - [Dapper](https://github.com/StackExchange/Dapper): A simple object mapper for .Net
 - [SqlKata](https://sqlkata.com/): A fluent SQL query builder for C#
 
