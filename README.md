@@ -22,38 +22,42 @@ A curated awesome list of resources for taking advantage of everything Azure SQL
 
 ## Code Samples
 
+### Generic
 - [Azure SQL DB Samples and Best Practices](https://github.com/yorek/azure-sql-db-samples): Samples and Best practices to use Azure SQL DB to build modern, mission critical applications, with ease and confidence
 - [Azure SQL Hyperscale Autoscaler](https://docs.microsoft.com/en-us/samples/azure-samples/azure-sql-db-hyperscale-autoscaler/azure-sql-hyperscale-autoscaler/): How to create a serverless solution to automatically scale Azure SQL Hyperscale, based on detected workload
-- [Creating API to securely access data using Azure SQL Row Level Security](https://docs.microsoft.com/en-us/samples/azure-samples/azure-sql-db-secure-data-access-api/azure-sql-db-secure-data-access-api/)
-- [Creating a REST API with .NET Core and Azure SQL](https://docs.microsoft.com/en-us/samples/azure-samples/azure-sql-db-dotnet-rest-api/azure-sql-db-dotnet-rest-api/)
-- [Creating a REST API with Python and Azure SQL](https://docs.microsoft.com/en-us/samples/azure-samples/azure-sql-db-python-rest-api/azure-sql-db-python-rest-api/)
-- [Todo Backend Implementation with Azure Functions, Node and Azure SQL](https://docs.microsoft.com/en-us/samples/azure-samples/azure-sql-db-todo-backend-func-node/azure-sql-db-todo-backend-func-node/)
 - [TodoMVC Sample App Full Stack Implementation](https://docs.microsoft.com/en-us/samples/azure-samples/azure-sql-db-todo-mvc/azure-sql-db-todo-mvc/)
-- [Using Change Tracking API to sync data between Apps and the Cloud](https://docs.microsoft.com/en-us/samples/azure-samples/azure-sql-db-sync-api-change-tracking/azure-sql-db-dotnet-rest-api/)
-- [Serverless REST API with Azure Functions, Node and Azure SQL](https://docs.microsoft.com/en-us/samples/azure-samples/azure-sql-db-node-rest-api/azure-sql-db-node-rest-api/)
 
-### Graph
-- [Azure SQL & GraphQL Samples](https://docs.microsoft.com/en-us/samples/azure-samples/azure-sql-db-graphql/azure-sql-db-graphql/)
-- [Million Song Dataset in Azure SQL DB / SQL Server](https://docs.microsoft.com/en-us/samples/azure-samples/millionsongdataset-sql/millionsongdataset-sql/): Using Graph object in Azure SQL with the Million Song dataset
+### Big Data
+- [Fast Data Loading in Azure SQL DB using Azure Databricks](https://docs.microsoft.com/en-us/samples/azure-samples/azure-sql-db-databricks/azure-sql-db-databricks/): Samples and best practices on how use Azure SQL with Azure Databricks
 
-### DevOps
-- :blue_book: [Azure SQL Database CI/CD Pipeline with GitHub Actions](https://docs.microsoft.com/en-us/samples/azure-samples/azure-sql-db-ci-cd/azure-sql-db-ci-cd/): Official documentation
-- :page_facing_up: [DevOps for Azure SQL](https://devblogs.microsoft.com/azure-sql/devops-for-azure-sql/): Everything you want to know around how to apply DevOps to databases, Azure SQL DB in particular
-- :tv: [Getting Started with DevOps for Azure SQL](https://www.youtube.com/watch?v=j7OnxOz7YDY): What is Data DevOps and a discussion around the first option: migration based deployment
-- :tv: [Using Azure Pipelines for Azure SQL Deployments](https://www.youtube.com/watch?v=G7H6HbzwAfs): Discussion state based deployment, and full demo on using Azure Pipelines to deploy the database 
-- 📄 [Advanced automated deployment of Azure SQL Database with Azure DevOps](https://erikej.github.io/sqlserver/2021/01/11/azure-sql-advanced-deployment-part1.html): Detailed tutorial on how to deploy Azure SQL with Azure DevOps 
+### Change Stream
+- [Azure SQL Change Stream with Debezium](https://github.com/Azure-Samples/azure-sql-db-change-stream-debezium): Set up a change stream from Azure SQL using the open source tool [Debezium](https://debezium.io/)
 
 ### Data Loading
 - [Azure SQL DB Import Data Samples](https://github.com/Azure-Samples/azure-sql-db-import-data): Samples on how to import data (JSON, CSV, Flat-Files, etc) into Azure SQL
-- [Fast Data Loading in Azure SQL DB using Azure Databricks](https://docs.microsoft.com/en-us/samples/azure-samples/azure-sql-db-databricks/azure-sql-db-databricks/)
+- [Fast Data Loading in Azure SQL DB using Azure Databricks](https://docs.microsoft.com/en-us/samples/azure-samples/azure-sql-db-databricks/azure-sql-db-databricks/): Samples and best practices on how use Azure SQL with Azure Databricks
+
+### DevOps
+- [Azure SQL CI/CD Pipeline](https://github.com/Azure-Samples/azure-sql-db-ci-cd): A sample on how to deploy Azure SQL using the open source [DbUp](http://dbup.github.io/) and running test using [NUnit](https://nunit.org/)
 
 ### Geospatial
 - [Monitor GeoFences in real-time using Azure SQL and Stream Analytics](https://docs.microsoft.com/en-us/samples/azure-samples/azure-sql-db-serverless-geospatial-stream-analytics/azure-sql-db-serverless-geospatial-stream-analytics/)
 - [Real-Time Serverless GeoSpatial Public Transportation GeoFencing Solution](https://docs.microsoft.com/en-us/samples/azure-samples/azure-sql-db-serverless-geospatial/azure-sql-db-serverless-geospatial/)
 
-### Streaming
+### Graph
+- [Azure SQL & GraphQL Samples](https://docs.microsoft.com/en-us/samples/azure-samples/azure-sql-db-graphql/azure-sql-db-graphql/)
+- [Million Song Dataset in Azure SQL DB / SQL Server](https://docs.microsoft.com/en-us/samples/azure-samples/millionsongdataset-sql/millionsongdataset-sql/): Using Graph object in Azure SQL with the Million Song dataset
 
+### Streaming
 - [Streaming at Scale](https://docs.microsoft.com/en-us/samples/azure-samples/streaming-at-scale/streaming-at-scale/): End-to-end solution to implement a streaming at scale scenario
+
+### REST 
+- [Creating a REST API with .NET Core and Azure SQL](https://docs.microsoft.com/en-us/samples/azure-samples/azure-sql-db-dotnet-rest-api/azure-sql-db-dotnet-rest-api/)
+- [Creating a REST API with Python and Azure SQL](https://docs.microsoft.com/en-us/samples/azure-samples/azure-sql-db-python-rest-api/azure-sql-db-python-rest-api/)
+- [Todo Backend Implementation with Azure Functions, Node and Azure SQL](https://docs.microsoft.com/en-us/samples/azure-samples/azure-sql-db-todo-backend-func-node/azure-sql-db-todo-backend-func-node/)
+- [Using Change Tracking API to sync data between Apps and the Cloud](https://docs.microsoft.com/en-us/samples/azure-samples/azure-sql-db-sync-api-change-tracking/azure-sql-db-dotnet-rest-api/)
+- [Serverless REST API with Azure Functions, Node and Azure SQL](https://docs.microsoft.com/en-us/samples/azure-samples/azure-sql-db-node-rest-api/azure-sql-db-node-rest-api/)
+- [Creating API to securely access data using Azure SQL Row Level Security](https://docs.microsoft.com/en-us/samples/azure-samples/azure-sql-db-secure-data-access-api/azure-sql-db-secure-data-access-api/)
 
 ## Articles 
 
@@ -71,6 +75,13 @@ A curated awesome list of resources for taking advantage of everything Azure SQL
 
 - [Azure SQL Monitoring](https://github.com/denzilribeiro/sqldbmonitoring): Solution for near-realtime monitoring using Grafana and the Telegraf SQL plugin. 
 - [Smart Bulk Copy](https://github.com/Azure-Samples/smartbulkcopy/tree/master/): High-Speed Bulk Copy tool to move data from one Azure SQL / SQL Server database to another
+
+## DevOps
+- :blue_book: [Azure SQL Database CI/CD Pipeline with GitHub Actions](https://docs.microsoft.com/en-us/samples/azure-samples/azure-sql-db-ci-cd/azure-sql-db-ci-cd/): Official documentation
+- :page_facing_up: [DevOps for Azure SQL](https://devblogs.microsoft.com/azure-sql/devops-for-azure-sql/): Everything you want to know around how to apply DevOps to databases, Azure SQL DB in particular
+- :tv: [Getting Started with DevOps for Azure SQL](https://www.youtube.com/watch?v=j7OnxOz7YDY): What is Data DevOps and a discussion around the first option: migration based deployment
+- :tv: [Using Azure Pipelines for Azure SQL Deployments](https://www.youtube.com/watch?v=G7H6HbzwAfs): Discussion state based deployment, and full demo on using Azure Pipelines to deploy the database 
+- 📄 [Advanced automated deployment of Azure SQL Database with Azure DevOps](https://erikej.github.io/sqlserver/2021/01/11/azure-sql-advanced-deployment-part1.html): Detailed tutorial on how to deploy Azure SQL with Azure DevOps 
 
 ## Libraries 
 
