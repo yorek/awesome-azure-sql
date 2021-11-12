@@ -45,19 +45,23 @@ A curated awesome list of resources for taking advantage of everything Azure SQL
 - [Real-Time Serverless GeoSpatial Public Transportation GeoFencing Solution](https://docs.microsoft.com/en-us/samples/azure-samples/azure-sql-db-serverless-geospatial/azure-sql-db-serverless-geospatial/)
 
 ### Graph
-- [Azure SQL & GraphQL Samples](https://docs.microsoft.com/en-us/samples/azure-samples/azure-sql-db-graphql/azure-sql-db-graphql/)
 - [Million Song Dataset in Azure SQL DB / SQL Server](https://docs.microsoft.com/en-us/samples/azure-samples/millionsongdataset-sql/millionsongdataset-sql/): Using Graph object in Azure SQL with the Million Song dataset
+
+## GraphQL
+- [Azure SQL & GraphQL Samples](https://docs.microsoft.com/en-us/samples/azure-samples/azure-sql-db-graphql/azure-sql-db-graphql/)
+- [REST & GraphQL TodoMVC Sample App Full Stack Implementation with Prisma](https://github.com/Azure-Samples/azure-sql-db-prisma): Full-Stack End-To-End implementation - both with REST and GraphQL support - with Azure SQL and Prisma.io of the well-known To-do list sample.
 
 ### Streaming
 - [Streaming at Scale](https://docs.microsoft.com/en-us/samples/azure-samples/streaming-at-scale/streaming-at-scale/): End-to-end solution to implement a streaming at scale scenario
 
 ### REST 
 - [Creating a REST API with .NET Core and Azure SQL](https://docs.microsoft.com/en-us/samples/azure-samples/azure-sql-db-dotnet-rest-api/azure-sql-db-dotnet-rest-api/)
-- [Creating a REST API with Python and Azure SQL](https://docs.microsoft.com/en-us/samples/azure-samples/azure-sql-db-python-rest-api/azure-sql-db-python-rest-api/)
+- [Creating a REST API with Python and Azure SQL](https://github.com/Azure-Samples/azure-sql-db-python-rest-api/)
 - [Todo Backend Implementation with Azure Functions, Node and Azure SQL](https://docs.microsoft.com/en-us/samples/azure-samples/azure-sql-db-todo-backend-func-node/azure-sql-db-todo-backend-func-node/)
 - [Using Change Tracking API to sync data between Apps and the Cloud](https://docs.microsoft.com/en-us/samples/azure-samples/azure-sql-db-sync-api-change-tracking/azure-sql-db-dotnet-rest-api/)
 - [Serverless REST API with Azure Functions, Node and Azure SQL](https://docs.microsoft.com/en-us/samples/azure-samples/azure-sql-db-node-rest-api/azure-sql-db-node-rest-api/)
 - [Creating API to securely access data using Azure SQL Row Level Security](https://docs.microsoft.com/en-us/samples/azure-samples/azure-sql-db-secure-data-access-api/azure-sql-db-secure-data-access-api/)
+- [REST & GraphQL TodoMVC Sample App Full Stack Implementation with Prisma](https://github.com/Azure-Samples/azure-sql-db-prisma): Full-Stack End-To-End implementation - both with REST and GraphQL support - with Azure SQL and Prisma.io of the well-known To-do list sample.
 
 ## Articles 
 
@@ -106,6 +110,7 @@ A curated awesome list of resources for taking advantage of everything Azure SQL
 
 - [Azure SQL for Beginners](https://www.youtube.com/playlist?list=PLlrxD0HtieHi5c9-i_Dnxw9vxBY-TqaeN&_lrsc=b0140d7c-6896-492f-a931-236cdf0858c8): 61 small videos to learn everything to get started
 - [Data Exposed Playlist](https://www.youtube.com/playlist?list=PLlrxD0HtieHieV7Jls72yFPSKyGqycbZR): an ongoing series to learn everything about the Azure Data platform, Azure SQL included
+- [Data Loading Best Practices on Azure SQL DB](Data Loading Best Practices on Azure SQL Database): 20 minutes video dedicate on the explanation on the best practices to load data into Azure SQL as fast as possibile
 - [Create secure API with .NET, Dapper and Azure SQL](https://www.youtube.com/watch?v=TdvFYyLMHB0/): Live coding recording of development of a backend API with security, full CI/CD - test included and unexpected requirements, just like the real world. 
 
 ## Books
