@@ -21,38 +21,11 @@ public class Program
     {
         Console.WriteLine($"Processing YAML file ({yamlFile})...");
 
-        var al = LoadFromYAML(yamlFile);
+        var awesomeList = LoadFromYAML(yamlFile);
 
         Console.WriteLine($"Processing Liquid template ({liquidTemplate})...");
 
-        var liquid = File.ReadAllText(liquidTemplate);
-        Template template = Template.Parse(liquid);
-
-        var liquidTagList = new Dictionary<string, object>();
-        foreach (var t in tagList.OrderBy(i => i.Key))
-        {
-            var ail = new List<Object>();
-
-            foreach (var ai in t.Value)
-            {
-                var liquidItem = new
-                {
-                    Title = ai.Title,
-                    Description = ai.Description,
-                    Url = ai.Url,
-                    Icon = ai.Icon
-                };
-
-                ail.Add(liquidItem);
-            }
-
-            liquidTagList.Add(t.Key, ail);
-        }
-
-        //var result = template.Render(Hash.FromAnonymousObject(new { Tags = liquidTagList }));
-        var result = template.Render(Hash.FromAnonymousObject( new { AwesomeList = al } ));
-
-        File.WriteAllText(outputFile, result);
+        GenerateFile(awesomeList, liquidTemplate, outputFile);
 
         Console.WriteLine("Done");
     }
@@ -106,6 +79,16 @@ public class Program
         }
     
         return al;
+    }
+
+    private static void GenerateFile(AwesomeList awesomeList, string liquidTemplate, string outputFile)
+    {
+        var liquid = File.ReadAllText(liquidTemplate);
+        Template template = Template.Parse(liquid);
+
+        var result = template.Render(Hash.FromAnonymousObject( new { AwesomeList = awesomeList } ));
+
+        File.WriteAllText(outputFile, result);
     }
 }
 
