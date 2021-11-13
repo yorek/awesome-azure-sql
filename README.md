@@ -1,8 +1,18 @@
 # Awesome Azure SQL resources [![Awesome](https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg)](https://github.com/sindresorhus/awesome)
 
-A curated awesome list of resources for taking advantage of everything Azure SQL has to offer, useful for the beginners and the veterans. 
+A curated awesome list of resources for taking advantage of everything Azure SQL has to offer, useful for the beginners and the veterans.
 
 Please note that the readme file is autogenerate. Check out [here](HOW-TO-CONTRIBUTE.MD) to learn how to contribute (hint: it's super easy!).
+
+## Azure Databricks
+
+- [Fast Data Loading in Azure SQL DB using Azure Databricks](https://docs.microsoft.com/en-us/samples/azure-samples/azure-sql-db-databricks/azure-sql-db-databricks/): Samples and best practices on how use Azure SQL with Azure Databricks
+
+## Code Samples 
+
+###  Big Data 
+
+- [Fast Data Loading in Azure SQL DB using Azure Databricks](https://docs.microsoft.com/en-us/samples/azure-samples/azure-sql-db-databricks/azure-sql-db-databricks/): Samples and best practices on how use Azure SQL with Azure Databricks
 
 ## Code Samples 
 
