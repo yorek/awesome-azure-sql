@@ -23,11 +23,11 @@ jobs:
         with:
           dotnet-version: "6.0"
       - name: Render Readme
-        working-directory: ALG
+        working-directory: ./ALG
         run: dotnet run
       - name: Commit files
-        working-directory: /
-        run: |
+        working-directory: .
+        run: |        
           git config --local user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git config --local user.name "github-actions[bot]"
           git commit -m "Updated README" -a
