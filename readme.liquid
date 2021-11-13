@@ -4,14 +4,18 @@ A curated awesome list of resources for taking advantage of everything Azure SQL
 
 Please note that the readme file is autogenerate. Check out [here](HOW-TO-CONTRIBUTE.MD) to learn how to contribute (hint: it's super easy!).
 
-{% for tag in Tags -%}
-## {{ tag.Key | split:"/" | first }}
-{% if tag.Key contains "/" -%} 
-### {{ tag.Key | split:"/" | last }} 
-{% endif -%}
+{% for tag in AwesomeList.Tags -%}
+## {{ tag.Tag }}
 
-{% for item in tag.Value -%}
+{% for item in tag.Items -%}
 - [{{ item.Title }}]({{ item.Url }}): {{ item.Description }}
+{% endfor -%}
 
+{% for subtag in tag.Tags -%}
+### {{ subtag.Tag }}
+
+{% for item in subtag.Items -%}
+- [{{ item.Title }}]({{ item.Url }}): {{ item.Description }}
+{% endfor -%}
 {% endfor -%}
 {% endfor -%}
