@@ -36,6 +36,9 @@ public class Program
 
         GenerateFile(awesomeList, liquidTemplate, outputFile);
 
+        var fi = new FileInfo(outputFile);
+        Console.WriteLine($"Output: {fi.FullName}");        
+
         Console.WriteLine("Done");
     }
 
