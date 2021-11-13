@@ -177,3 +177,9 @@
   tags:
     - "Blogs / Official"
 
+"Test":
+  url: "https://test"
+  description: "Test"
+  tags:
+    - "0 TEST"
+
