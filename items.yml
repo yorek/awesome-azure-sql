@@ -27,35 +27,54 @@
   url: "https://docs.microsoft.com/en-us/learn/modules/deploy-iot-solution-azure-sql-database/"
   description: "learn how Azure SQL Database provides a price-performant backend for IoT applications. You'll also deploy a template that includes Azure SQL Database, Azure VMs, Azure Functions, and Power BI which simplifies deploying and configuring IoT solutions."
   tags: 
-      - "Microsoft Learn"
+    - "Microsoft Learn"
 
 "Azure Data Community":
   url: "https://www.microsoft.com/en-us/sql-server/community"
   description: "list of user groups and community resources like events, recordings, blogs and so on."
   tags:
-      - "Community"
+    - "Community"
 
 "Azure SQL DB Samples and Best Practices":
   url: "https://github.com/yorek/azure-sql-db-samples"
   description: "Samples and Best practices to use Azure SQL DB to build modern, mission critical applications, with ease and confidence"
   tags: 
-      - "Code Samples / Generic"
+    - "Code Samples / Generic"
 
 "Azure SQL Hyperscale Autoscaler":
   url: "https://docs.microsoft.com/en-us/samples/azure-samples/azure-sql-db-hyperscale-autoscaler/azure-sql-hyperscale-autoscaler/"
   description: "How to create a serverless solution to automatically scale Azure SQL Hyperscale, based on detected workload"
   tags: 
-      - "Code Samples / Generic"
+    - "Code Samples / Generic"
 
 "TodoMVC Sample App Full Stack Implementation":
   url: "https://docs.microsoft.com/en-us/samples/azure-samples/azure-sql-db-todo-mvc/azure-sql-db-todo-mvc/"
   description: "Samples and Best practices to use Azure SQL DB to build modern, mission critical applications, with ease and confidence"
   tags: 
-      - "Code Samples / Generic"
+    - "Code Samples / Generic"
 
 "Fast Data Loading in Azure SQL DB using Azure Databricks":
   url: "https://docs.microsoft.com/en-us/samples/azure-samples/azure-sql-db-databricks/azure-sql-db-databricks/"
   description: "Samples and best practices on how use Azure SQL with Azure Databricks"
   tags: 
-      - "Code Samples / Big Data"
-      - "Azure Databricks"
+    - "Code Samples / Big Data"
+    - "Code Samples / Data Loading"
+    - "Azure Databricks"
+
+"Azure SQL Change Stream with Debezium":
+  url: "https://github.com/Azure-Samples/azure-sql-db-change-stream-debezium"
+  description: "Set up a change stream from Azure SQL using the open source tool [Debezium](https://debezium.io/)" 
+  tags:
+    - "Code Samples / Change Stream" 
+
+"Azure SQL DB Import Data Samples":
+  url: "https://github.com/Azure-Samples/azure-sql-db-import-data"
+  description: "Samples on how to import data (JSON, CSV, Flat-Files, etc) into Azure SQL"
+  tags:
+    - "Code Samples / Data Loading"
+
+"Azure SQL CI/CD Pipeline":
+  url: "https://github.com/Azure-Samples/azure-sql-db-ci-cd"
+  description: "A sample on how to deploy Azure SQL using the open source [DbUp](http://dbup.github.io/) and running test using [NUnit](https://nunit.org/)"
+  tags:
+    - "DevOps"
