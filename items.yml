@@ -177,9 +177,20 @@
   tags:
     - "Blogs / Official"
 
-"Test":
-  url: "https://test"
-  description: "Test"
+"Bandwidth-friendly Query Profiling for Azure SQL Database":
+  url: "https://sqlperformance.com/2020/04/sql-performance/bandwidth-friendly-query-profiling-azure-sql-database"
+  description: "using Extended Events to profile query execution"
   tags:
-    - "0 TEST"
+    - "Articles"
 
+"How to use batching to improve application performance":
+  url: "https://docs.microsoft.com/en-us/azure/azure-sql/performance-improve-use-batching"
+  description: "an explanation of batching techniques that can be used to improve performance by a lot"
+  tags:
+    - "Articles"
+
+"ScriptDOM Samples":
+  url: "https://github.com/arvindshmicrosoft/SQLScriptDomSamples"
+  description: "samples on how to use the ScriptDOM parser to parse T-SQL statements"
+  tags:
+    - "Code Samples / ScriptDOM"
