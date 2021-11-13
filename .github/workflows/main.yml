@@ -10,7 +10,7 @@ on:
   workflow_dispatch:
 
 jobs:
-  build:
+  Build Readme:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout Repo
