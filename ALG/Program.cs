@@ -23,6 +23,15 @@ public class Program
 
         var awesomeList = LoadFromYAML(yamlFile);
 
+        awesomeList.Tags.ForEach(t => {            
+            Console.WriteLine($"{t.Tag}: {t.Items.Count()} items");
+            if (t.Tags.Count() != 0) {                
+                t.Tags.ForEach(t => {            
+                    Console.WriteLine($"-- {t.Tag}: {t.Items.Count()} items");
+                });
+            }
+        });
+
         Console.WriteLine($"Processing Liquid template ({liquidTemplate})...");
 
         GenerateFile(awesomeList, liquidTemplate, outputFile);
