@@ -227,17 +227,17 @@
   tags: 
     - "DevOps"
 
-"Video 01 - Getting Started with DevOps for Azure SQL":
+"DevOps for Azure SQL (1 of 2): Getting Started":
   url: "https://www.youtube.com/watch?v=j7OnxOz7YDY"
   description: "what is Data DevOps and a discussion around the first option: migration based deployment"
-  icon: ":tv:"
+  icon: ":tv:"  
   tags: 
     - "DevOps"    
     
-"Video 02 - sing Azure Pipelines for Azure SQL Deployments":
-  url: "(https://www.youtube.com/watch?v=G7H6HbzwAfs"
+"DevOps for Azure SQL (2 of 2): Using Azure Pipelines for Azure SQL Deployments":
+  url: "https://www.youtube.com/watch?v=G7H6HbzwAfs"
   description: "discussion on state based deployment, and full demo on using Azure Pipelines to deploy the database"
-  icon: ":tv:"
+  icon: ":tv:"  
   tags: 
     - "DevOps"
     
