@@ -213,6 +213,6 @@
 "Data Exposed Playlist":
   url: "https://www.youtube.com/playlist?list=PLlrxD0HtieHieV7Jls72yFPSKyGqycbZR"
   description: "an ongoing series to learn everything about the Azure Data platform, Azure SQL included"
-  icon: ":bookmark_tabs:" 
+  icon: ":bookmark_tabs:"
   tags:
     - "Videos"
