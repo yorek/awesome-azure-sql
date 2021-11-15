@@ -1,3 +1,5 @@
+# Getting Started
+
 "Azure SQL for Beginners":
   description: "61 small videos to learn everything to get started"
   url: "https://www.youtube.com/playlist?list=PLlrxD0HtieHi5c9-i_Dnxw9vxBY-TqaeN&_lrsc=b0140d7c-6896-492f-a931-236cdf0858c8"
@@ -6,12 +8,16 @@
     - "Getting Started"
     - "Videos"
 
+# Labs & Workshops
+
 "SQL Workshops":
   description: "labs and workshops on Azure SQL (and more)"
   url: "https://aka.ms/sqlworkshops"
   icon: ":bar_chart:"
   tags: 
     - "Labs & Workshops"
+
+# Microsoft Learn
 
 "Azure SQL Modules @ Microsoft Learn":
   description: "all the Microsoft Learn modules related to Azure SQL. From security to development, from performances to maintenance."
@@ -31,11 +37,15 @@
   tags: 
     - "Microsoft Learn"
 
+# Community
+
 "Azure Data Community":
   url: "https://www.microsoft.com/en-us/sql-server/community"
   description: "list of user groups and community resources like events, recordings, blogs and so on."
   tags:
     - "Community"
+
+# Code Samples
 
 "Azure SQL DB Samples and Best Practices":
   url: "https://github.com/yorek/azure-sql-db-samples"
@@ -160,29 +170,7 @@
   tags:
     - "Code Samples / ScriptDOM"
 
-"Practical Azure SQL Database for Modern Developers":
-  url: "https://www.apress.com/it/book/9781484263693"
-  description: "building applications in the Microsoft cloud with Azure SQL"
-  tags:
-    - "Books"
-
-"Azure SQL Revealed":
-  url: "https://www.apress.com/it/book/9781484259306"
-  description: "a guide to the cloud for SQL Server Professionals"
-  tags:
-    - "Books"
-
-"Azure SQL Devs’ Corner":
-  url: "https://devblogs.microsoft.com/azure-sql/"
-  description: "Azure SQL team blog with focus on developers"
-  tags:
-    - "Blogs / Official"
-
-"Azure SQL @ TechCommunity":
-  url: "https://techcommunity.microsoft.com/t5/azure-sql/bg-p/AzureSQLBlog"
-  description: "Azure SQL team blog with focus on IT Pros"
-  tags:
-    - "Blogs / Official"
+# Articles
 
 "Bandwidth-friendly Query Profiling for Azure SQL Database":
   url: "https://sqlperformance.com/2020/04/sql-performance/bandwidth-friendly-query-profiling-azure-sql-database"
@@ -195,6 +183,122 @@
   description: "an explanation of batching techniques that can be used to improve performance by a lot"
   tags:
     - "Articles"
+
+# Scripts
+
+"Azure SQL Diagnostic Queries":
+  url: "https://glennsqlperformance.com/resources/"
+  description: "comprehensive diagnostic and health-check queries"
+  tags: 
+    - "Scripts"
+
+"Azure SQL Tips":
+  url: "https://aka.ms/sqldbtips"
+  description: "get tips to improve database design, health, and performance right from the Azure SQL product group"
+  tags: 
+    - "Scripts"
+
+"sp_whoisactive":
+  url: "https://github.com/amachanic/sp_whoisactive"
+  description: "comprehensive activity monitoring stored procedure"
+  tags: 
+    - "Scripts"
+
+# Tools
+
+"Azure SQL Monitoring":
+  url: "https://github.com/denzilribeiro/sqldbmonitoring"
+  description: "solution for near-realtime monitoring using Grafana and the Telegraf SQL plugin"
+  tags: 
+    - "Tools"
+
+"Smart Bulk Copy":
+  url: "https://github.com/Azure-Samples/smartbulkcopy"
+  description: "high-Speed Bulk Copy tool to move data from one Azure SQL / SQL Server database to another"
+  tags: 
+    - "Tools"
+
+## DevOps
+
+"Azure SQL Database CI/CD Pipeline with GitHub Actions":
+  url: "https://docs.microsoft.com/en-us/samples/azure-samples/azure-sql-db-ci-cd/azure-sql-db-ci-cd/"
+  description: "official documentation"
+  icon: ":blue_book:"
+  tags: 
+    - "DevOps"
+
+"Video 01 - Getting Started with DevOps for Azure SQL":
+  url: "https://www.youtube.com/watch?v=j7OnxOz7YDY"
+  description: "what is Data DevOps and a discussion around the first option: migration based deployment"
+  icon: ":tv:"
+  tags: 
+    - "DevOps"    
+    
+"Video 02 - sing Azure Pipelines for Azure SQL Deployments":
+  url: "(https://www.youtube.com/watch?v=G7H6HbzwAfs"
+  description: "discussion on state based deployment, and full demo on using Azure Pipelines to deploy the database"
+  icon: ":tv:"
+  tags: 
+    - "DevOps"
+    
+"Advanced automated deployment of Azure SQL Database with Azure DevOps":
+  url: "https://erikej.github.io/sqlserver/2021/01/11/azure-sql-advanced-deployment-part1.html"
+  description: "Detailed tutorial on how to deploy Azure SQL with Azure DevOps "
+  icon: "📄"
+  tags: 
+    - "DevOps"
+
+# Libraries 
+
+"EF Core":
+  url: "https://docs.microsoft.com/en-us/ef/core/"
+  description: "native .NET Core OR/M mapping tool."
+  tags: 
+    - "Libraries / .NET"
+
+"Dapper":
+  url: "https://github.com/StackExchange/Dapper"
+  description: "a high-performance micro object mapper for .Net"
+  tags: 
+    - "Libraries / .NET"
+
+"SqlKata":
+  url: "https://sqlkata.com/"
+  description: "a fluent SQL query builder for C#"
+  tags: 
+    - "Libraries / .NET"
+
+"node-mssql": 
+  url: "https://www.npmjs.com/package/mssql"
+  description: "Microsoft SQL Server client for Node.js"
+  tags:
+    - "Libraries / Node"
+
+"Knex.js": 
+  url: "https://knexjs.org/" 
+  description: "\"Batteries included\" SQL query builder"
+  tags:
+    - "Libraries / Node"
+
+"Prisma": 
+  url: "https://www.prisma.io/"
+  description: "Next-generation ORM for Node.js and TypeScript"
+  tags:
+    - "Libraries / Node"
+
+"Sequelize": 
+  url: "https://sequelize.org/"
+  description: "A promise-based Node.js ORM"
+  tags:
+    - "Libraries / Node"
+
+"SQLAlchemy": 
+  url: "https://www.sqlalchemy.org/"
+  description: "Python SQL toolkit and Object Relational Mapper"
+  tags:
+    - "Libraries / Python"
+
+# Videos
 
 "Create secure API with .NET, Dapper and Azure SQL":
   url: "https://www.youtube.com/watch?v=TdvFYyLMHB0"
@@ -217,20 +321,30 @@
   tags:
     - "Videos"
 
-"EF Core":
-  url: "https://docs.microsoft.com/en-us/ef/core/"
-  description: "native .NET Core OR/M mapping tool."
-  tags: 
-    - "Libraries / .NET"
+# Books
 
-"Dapper":
-  url: "https://github.com/StackExchange/Dapper"
-  description: "a high-performance micro object mapper for .Net"
-  tags: 
-    - "Libraries / .NET"
+"Practical Azure SQL Database for Modern Developers":
+  url: "https://www.apress.com/it/book/9781484263693"
+  description: "building applications in the Microsoft cloud with Azure SQL"
+  tags:
+    - "Books"
 
-"SqlKata":
-  url: "https://sqlkata.com/"
-  description: "a fluent SQL query builder for C#"
-  tags: 
-    - "Libraries / .NET"
+"Azure SQL Revealed":
+  url: "https://www.apress.com/it/book/9781484259306"
+  description: "a guide to the cloud for SQL Server Professionals"
+  tags:
+    - "Books"
+
+# Blogs
+
+"Azure SQL Devs’ Corner":
+  url: "https://devblogs.microsoft.com/azure-sql/"
+  description: "Azure SQL team blog with focus on developers"
+  tags:
+    - "Blogs / Official"
+
+"Azure SQL @ TechCommunity":
+  url: "https://techcommunity.microsoft.com/t5/azure-sql/bg-p/AzureSQLBlog"
+  description: "Azure SQL team blog with focus on IT Pros"
+  tags:
+    - "Blogs / Official"

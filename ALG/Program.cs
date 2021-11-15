@@ -9,7 +9,8 @@ namespace AwesomeList;
 
 public class Program
 {
-    static string yamlFile = "../items.yml";
+    static string yamlItemsFile = "../items.yml";
+    static string yamlSortingFile = "../sorting.yml";
 
     static string liquidTemplate = "../readme.liquid";
 
@@ -19,34 +20,113 @@ public class Program
 
     static void Main(string[] args)
     {
-        Console.WriteLine($"Processing YAML file ({yamlFile})...");
+        Console.WriteLine($"Processing YAML desired order file ({yamlItemsFile})...");
+        
+        var awesomeOrderedList = LoadDesiredOrderYAML(yamlSortingFile);
+        Console.WriteLine("Desired order:");
+        DisplayAwesomeListTree(awesomeOrderedList);
+        Console.WriteLine();
 
-        var awesomeList = LoadFromYAML(yamlFile);
+        Console.WriteLine($"Processing YAML items file ({yamlItemsFile})...");
+        
+        var awesomeUnorderedList = LoadItemsYAML(yamlItemsFile);
+        Console.WriteLine("Loaded items:");
+        DisplayAwesomeListTree(awesomeUnorderedList);
+        Console.WriteLine();
 
-        awesomeList.Tags.ForEach(t => {            
-            Console.WriteLine($"{t.Tag}: {t.Items.Count()} items");
-            if (t.Tags.Count() != 0) {                
-                t.Tags.ForEach(t => {            
-                    Console.WriteLine($"-- {t.Tag}: {t.Items.Count()} items");
-                });
-            }
-        });
+        Console.WriteLine($"Merging lists...");
+        MergetIntoOrderedList(awesomeOrderedList, awesomeUnorderedList);
+        Console.WriteLine("Final ordered list:");
+        DisplayAwesomeListTree(awesomeOrderedList);
+        Console.WriteLine();
 
         Console.WriteLine($"Processing Liquid template ({liquidTemplate})...");
 
-        GenerateFile(awesomeList, liquidTemplate, outputFile);
+        GenerateFile(awesomeOrderedList, liquidTemplate, outputFile);
 
         var fi = new FileInfo(outputFile);
-        Console.WriteLine($"Output: {fi.FullName}");        
+        Console.WriteLine($"Output: {fi.FullName}");
 
         Console.WriteLine("Done");
     }
 
-    private static AwesomeList LoadFromYAML(string yamlFile)
+    private static void DisplayAwesomeListTree(AwesomeList awesomeList)
     {
-        var al = new AwesomeList();
+        awesomeList.Tags.ForEach(t =>
+        {
+            Console.WriteLine($"  {t.Tag}: {t.Items.Count()} items");
+            if (t.Tags.Count() != 0)
+            {
+                t.Tags.ForEach(t =>
+                {
+                    Console.WriteLine($"    {t.Tag}: {t.Items.Count()} items");
+                });
+            }
+        });
+    }
 
-        using (StreamReader reader = File.OpenText(yamlFile))
+    private static void MergetIntoOrderedList(AwesomeBase orderedList, AwesomeBase unorderedList)
+    {
+        orderedList.Items.AddRange(unorderedList.Items.OrderBy(i => i.Title));
+
+        foreach(var unorderedItem in unorderedList.Tags.OrderBy(t => t.Tag))
+        {
+            var i = orderedList.Tags.IndexOf(unorderedItem);
+            if (i >= 0)
+            {   
+                var orderedItem = orderedList.Tags[i];
+                MergetIntoOrderedList(orderedItem, unorderedItem);
+            } else {
+                var newItem = new AwesomeTag(unorderedItem.Tag);
+                newItem.Items.AddRange(unorderedItem.Items.OrderBy(i => i.Title));
+                newItem.Tags.AddRange(unorderedItem.Tags.OrderBy(t => t.Tag));
+
+                orderedList.Tags.Add(newItem);
+            }
+        }
+    }
+
+    private static AwesomeList LoadDesiredOrderYAML(string yamlSortingFile)
+    {
+        var al = new AwesomeList();    
+
+        // Get the desired sorting from sorting file
+        using (StreamReader reader = File.OpenText(yamlSortingFile))
+        {
+            var yaml = new YamlStream();
+            yaml.Load(reader);
+
+            var mapping = (YamlMappingNode)yaml.Documents[0].RootNode;
+            var items = ((YamlSequenceNode)mapping["Sorting"]).Children;
+            foreach (var item in items)
+            {                
+                if (item is YamlScalarNode) al.Tags.Add(new AwesomeTag(((YamlScalarNode)item).Value));                
+                if (item is YamlMappingNode) {
+                    var node = ((YamlMappingNode)item).Children;
+                    
+                    var tag = ((YamlScalarNode)node[0].Key).Value;
+                    var at = new AwesomeTag(tag);                        
+
+                    foreach(var c in ((YamlSequenceNode)node[0].Value).Children)
+                    {
+                        var subTag = ((YamlScalarNode)c).Value;
+                        at.Tags.Add(new AwesomeTag(subTag));
+                    }
+
+                    al.Tags.Add(at);
+                }
+            }
+        }
+
+        return al;
+    }
+
+    private static AwesomeList LoadItemsYAML(string yamlItemsFile)
+    {
+        var al = new AwesomeList();        
+
+        // Read the items file
+        using (StreamReader reader = File.OpenText(yamlItemsFile))
         {
             var yaml = new YamlStream();
             yaml.Load(reader);
