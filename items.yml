@@ -216,3 +216,21 @@
   icon: ":bookmark_tabs:"
   tags:
     - "Videos"
+
+"EF Core":
+  url: "https://docs.microsoft.com/en-us/ef/core/"
+  description: "native .NET Core OR/M mapping tool."
+  tags: 
+    - "Libraries / .NET"
+
+"Dapper":
+  url: "https://github.com/StackExchange/Dapper"
+  description: "a high-performance micro object mapper for .Net"
+  tags: 
+    - "Libraries / .NET"
+
+"SqlKata":
+  url: "https://sqlkata.com/"
+  description: "a fluent SQL query builder for C#"
+  tags: 
+    - "Libraries / .NET"
