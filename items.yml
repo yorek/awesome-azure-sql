@@ -1,6 +1,7 @@
 "Azure SQL for Beginners":
   description: "61 small videos to learn everything to get started"
   url: "https://www.youtube.com/playlist?list=PLlrxD0HtieHi5c9-i_Dnxw9vxBY-TqaeN&_lrsc=b0140d7c-6896-492f-a931-236cdf0858c8"
+  icon: ":tv:"
   tags: 
     - "Getting Started"
     - "Videos"
@@ -153,6 +154,12 @@
   tags:
     - "Code Samples / REST"
 
+"ScriptDOM Samples":
+  url: "https://github.com/arvindshmicrosoft/SQLScriptDomSamples"
+  description: "samples on how to use the ScriptDOM parser to parse T-SQL statements"
+  tags:
+    - "Code Samples / ScriptDOM"
+
 "Practical Azure SQL Database for Modern Developers":
   url: "https://www.apress.com/it/book/9781484263693"
   description: "building applications in the Microsoft cloud with Azure SQL"
@@ -189,8 +196,23 @@
   tags:
     - "Articles"
 
-"ScriptDOM Samples":
-  url: "https://github.com/arvindshmicrosoft/SQLScriptDomSamples"
-  description: "samples on how to use the ScriptDOM parser to parse T-SQL statements"
+"Create secure API with .NET, Dapper and Azure SQL":
+  url: "https://www.youtube.com/watch?v=TdvFYyLMHB0"
+  description: "Live coding recording of development of a backend API with security, full CI/CD - test included and unexpected requirements, just like the real world."
+  icon: ":tv:"
   tags:
-    - "Code Samples / ScriptDOM"
+    - "Videos"
+
+"Data Loading Best Practices on Azure SQL DB":
+  url: "https://www.youtube.com/watch?v=WP-bqtVdJg4"
+  description: "20 minutes video dedicate on the explanation on the best practices to load data into Azure SQL as fast as possible"
+  icon: ":tv:"
+  tags:
+    - "Videos"
+
+"Data Exposed Playlist":
+  url: "https://www.youtube.com/playlist?list=PLlrxD0HtieHieV7Jls72yFPSKyGqycbZR"
+  description: "an ongoing series to learn everything about the Azure Data platform, Azure SQL included"
+  icon: ":bookmark_tabs:"
+  tags:
+    - "Videos"
