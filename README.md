@@ -47,7 +47,7 @@ A curated awesome list of resources for taking advantage of everything Azure SQL
 ### Graph
 - [Million Song Dataset in Azure SQL DB / SQL Server](https://docs.microsoft.com/en-us/samples/azure-samples/millionsongdataset-sql/millionsongdataset-sql/): Using Graph object in Azure SQL with the Million Song dataset
 
-## GraphQL
+### GraphQL
 - [Azure SQL & GraphQL Samples](https://docs.microsoft.com/en-us/samples/azure-samples/azure-sql-db-graphql/azure-sql-db-graphql/)
 - [REST & GraphQL TodoMVC Sample App Full Stack Implementation with Prisma](https://github.com/Azure-Samples/azure-sql-db-prisma): Full-Stack End-To-End implementation - both with REST and GraphQL support - with Azure SQL and Prisma.io of the well-known To-do list sample.
 
