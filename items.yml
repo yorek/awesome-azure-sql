@@ -232,21 +232,21 @@
   description: "what is Data DevOps and a discussion around the first option: migration based deployment"
   icon: ":tv:"  
   tags: 
-    - "DevOps"    
+    - "DevOps / Basics"    
     
 "DevOps for Azure SQL (2 of 2): Using Azure Pipelines for Azure SQL Deployments":
   url: "https://www.youtube.com/watch?v=G7H6HbzwAfs"
   description: "discussion on state based deployment, and full demo on using Azure Pipelines to deploy the database"
   icon: ":tv:"  
   tags: 
-    - "DevOps"
+    - "DevOps / Basics"
     
 "Advanced automated deployment of Azure SQL Database with Azure DevOps":
   url: "https://erikej.github.io/sqlserver/2021/01/11/azure-sql-advanced-deployment-part1.html"
   description: "Detailed tutorial on how to deploy Azure SQL with Azure DevOps "
   icon: "📄"
   tags: 
-    - "DevOps"
+    - "DevOps / Advanced"
 
 # Libraries 
 
