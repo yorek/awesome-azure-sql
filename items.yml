@@ -369,6 +369,13 @@
   icon: ":tv:"
   tags:
     - "Videos"
+    
+"Serverless Full-Stack Kickstart":
+  url: "https://www.youtube.com/watch?v=TIh52zbi8Dk"
+  description: "recording of the session delivered at the Serverless conference, on how to create a full-stack application from scratch using Azure Static Web Apps, Azure Functions and Azure SQL"
+  icon: ":tv:"
+  tags:
+    - "Videos"
 
 "Data Exposed Playlist":
   url: "https://www.youtube.com/playlist?list=PLlrxD0HtieHieV7Jls72yFPSKyGqycbZR"
