@@ -181,7 +181,6 @@
   description: "sample of a massively scalable OLTP backed taking advantage of database secondary replicas to offload read-only workload"
   tags:
     - "Code Samples / REST"
-    - "Code Samples / GraphQL"
 
 "TodoMVC Backend Implementation with Azure WebApps, .Net Core and Azure SQL":
   url: "https://github.com/azure-samples/azure-sql-db-todo-backend-dotnet"
