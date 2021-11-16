@@ -54,13 +54,13 @@
     - "Code Samples / Generic"
 
 "Azure SQL Hyperscale Autoscaler":
-  url: "https://docs.microsoft.com/en-us/samples/azure-samples/azure-sql-db-hyperscale-autoscaler/azure-sql-hyperscale-autoscaler/"
+  url: "https://github.com/azure-samples/azure-sql-db-hyperscale-autoscaler"
   description: "how to create a serverless solution to automatically scale Azure SQL Hyperscale, based on detected workload"
   tags: 
     - "Code Samples / Generic"
 
 "TodoMVC Sample App Full Stack Implementation":
-  url: "https://docs.microsoft.com/en-us/samples/azure-samples/azure-sql-db-todo-mvc/azure-sql-db-todo-mvc/"
+  url: "https://github.com/azure-samples/azure-sql-db-todo-mvc"
   description: "samples and Best practices to use Azure SQL DB to build modern, mission critical applications, with ease and confidence"
   tags: 
     - "Code Samples / Generic"
@@ -84,7 +84,7 @@
   tags:
     - "Code Samples / Data Loading"
 
-"Azure SQL CI/CD Pipeline":
+"Azure SQL Database CI/CD Pipeline with GitHub Actions":
   url: "https://github.com/Azure-Samples/azure-sql-db-ci-cd"
   description: "a sample on how to deploy Azure SQL using the open source [DbUp](http://dbup.github.io/) and running test using [NUnit](https://nunit.org/)"
   tags:
@@ -109,7 +109,7 @@
     - "Code Samples / Graph"
 
 "Azure SQL & GraphQL Samples":
-  url: "https://docs.microsoft.com/en-us/samples/azure-samples/azure-sql-db-graphql/azure-sql-db-graphql/"
+  url: "https://github.com/azure-samples/azure-sql-db-graphql"
   description: "samples on how to create a GraphQL solution using Azure SQL using .NET, Python or Node"
   tags:
     - "Code Samples / GraphQL"
@@ -127,9 +127,8 @@
   tags:
     - "Code Samples / Streaming"
 
-
 "Creating a REST API with .NET Core and Azure SQL":
-  url: "https://docs.microsoft.com/en-us/samples/azure-samples/azure-sql-db-dotnet-rest-api/azure-sql-db-dotnet-rest-api/)"
+  url: "https://github.com/azure-samples/azure-sql-db-dotnet-rest-api"
   description: "create a REST API using Azure SQL, Dapper and .NET"
   tags:
     - "Code Samples / REST"
@@ -140,8 +139,8 @@
   tags:
     - "Code Samples / REST"
 
-"Todo Backend Implementation with Azure Functions, Node and Azure SQL":
-  url: "https://docs.microsoft.com/en-us/samples/azure-samples/azure-sql-db-todo-backend-func-node/azure-sql-db-todo-backend-func-node/"
+"TodoMVC Backend Implementation with Azure Functions, Node and Azure SQLL":
+  url: "https://github.com/azure-samples/azure-sql-db-todo-backend-func-node"
   description: "create a REST API using Azure SQL, Azure Functions and Node"
   tags:
     - "Code Samples / REST"
@@ -153,7 +152,7 @@
     - "Code Samples / REST"
 
 "Serverless REST API with Azure Functions, Node and Azure SQL":
-  url: "https://docs.microsoft.com/en-us/samples/azure-samples/azure-sql-db-node-rest-api/azure-sql-db-node-rest-api/"
+  url: "https://github.com/azure-samples/azure-sql-db-node-rest-api"
   description: "create a serverless REST API using Azure Functions, Node and Azure SQL"
   tags:
     - "Code Samples / REST"
@@ -169,6 +168,27 @@
   description: "samples on how to use the ScriptDOM parser to parse T-SQL statements"
   tags:
     - "Code Samples / ScriptDOM"
+
+"REST & GraphQL TodoMVC Sample App Full Stack Implementation with Directus":
+  url: "https://github.com/azure-samples/azure-sql-db-rest-graphql-directus"
+  description: "full Stack TodoMVC Sample app, with REST and GraphQL support, using Directus, Azure Web Apps, Vue.Js and Azure SQL"
+  tags:
+    - "Code Samples / REST"
+    - "Code Samples / GraphQL"
+
+"Azure SQL Database Hyperscale Named Replicas OLTP Scale-Out Samples":
+  url: "https://github.com/azure-samples/azure-sql-db-named-replica-oltp-scaleout/tree/main/"
+  description: "sample of a massively scalable OLTP backed taking advantage of database secondary replicas to offload read-only workload"
+  tags:
+    - "Code Samples / REST"
+    - "Code Samples / GraphQL"
+
+"TodoMVC Backend Implementation with Azure WebApps, .Net Core and Azure SQL":
+  url: "https://github.com/azure-samples/azure-sql-db-todo-backend-dotnet"
+  description: "implementation of the Todo Backend API using ASP.NET Core, JSON, Dapper and Azure SQL"
+  tags:
+    - "Code Samples / REST"    
+
 
 # Articles
 
@@ -218,36 +238,57 @@
   tags: 
     - "Tools"
 
-## DevOps
-
-"Azure SQL Database CI/CD Pipeline with GitHub Actions":
-  url: "https://docs.microsoft.com/en-us/samples/azure-samples/azure-sql-db-ci-cd/azure-sql-db-ci-cd/"
-  description: "official documentation"
-  icon: ":blue_book:"
+"sqlpackage.exe":
+  url: "https://docs.microsoft.com/en-us/sql/tools/sqlpackage/sqlpackage"
+  description: "SqlPackage.exe is a command-line utility that automates common database development and deployment tasks"
   tags: 
-    - "DevOps"
+    - "Tools"
+    - "DevOps"  
+
+## DevOps
 
 "DevOps for Azure SQL (1 of 2): Getting Started":
   url: "https://www.youtube.com/watch?v=j7OnxOz7YDY"
   description: "what is Data DevOps and a discussion around the first option: migration based deployment"
   icon: ":tv:"  
   tags: 
-    - "DevOps / Basics"    
+    - "DevOps"    
     
 "DevOps for Azure SQL (2 of 2): Using Azure Pipelines for Azure SQL Deployments":
   url: "https://www.youtube.com/watch?v=G7H6HbzwAfs"
   description: "discussion on state based deployment, and full demo on using Azure Pipelines to deploy the database"
   icon: ":tv:"  
   tags: 
-    - "DevOps / Basics"
-    
-"Advanced automated deployment of Azure SQL Database with Azure DevOps":
-  url: "https://erikej.github.io/sqlserver/2021/01/11/azure-sql-advanced-deployment-part1.html"
-  description: "Detailed tutorial on how to deploy Azure SQL with Azure DevOps "
+    - "DevOps"
+
+"DevOps for Azure SQL":
+  url: "https://devblogs.microsoft.com/azure-sql/devops-for-azure-sql/"
+  description: "what is DevOps and how it can be applied to Azure SQL"
   icon: "📄"
   tags: 
-    - "DevOps / Advanced"
+    - "DevOps"
 
+"Continuous Delivery for Azure SQL DB using Azure DevOps Multi-stage Pipelines":
+  url: "https://devblogs.microsoft.com/azure-sql/continuous-delivery-for-azure-sql-db-using-azure-devops-multi-stage-pipelines/"
+  description: "how to create a CD pipeline using Azure DevOps"
+  icon: "📄"
+  tags: 
+    - "DevOps"
+
+"Advanced automated deployment of Azure SQL Database with Azure DevOps":
+  url: "https://erikej.github.io/sqlserver/2021/01/11/azure-sql-advanced-deployment-part1.html"
+  description: "detailed tutorial on how to deploy Azure SQL with Azure DevOps "
+  icon: "📄"
+  tags: 
+    - "DevOps"
+
+"Use GitHub Actions to connect to Azure SQL Database":
+  url: "https://docs.microsoft.com/en-us/azure/azure-sql/database/connect-github-actions-sql-db"
+  description: "official Azure SQL GitHub Actions documentation"
+  icon: ":blue_book:"
+  tags: 
+    - "DevOps"
+    
 # Libraries 
 
 "EF Core":
