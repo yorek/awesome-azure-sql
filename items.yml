@@ -61,9 +61,10 @@
 
 "TodoMVC Sample App Full Stack Implementation":
   url: "https://github.com/azure-samples/azure-sql-db-todo-mvc"
-  description: "samples and Best practices to use Azure SQL DB to build modern, mission critical applications, with ease and confidence"
+  description: "Full-Stack implementation of the famous ToDoMVC: Vue.js, .NET Core REST API, Azure SQL"
   tags: 
-    - "Code Samples / Generic"
+    - "Code Samples / REST"    
+    - "Code Samples / Full Stack"   
 
 "Fast Data Loading in Azure SQL DB using Azure Databricks":
   url: "https://docs.microsoft.com/en-us/samples/azure-samples/azure-sql-db-databricks/azure-sql-db-databricks/"
@@ -120,6 +121,7 @@
   tags:
     - "Code Samples / GraphQL"
     - "Code Samples / REST"
+    - "Code Samples / Full Stack"   
 
 "Streaming at Scale":
   url: "https://docs.microsoft.com/en-us/samples/azure-samples/streaming-at-scale/streaming-at-scale/"
@@ -158,7 +160,7 @@
     - "Code Samples / REST"
 
 "Creating API to securely access data using Azure SQL Row Level Security":
-  url: "https://docs.microsoft.com/en-us/samples/azure-samples/azure-sql-db-secure-data-access-api/azure-sql-db-secure-data-access-api/"
+  url: "https://github.com/Azure-Samples/azure-sql-db-secure-data-access-api"
   description: "using the Row Level Security feature of Azure SQL to create secure REST API with Python, Flask and JWT"
   tags:
     - "Code Samples / REST"
@@ -175,6 +177,7 @@
   tags:
     - "Code Samples / REST"
     - "Code Samples / GraphQL"
+    - "Code Samples / Full Stack"   
 
 "Azure SQL Database Hyperscale Named Replicas OLTP Scale-Out Samples":
   url: "https://github.com/azure-samples/azure-sql-db-named-replica-oltp-scaleout/tree/main/"
@@ -187,7 +190,20 @@
   description: "implementation of the Todo Backend API using ASP.NET Core, JSON, Dapper and Azure SQL"
   tags:
     - "Code Samples / REST"    
-
+    
+"Dynamic Schema Management With Azure SQL":
+  url: "https://github.com/azure-samples/azure-sql-db-todo-backend-dotnet"
+  description: "samples on how efficiently to handle dynamic schemas in Azure SQL"
+  tags:
+    - "Code Samples / REST"   
+    - "Code Samples / Dynamic Schema"   
+    
+"Build serverless, full stack applications in Azure":
+  url: "https://github.com/Azure-Samples/serverless-full-stack-apps-azure-sql"
+  description: "full stack solution using Vue.js, Azure Static Web Apps, Azure Function, Azure SQL Database and a microservice architecture to monitor in real-time public transportation data, create a geofence and send notification when geofence is activated"
+  tags:
+    - "Code Samples / REST"   
+    - "Code Samples / Full Stack"   
 
 # Articles
 
