@@ -390,7 +390,7 @@
   tags:
     - "Videos"
     
-"Data Exposed Show":
+"Azure SQL Bootcamp":
   url: "https://aka.ms/azuresqlbootcamp"
   description: "interactive Azure SQL learning with Anna Hoffman and Bob Ward. Get your Azure SQL questions answered, learn to solve real-world scenarios, and more."
   icon: ":tv:"
