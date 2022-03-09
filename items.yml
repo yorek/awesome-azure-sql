@@ -186,10 +186,11 @@
     - "Code Samples / Full Stack"   
 
 "Azure SQL Database Hyperscale Named Replicas OLTP Scale-Out Samples":
-  url: "https://github.com/azure-samples/azure-sql-db-named-replica-oltp-scaleout/tree/main/"
+  url: "https://github.com/azure-samples/azure-sql-db-named-replica-oltp-scaleout"
   description: "sample of a massively scalable OLTP backed taking advantage of database secondary replicas to offload read-only workload"
   tags:
     - "Code Samples / REST"
+    - "Code Samples / Generic"
 
 "TodoMVC Backend Implementation with Azure WebApps, .Net Core and Azure SQL":
   url: "https://github.com/azure-samples/azure-sql-db-todo-backend-dotnet"
@@ -397,6 +398,13 @@
   tags:
     - "Videos"
 
+"Taming Dynamic Schemas":
+  url: "https://www.youtube.com/watch?v=aaxymYhaIPE"
+  description: "three different design tecniques to manage dynamic schemas in Azure SQL ranging from a pure relational solution to a full document/JSON one."
+  icon: ":tv:"
+  tags:
+    - "Videos"
+    
 # Live Shows
 
 "Data Exposed Live":
