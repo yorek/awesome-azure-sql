@@ -405,26 +405,29 @@
   tags:
     - "Videos"
 
-"Azure Friday: Azure SQL Database: A developer's best friend"
+"Azure Friday: Azure SQL Database: A developer's best friend":
   url: "https://www.youtube.com/watch?v=We5bSDHnzW8"
   description: "an introduction to some features of Azure SQL Database what you want to start to use right now"
   icon: ":tv:"
   tags:
     - "Videos"     
+    - "Videos / Azure Friday"     
 
-"Azure Friday: Azure SQL Database: Multi-model features"
+"Azure Friday: Azure SQL Database: Multi-model features":
   url: "https://www.youtube.com/watch?v=n6p8nJQXXoI"
   description: "Azure SQL Database is relational, modern, multi-model database, with supports for JSON, Graph and Geospatial models"
   icon: ":tv:"
   tags:
     - "Videos"    
+    - "Videos / Azure Friday"     
 
-"Azure Friday: Azure SQL Database: An introduction to temporal tables"
+"Azure Friday: Azure SQL Database: An introduction to temporal tables":
   url: "https://www.youtube.com/watch?v=FeB6aAQQfsQ"
   description: "temporal tables helps to automatically track and query the changes that happends on your data in your database"
   icon: ":tv:"
   tags:
     - "Videos"    
+    - "Videos / Azure Friday"     
 
 # Live Shows
 
