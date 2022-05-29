@@ -410,7 +410,6 @@
   description: "an introduction to some features of Azure SQL Database what you want to start to use right now"
   icon: ":tv:"
   tags:
-    - "Videos"     
     - "Videos / Azure Friday"     
 
 "Azure Friday: Azure SQL Database: Multi-model features":
@@ -418,7 +417,6 @@
   description: "Azure SQL Database is relational, modern, multi-model database, with supports for JSON, Graph and Geospatial models"
   icon: ":tv:"
   tags:
-    - "Videos"    
     - "Videos / Azure Friday"     
 
 "Azure Friday: Azure SQL Database: An introduction to temporal tables":
@@ -426,7 +424,6 @@
   description: "temporal tables helps to automatically track and query the changes that happends on your data in your database"
   icon: ":tv:"
   tags:
-    - "Videos"    
     - "Videos / Azure Friday"     
 
 # Live Shows
