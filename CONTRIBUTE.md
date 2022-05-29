@@ -1,4 +1,4 @@
-# How to contributed
+# How to contribute
 
 ## Option 1 - Ask 
 
