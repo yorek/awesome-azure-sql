@@ -266,6 +266,15 @@
   tags: 
     - "Tools"
     - "DevOps"  
+    
+"dbatools":
+  url: "https://dbatools.io/"
+  description: "dbatools is a free PowerShell module with over 500 SQL Server administration, best practice and migration commands included."
+  tags: 
+    - "Tools"
+    - "Administration"  
+    - "Migration"
+   
 
 ## DevOps
 
