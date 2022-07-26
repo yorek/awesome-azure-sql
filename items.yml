@@ -8,7 +8,7 @@
     - "Getting Started"
     - "Videos"
 
-# Best Pratices
+# Best Practices
 
 # Labs & Workshops
 
@@ -389,6 +389,7 @@
   icon: ":tv:"
   tags:
     - "Videos"
+    - "Best Practices"
     
 "Serverless Full-Stack Kickstart":
   url: "https://www.youtube.com/watch?v=TIh52zbi8Dk"
