@@ -8,6 +8,8 @@
     - "Getting Started"
     - "Videos"
 
+# Best Pratices
+
 # Labs & Workshops
 
 "SQL Workshops":
@@ -58,6 +60,7 @@
   description: "samples and Best practices to use Azure SQL DB to build modern, mission critical applications, with ease and confidence"
   tags: 
     - "Code Samples / Generic"
+    - "Best Practices"
 
 "Azure SQL Hyperscale Autoscaler":
   url: "https://github.com/azure-samples/azure-sql-db-hyperscale-autoscaler"
@@ -239,6 +242,7 @@
   description: "get tips to improve database design, health, and performance right from the Azure SQL product group"
   tags: 
     - "Scripts"
+    - "Best Practices"
 
 "sp_whoisactive":
   url: "https://github.com/amachanic/sp_whoisactive"
