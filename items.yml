@@ -64,6 +64,13 @@
 # Code Samples
 
 "Azure SQL DB Samples and Best Practices":
+  url: "https://github.com/azure-samples/todo-csharp-sql"
+  description: "a complete sample To Do application that demonstrates how to build an Azure solution using C#, Azure SQL for storage, and Azure Monitor for monitoring and logging, that uses AZD for completely automated deployment"
+  tags: 
+    - "Code Samples / Full Stack"
+    - "Best Practices"
+
+"Azure SQL DB Samples and Best Practices":
   url: "https://github.com/yorek/azure-sql-db-samples"
   description: "samples and Best practices to use Azure SQL DB to build modern, mission critical applications, with ease and confidence"
   tags: 
