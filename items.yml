@@ -63,7 +63,7 @@
 
 # Code Samples
 
-"Azure SQL DB Samples and Best Practices":
+"To-Do List sample deployment with AZ Developer Tool (AZD)":
   url: "https://github.com/azure-samples/todo-csharp-sql"
   description: "a complete sample To Do application that demonstrates how to build an Azure solution using C#, Azure SQL for storage, and Azure Monitor for monitoring and logging, that uses AZD for completely automated deployment"
   tags: 
