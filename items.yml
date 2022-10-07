@@ -53,6 +53,12 @@
   tags: 
     - "Microsoft Learn"
 
+"Data replication on Azure SQL Databases":
+  url: "https://learn.microsoft.com/en-us/training/modules/azure-sql-replication/"
+  description: "learn about logical data replication solutions (Change data capture (CDC), SQL Data Sync, and Change tracking) for data tracking, loading, replicating, and streaming that you can use to synchronize data changes from your Azure SQL Database to other destinations."
+  tags:
+    - "Microsoft Learn"
+
 # Community
 
 "Azure Data Community":
@@ -229,6 +235,12 @@
   tags:
     - "Code Samples / REST"   
     - "Code Samples / Full Stack"   
+
+"Create REST API in Python with Django, using the Django REST Framework and Azure SQL":
+  url: "https://github.com/azure-samples/azure-sql-db-django/tree/main/"
+  description: "This sample uses the Django web framework and Django REST framework package to easily implement REST APIs. mssql-django backend used to establish database connectivity with Azure SQL DB and Django."
+  tags:
+    - "Code Samples / REST" 
 
 # Articles
 
