@@ -27,6 +27,13 @@
   tags: 
     - "Labs & Workshops"
 
+"Security Workshop"
+  description: "Workshop: SQL Server Security Ground to Cloud"
+  url: "https://github.com/David-Seis/SecureYourAzureData"
+  tags:
+    - "Labs & Workshops"
+    - "Security"
+
 # Microsoft Learn
 
 "Azure SQL fundamentals":
@@ -525,6 +532,5 @@
   description: "official YouTube channel for Azure SQL"  
   tags:
     - "Social Media"
-
 
 
