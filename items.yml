@@ -27,9 +27,10 @@
   tags: 
     - "Labs & Workshops"
 
-"Security Workshop"
+"Security Workshop":
   description: "Workshop: SQL Server Security Ground to Cloud"
   url: "https://github.com/David-Seis/SecureYourAzureData"
+  icon: ":closed_lock_with_key:"
   tags:
     - "Labs & Workshops"
     - "Security"
