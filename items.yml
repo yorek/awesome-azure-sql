@@ -16,6 +16,15 @@
     - "Getting Started"
     - "Videos"
 
+"Jamstack/Fullstack solution from zero to hero":
+  description: "Fullstack/Jamstack solution with Vue.js, Azure Functions, Azure Static Web apps and Azure SQL"
+  url: "https://github.com/Azure-Samples/azure-sql-db-fullstack-serverless-kickstart"
+  icon: ":tv:"
+  tags: 
+    - "Getting Started"
+    - "Fullstack"
+    - "Jamstack"    
+    
 # Best Practices
 
 # Labs & Workshops
