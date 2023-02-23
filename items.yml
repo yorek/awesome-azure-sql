@@ -7,6 +7,14 @@
   tags: 
     - "Getting Started"
     - "Videos"
+
+"Azure SQL Performance Troubleshooting"
+  description: "7 videos dedicated to performance troubleshooting"
+  url: "https://www.youtube.com/playlist?list=PLlrxD0HtieHgDkZ84FfCSDLBcJmUn8ktU"
+  icon: ":tv:"
+  tags: 
+    - "Getting Started"
+    - "Videos"    
     
 "A Full Stack Application with Azure SQL & Prisma for Beginners":
   description: "A series of 37 videos to learn how to build a full-stack application with Typescript, Node, Prisma and Azure SQL"
@@ -323,6 +331,11 @@
     - "Administration"  
     - "Migration"
    
+"sqlcmd-go":
+  url: "https://github.com/microsoft/go-sqlcmd"
+  description: "modern sqlcmd tool to manage and query SQL Server and Azure SQL from the command line."
+  tags: 
+    - "Tools"
 
 ## DevOps
 
