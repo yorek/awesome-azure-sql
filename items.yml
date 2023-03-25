@@ -15,7 +15,15 @@
   tags: 
     - "Getting Started"
     - "Videos"    
-    
+
+"Programming Databases with T-SQL for Beginners":
+  description: "8 videos to learn T-SQL "
+  url: "https://www.youtube.com/playlist?list=PLlrxD0HtieHj551_lUtce08JUnTMY-y-R"
+  icon: ":tv:"
+  tags: 
+    - "Getting Started"
+    - "Videos"    
+
 "A Full Stack Application with Azure SQL & Prisma for Beginners":
   description: "A series of 37 videos to learn how to build a full-stack application with Typescript, Node, Prisma and Azure SQL"
   url: "https://www.youtube.com/playlist?app=desktop&list=PLlrxD0HtieHiQEYJ-8SyKDAFJDVCII1fB"
