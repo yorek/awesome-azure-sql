@@ -505,6 +505,34 @@
   tags:
     - "Videos / Azure Friday"     
 
+"Azure Friday: Calling external REST endpoints from Azure SQL Database":
+  url: "https://www.youtube.com/watch?v=R6l-2XJyu2c"
+  description: "Call a REST endpoint directly from Azure SQL, and integrate with everything."
+  icon: ":tv:"
+  tags:
+    - "Videos / Azure Friday"    
+
+"Azure Friday: Connect your Static Web Apps to Azure Databases using REST or GraphQL | Azure Friday":
+  url: "https://www.youtube.com/watch?v=gCrBSSOezSQ"
+  description: "Build a Jamstack solution with Azure Static Web Apps and Data API Builder"
+  icon: ":tv:"
+  tags:
+    - "Videos / Azure Friday"    
+
+"Increase developer velocity with Azure SQL Database from data to API":
+  url: "https://www.youtube.com/watch?v=pH5MwGzRN7Y&list=PLlrxD0HtieHjolPmqWVyk446uLMPWo4oP&index=161"
+  description: "All the latest features available in Azure SQL to increase developer velocity. From the new SQLCMD to GraphQL and REST API."
+  icon: ":tv:"
+  tags:
+    - "Videos / Microsoft Build 2023"     
+
+"GraphQL: New services and tools for building API-driven apps":
+  url: "https://www.youtube.com/watch?v=GsXGbUWEQzo&list=PLlrxD0HtieHjolPmqWVyk446uLMPWo4oP&index=70"
+  description: "How to use GraphQL natively with Azure SQL, Azure Static Web Apps and Azure API Management"
+  icon: ":tv:"
+  tags:
+    - "Videos / Microsoft Build 2023"     
+
 # Live Shows
 
 "Data Exposed Live":
