@@ -512,7 +512,7 @@
   tags:
     - "Videos / Azure Friday"    
 
-"Azure Friday: Connect your Static Web Apps to Azure Databases using REST or GraphQL | Azure Friday":
+"Azure Friday: Connect your Static Web Apps to Azure Databases using REST or GraphQL":
   url: "https://www.youtube.com/watch?v=gCrBSSOezSQ"
   description: "Build a Jamstack solution with Azure Static Web Apps and Data API Builder"
   icon: ":tv:"
