@@ -1,0 +1,16 @@
+# Labs & Workshops
+
+"SQL Workshops":
+  description: "labs and workshops on Azure SQL (and more)"
+  url: "https://aka.ms/sqlworkshops"
+  icon: ":bar_chart:"
+  tags: 
+    - "Labs & Workshops"
+
+"Security Workshop":
+  description: "Workshop: SQL Server Security Ground to Cloud"
+  url: "https://github.com/David-Seis/SecureYourAzureData"
+  icon: ":closed_lock_with_key:"
+  tags:
+    - "Labs & Workshops"
+    - "Security"

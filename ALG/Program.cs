@@ -20,7 +20,7 @@ public class Program
 
     static void Main(string[] args)
     {
-        Console.WriteLine($"Processing YAML desired order file ({yamlItemsPath})...");
+        Console.WriteLine($"Processing YAML desired order file ({yamlSortingFile})...");
 
         var awesomeOrderedList = LoadDesiredOrderYAML(yamlSortingFile);
         Console.WriteLine("Desired order:");
@@ -131,6 +131,7 @@ public class Program
         // Read the items file
         foreach (var yamlItemsFile in Directory.EnumerateFiles(yamlItemsPath, "*.yml", SearchOption.TopDirectoryOnly))
         {
+            Console.WriteLine($"  Processing: {yamlItemsFile}");
             using (StreamReader reader = File.OpenText(yamlItemsFile))
             {
                 var yaml = new YamlStream();
