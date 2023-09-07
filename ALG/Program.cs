@@ -9,13 +9,13 @@ namespace AwesomeList;
 
 public class Program
 {
-    static readonly string yamlItemsPath = "../Items";
+    static readonly string yamlItemsPath = "items";
     
-    static readonly string yamlSortingFile = "../sorting.yml";
+    static readonly string yamlSortingFile = "sorting.yml";
 
-    static readonly string liquidTemplate = "../readme.liquid";
+    static readonly string liquidTemplate = "readme.liquid";
 
-    static readonly string outputFile = "../README.md";
+    static readonly string outputFile = "README.md";
 
     static readonly Dictionary<string, List<AwesomeItem>> tagList = new();
 
