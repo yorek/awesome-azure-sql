@@ -8,17 +8,25 @@
     - "Getting Started"
     - "Videos"
 
-"Azure SQL Performance Troubleshooting":
-  description: "7 videos dedicated to performance troubleshooting"
-  url: "https://www.youtube.com/playlist?list=PLlrxD0HtieHgDkZ84FfCSDLBcJmUn8ktU"
+"SQL Tips for Developers - A Beginners Guide":
+  url: "https://www.youtube.com/playlist?list=PLt5BGZJ-tmXwSrKdq-o8gfC5bmrYWCTal"
+  description: "SQL Tips for Developers covers basic concepts and techniques for developers new to SQL"
+  icon: ":tv:"
+  tags:
+    - "Getting Started"
+    - "Videos"   
+
+"Programming Databases with T-SQL for Beginners":
+  description: "8 videos to learn T-SQL "
+  url: "https://www.youtube.com/playlist?list=PLlrxD0HtieHj551_lUtce08JUnTMY-y-R"
   icon: ":tv:"
   tags: 
     - "Getting Started"
     - "Videos"    
 
-"Programming Databases with T-SQL for Beginners":
-  description: "8 videos to learn T-SQL "
-  url: "https://www.youtube.com/playlist?list=PLlrxD0HtieHj551_lUtce08JUnTMY-y-R"
+"Azure SQL Performance Troubleshooting":
+  description: "7 videos dedicated to performance troubleshooting"
+  url: "https://www.youtube.com/playlist?list=PLlrxD0HtieHgDkZ84FfCSDLBcJmUn8ktU"
   icon: ":tv:"
   tags: 
     - "Getting Started"
