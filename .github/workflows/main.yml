@@ -23,7 +23,7 @@ jobs:
         with:
           dotnet-version: "6.0"
       - name: Render Readme
-        run: dotnet run --project .\ALG\ALG.csproj
+        run: dotnet run --project ./ALG/ALG.csproj
       - name: Commit files
         run: |                  
           git config --local user.email "41898282+github-actions[bot]@users.noreply.github.com"
