@@ -9,7 +9,7 @@ namespace AwesomeList;
 
 public class Program
 {
-    static string yamlItemsFile = "../items.yml";
+    static string yamlItemsPath = "../items";
     static string yamlSortingFile = "../sorting.yml";
 
     static string liquidTemplate = "../readme.liquid";
@@ -20,16 +20,16 @@ public class Program
 
     static void Main(string[] args)
     {
-        Console.WriteLine($"Processing YAML desired order file ({yamlItemsFile})...");
-        
+        Console.WriteLine($"Processing YAML desired order file ({yamlItemsPath})...");
+
         var awesomeOrderedList = LoadDesiredOrderYAML(yamlSortingFile);
         Console.WriteLine("Desired order:");
         DisplayAwesomeListTree(awesomeOrderedList);
         Console.WriteLine();
 
-        Console.WriteLine($"Processing YAML items file ({yamlItemsFile})...");
-        
-        var awesomeUnorderedList = LoadItemsYAML(yamlItemsFile);
+        Console.WriteLine($"Processing YAML items in folder ({yamlItemsPath})...");
+
+        var awesomeUnorderedList = LoadItemsYAML(yamlItemsPath);
         Console.WriteLine("Loaded items:");
         DisplayAwesomeListTree(awesomeUnorderedList);
         Console.WriteLine();
@@ -69,14 +69,16 @@ public class Program
     {
         orderedList.Items.AddRange(unorderedList.Items.OrderBy(i => i.Title));
 
-        foreach(var unorderedItem in unorderedList.Tags.OrderBy(t => t.Tag))
+        foreach (var unorderedItem in unorderedList.Tags.OrderBy(t => t.Tag))
         {
             var i = orderedList.Tags.IndexOf(unorderedItem);
             if (i >= 0)
-            {   
+            {
                 var orderedItem = orderedList.Tags[i];
                 MergetIntoOrderedList(orderedItem, unorderedItem);
-            } else {
+            }
+            else
+            {
                 var newItem = new AwesomeTag(unorderedItem.Tag);
                 newItem.Items.AddRange(unorderedItem.Items.OrderBy(i => i.Title));
                 newItem.Tags.AddRange(unorderedItem.Tags.OrderBy(t => t.Tag));
@@ -88,7 +90,7 @@ public class Program
 
     private static AwesomeList LoadDesiredOrderYAML(string yamlSortingFile)
     {
-        var al = new AwesomeList();    
+        var al = new AwesomeList();
 
         // Get the desired sorting from sorting file
         using (StreamReader reader = File.OpenText(yamlSortingFile))
@@ -99,15 +101,16 @@ public class Program
             var mapping = (YamlMappingNode)yaml.Documents[0].RootNode;
             var items = ((YamlSequenceNode)mapping["Sorting"]).Children;
             foreach (var item in items)
-            {                
-                if (item is YamlScalarNode) al.Tags.Add(new AwesomeTag(((YamlScalarNode)item).Value));                
-                if (item is YamlMappingNode) {
+            {
+                if (item is YamlScalarNode) al.Tags.Add(new AwesomeTag(((YamlScalarNode)item).Value));
+                if (item is YamlMappingNode)
+                {
                     var node = ((YamlMappingNode)item).Children;
-                    
-                    var tag = ((YamlScalarNode)node[0].Key).Value;
-                    var at = new AwesomeTag(tag);                        
 
-                    foreach(var c in ((YamlSequenceNode)node[0].Value).Children)
+                    var tag = ((YamlScalarNode)node[0].Key).Value;
+                    var at = new AwesomeTag(tag);
+
+                    foreach (var c in ((YamlSequenceNode)node[0].Value).Children)
                     {
                         var subTag = ((YamlScalarNode)c).Value;
                         at.Tags.Add(new AwesomeTag(subTag));
@@ -121,55 +124,58 @@ public class Program
         return al;
     }
 
-    private static AwesomeList LoadItemsYAML(string yamlItemsFile)
+    private static AwesomeList LoadItemsYAML(string yamlItemsPath)
     {
-        var al = new AwesomeList();        
+        var al = new AwesomeList();
 
         // Read the items file
-        using (StreamReader reader = File.OpenText(yamlItemsFile))
+        foreach (var yamlItemsFile in Directory.EnumerateFiles(yamlItemsPath, "*.yml", SearchOption.TopDirectoryOnly))
         {
-            var yaml = new YamlStream();
-            yaml.Load(reader);
-
-            var mapping = (YamlMappingNode)yaml.Documents[0].RootNode;
-
-            foreach (var entry in mapping.Children)
+            using (StreamReader reader = File.OpenText(yamlItemsFile))
             {
-                var node = ((YamlMappingNode)entry.Value).Children;
+                var yaml = new YamlStream();
+                yaml.Load(reader);
 
-                // Get data from yaml element
-                var title = ((YamlScalarNode)entry.Key).Value ?? string.Empty;
-                var description = ((YamlScalarNode)node["description"]).Value ?? string.Empty;
-                var url = ((YamlScalarNode)node["url"]).Value ?? string.Empty;
-                var icon = node.ContainsKey("icon") ? ((YamlScalarNode)node["icon"]).Value ?? string.Empty : string.Empty;
-                var yamlTags = ((YamlSequenceNode)node["tags"]).Children;
+                var mapping = (YamlMappingNode)yaml.Documents[0].RootNode;
 
-                // Create the item
-                var item = new AwesomeItem() { Title = title, Description = description, Url = url, Icon = icon };
-
-                // Add the item to all related tags
-                foreach (var yt in yamlTags)
+                foreach (var entry in mapping.Children)
                 {
-                    string tagString = ((YamlScalarNode)yt).Value ?? string.Empty;
+                    var node = ((YamlMappingNode)entry.Value).Children;
 
-                    AwesomeBase aw = al;
-                    var stringTag = tagString.Split("/");
+                    // Get data from yaml element
+                    var title = ((YamlScalarNode)entry.Key).Value ?? string.Empty;
+                    var description = ((YamlScalarNode)node["description"]).Value ?? string.Empty;
+                    var url = ((YamlScalarNode)node["url"]).Value ?? string.Empty;
+                    var icon = node.ContainsKey("icon") ? ((YamlScalarNode)node["icon"]).Value ?? string.Empty : string.Empty;
+                    var yamlTags = ((YamlSequenceNode)node["tags"]).Children;
 
-                    foreach(var st in stringTag)
+                    // Create the item
+                    var item = new AwesomeItem() { Title = title, Description = description, Url = url, Icon = icon };
+
+                    // Add the item to all related tags
+                    foreach (var yt in yamlTags)
                     {
-                        var tag = st.Trim();
+                        string tagString = ((YamlScalarNode)yt).Value ?? string.Empty;
 
-                        if (!aw.Tags.Contains(tag))
-                            aw.Tags.Add(tag);
+                        AwesomeBase aw = al;
+                        var stringTag = tagString.Split("/");
 
-                        aw = aw.Tags.Find(i => i.Tag == tag);
+                        foreach (var st in stringTag)
+                        {
+                            var tag = st.Trim();
+
+                            if (!aw.Tags.Contains(tag))
+                                aw.Tags.Add(tag);
+
+                            aw = aw.Tags.Find(i => i.Tag == tag);
+                        }
+
+                        aw.Items.Add(item);
                     }
-
-                    aw.Items.Add(item);
                 }
             }
         }
-    
+
         return al;
     }
 
@@ -178,7 +184,7 @@ public class Program
         var liquid = File.ReadAllText(liquidTemplate);
         Template template = Template.Parse(liquid);
 
-        var result = template.Render(Hash.FromAnonymousObject( new { AwesomeList = awesomeList } ));
+        var result = template.Render(Hash.FromAnonymousObject(new { AwesomeList = awesomeList }));
 
         File.WriteAllText(outputFile, result);
     }
@@ -187,23 +193,26 @@ public class Program
 [LiquidType("*")]
 public abstract class AwesomeBase
 {
-    public List<AwesomeTag> Tags { get; init; } = new ();
+    public List<AwesomeTag> Tags { get; init; } = new();
 
-    public List<AwesomeItem> Items { get; init; } = new ();
+    public List<AwesomeItem> Items { get; init; } = new();
 }
 
 [LiquidType("*")]
-public class AwesomeList: AwesomeBase { }
+public class AwesomeList : AwesomeBase { }
 
 [LiquidType("*")]
-public class AwesomeTag: AwesomeBase {
+public class AwesomeTag : AwesomeBase
+{
     public string Tag { get; init; } = string.Empty;
-    
-    public AwesomeTag(string tag) {
+
+    public AwesomeTag(string tag)
+    {
         this.Tag = tag;
     }
 
-    public override string ToString() {
+    public override string ToString()
+    {
         return this.Tag;
     }
 
@@ -213,22 +222,22 @@ public class AwesomeTag: AwesomeBase {
         {
             return false;
         }
-        
+
         return this.Tag == ((AwesomeTag)obj).Tag;
     }
 
-    public static bool operator == (AwesomeTag t1, AwesomeTag t2)
+    public static bool operator ==(AwesomeTag t1, AwesomeTag t2)
     {
         if (((object)t1) == null || ((object)t2) == null)
-         return Object.Equals(t1, t2);
+            return Object.Equals(t1, t2);
 
         return t1.Equals(t2);
     }
-    
-    public static bool operator != (AwesomeTag t1, AwesomeTag t2)
+
+    public static bool operator !=(AwesomeTag t1, AwesomeTag t2)
     {
         if (((object)t1) == null || ((object)t2) == null)
-         return !(Object.Equals(t1, t2));
+            return !(Object.Equals(t1, t2));
 
         return !(t1.Equals(t2));
     }
