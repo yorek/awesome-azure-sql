@@ -14,3 +14,13 @@
   tags:
     - "Labs & Workshops"
     - "Security"
+
+"Azure SQL Database Developer Workshop":
+  url: "https://github.com/Azure-Samples/azure-sql-db-developers-workshop"
+  description: "full Stack workshop that exposes developers to local development, CICD, REST, GraphQL and cloud services"
+  tags:
+    - "Labs & Workshops"
+    - "Code Samples / REST"
+    - "Code Samples / GraphQL"
+    - "Code Samples / Full Stack"   
+    
