@@ -32,3 +32,9 @@
   description: "modern sqlcmd tool to manage and query SQL Server and Azure SQL from the command line."
   tags: 
     - "Tools"
+
+"Dotmim.Sync":
+  url: "https://github.com/Mimetis/Dotmim.Sync"
+  description: "A brand new database synchronization framework, multi platform, multi databases, developed on top of .Net Standard 2.0."
+  tags:
+    - "Tools / Sync"
