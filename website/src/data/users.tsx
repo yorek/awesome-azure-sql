@@ -10,7 +10,7 @@
 import { sortBy } from '../utils/jsUtils';
 import { TagType, User, Tags, Temp } from './tags';
 import * as yaml from 'js-yaml';
-import * as fs from 'fs';
+import * as fs from 'fs-web';
 
 const itemsPath = "../items/";
 var templates = [];

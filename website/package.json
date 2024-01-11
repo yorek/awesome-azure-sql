@@ -48,6 +48,7 @@
   "dependencies": {
     "@popperjs/core": "^2.11.8",
     "fs": "^0.0.1-security",
+    "fs-web": "^1.0.1",
     "js-yaml": "^4.1.0",
     "scheduler": "^0.20.2",
     "search-insights": "^2.11.0"
