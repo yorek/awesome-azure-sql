@@ -36,5 +36,5 @@ If you want to add a nested tag, just separate the content using a slash. For ex
 
 Other than these, we always welcome feedback through a:
 
-    - [**Feature request or idea**](https://github.com/yorek/awesome-azure-sql/issues): This may be a new resource or improvement to the Awesome Azure SQL.
-    - [**bug report**](https://github.com/yorek/awesome-azure-sql/issues): Let us know if something is broken.
+- [**Feature request or idea**](https://github.com/yorek/awesome-azure-sql/issues): This may be a new resource or improvement to the Awesome Azure SQL.
+- [**bug report**](https://github.com/yorek/awesome-azure-sql/issues): Let us know if something is broken.

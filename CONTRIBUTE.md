@@ -23,7 +23,7 @@ We welcome contributions of [requested resources](https://github.com/yorek/aweso
     - **title** - A short title that reflects what the resource is about.
     - **description:** - 1-2 sentence description of the resource.
     - **url** - Link to the resource.
-    - **icon:** - The icon is an emoji. The supported emojis are defined here: <https://github.com/markdown-templates/markdown-emojis>.
+    - **icon:** - The icon is an emoji. The supported emojis are defined here: [Markdown emojis](https://github.com/markdown-templates/markdown-emojis).
     - **author** - Author's name to credit on the gallery card
     - **website**  - At least one tag is mandatory. You can add as many as you want. (I suggest not to add to many. Make sure the tags used a really helpful to identify the content. Try to limit the number of tags to 2 at maximum).
 2. Open a PR!
@@ -36,5 +36,5 @@ If you want to add a nested tag, just separate the content using a slash. For ex
 
 Other than these, we always welcome feedback through a:
 
-    - [**Feature request or idea**](https://github.com/yorek/awesome-azure-sql/issues): This may be a new resource or improvement to the Awesome Azure SQL.
-    - [**bug report**](https://github.com/yorek/awesome-azure-sql/issues): Let us know if something is broken.
+- [**Feature request or idea**](https://github.com/yorek/awesome-azure-sql/issues): This may be a new resource or improvement to the Awesome Azure SQL.
+- [**bug report**](https://github.com/yorek/awesome-azure-sql/issues): Let us know if something is broken.
