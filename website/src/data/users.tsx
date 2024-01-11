@@ -24,7 +24,7 @@ try {
   console.log(err.stack || String(err));
 }
 
-// *** ADDING DATA TO AZD GALLERY ****/
+// *** ADDING DATA TO THE GALLERY ****/
 
 // Currently using Custom Issues on Repo
 
@@ -66,7 +66,7 @@ function getAwesomeObjects(jsonData) {
   var awesomeObjects = [];
   for (let [key, value] of Object.entries(jsonData)) {
     let temp = value as Temp;
-    awesomeObjects.push(Object.assign({}, { title: key, description: temp.description, preview: temp.preview, website: temp.website, author: temp.author, source: temp.url, tags: _getUniqueTags(temp.tags) }));
+    awesomeObjects.push(Object.assign({}, { title: key, description: temp.description, website: temp.website, author: temp.author, source: temp.url, tags: _getUniqueTags(temp.tags) }));
   }
   return awesomeObjects;
   // get unique tags

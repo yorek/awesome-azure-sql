@@ -17,35 +17,27 @@ import Feature from "@site/src/components/Feature";
  */
 const FeatureList = [
   {
-    title: "Discover Templates",
+    title: "Discover Resources",
     Svg: "img/home-discover.svg",
-    link: "https://azure.github.io/awesome-azd/",
+    link: "https://john0isaac.github.io/awesome-azure-sql/",
     description:
-      "View our gallery of community-contributed and Microsoft-authored templates.",
+      "View our gallery of community-contributed and Microsoft-authored resources.",
     content: "View templates",
   },
   {
-    title: "Learn more about azd",
+    title: "Learn more about Azure SQL",
     Svg: "img/home-learn.svg",
-    link: "https://aka.ms/azd",
+    link: "https://aka.ms/az-sql",
     description:
-      "Read our documentation for more information about azd and its features.",
+      "Read our documentation for more information about azure sql and its features.",
     content: "View docs",
-  },
-  {
-    title: "Create your own template",
-    Svg: "img/home-create.svg",
-    link: "https://learn.microsoft.com/azure/developer/azure-developer-cli/make-azd-compatible?pivots=azd-create",
-    description:
-      "Learn how to build a template with step-by-step instructions.",
-    content: "Try learn module",
   },
   {
     title: "Contribute to the Gallery",
     Svg: "img/home-contribute.svg",
-    link: "https://azure.github.io/awesome-azd/docs/intro",
+    link: "https://john0isaac.github.io/awesome-azure-sql/docs/intro",
     description:
-      "After making your azd template, consider adding it to our gallery to share with fellow azd-developers.",
+      "Learn how to create a resource with step-by-step instructions.",
     content: "View contributor guide",
   },
 ];

@@ -14,8 +14,8 @@ import { useColorMode } from "@docusaurus/theme-common";
 
 const TITLE = "Template Library";
 const DESCRIPTION =
-  "A community-contributed template gallery built to work with the Azure Developer CLI.";
-const ADD_URL = "https://aka.ms/azd";
+  "A community-contributed template gallery for the Awesome Azure SQL resources.";
+const ADD_URL = "https://aka.ms/az-sql";
 export var InputValue: string | null = null;
 
 export type UserState = {
@@ -69,7 +69,7 @@ function FilterBar(): React.JSX.Element {
         }}
         id="filterBar"
         value={readSearchName(location.search) != null ? value : ""}
-        placeholder="Search for an azd template..."
+        placeholder="Search for an azure sql resource..."
         onClear={(e) => {
           setValue(null);
           const newSearch = new URLSearchParams(location.search);
@@ -162,7 +162,7 @@ export default function ShowcaseTemplateSearch() {
               padding: "20px 0",
             }}
           >
-            Not familiar with the Azure Developer CLI (azd)?
+            Not familiar with Azure SQL?
             <FluentUILink
               href={ADD_URL}
               target="_blank"

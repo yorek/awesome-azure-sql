@@ -88,7 +88,7 @@ export default function ShowcaseContributionCard(): React.ReactElement {
             margin: "0px",
           }}
         >
-          awesome-azd is always welcoming template contributions! Our community
+          awesome-azure-sql is always welcoming resource contributions! Our community
           is excited to see what you make.
         </p>
       </div>
@@ -99,7 +99,7 @@ export default function ShowcaseContributionCard(): React.ReactElement {
           className={styleCSS.submitButton}
           onClick={() => {
             window.open(
-              "https://azure.github.io/awesome-azd/docs/intro",
+              "https://john0isaac.github.io/awesome-azure-sql/docs/intro",
               "_blank"
             );
           }}
@@ -112,7 +112,7 @@ export default function ShowcaseContributionCard(): React.ReactElement {
           className={styleCSS.requestButton}
           onClick={() => {
             window.open(
-              "https://github.com/Azure/awesome-azd/issues/new?assignees=nigkulintya%2C+savannahostrowski&labels=requested-contribution&template=%F0%9F%A4%94-submit-a-template-request.md&title=%5BIdea%5D+%3Cyour-template-name%3E",
+              "https://github.com/john0isaac/awesome-azure-sql/issues/",
               "_blank"
             );
           }}

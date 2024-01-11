@@ -15,7 +15,6 @@ export type Tag = {
 export type User = {
   title: string;
   description: string;
-  preview: string;
   website: string;
   author: string;
   source: string | null;
@@ -25,7 +24,6 @@ export type User = {
 export type Temp = {
   title: string;
   description: string;
-  preview: string;
   website: string;
   author: string;
   url: string | null;
@@ -121,19 +119,19 @@ export const Tags: { [type in TagType]: Tag } = {
   // Special Tag
   msft: {
     label: "Microsoft Authored",
-    description: "This tag is used for Microsoft azd templates.",
+    description: "This tag is used for Microsoft resources.",
   },
   community: {
     label: "Community Authored",
-    description: "This tag is used for community templates.",
+    description: "This tag is used for community resources.",
   },
   new: {
     label: "New",
-    description: "This tag is used for new templates.",
+    description: "This tag is used for new resources.",
   },
   popular: {
     label: "Popular",
-    description: "This tag is used for popular templates.",
+    description: "This tag is used for popular resources.",
   },
 
   //============  FOR REGULAR USE

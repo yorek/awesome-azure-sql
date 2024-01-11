@@ -47,18 +47,18 @@ function HomepageHeader({ colorMode }) {
             className={style.largeTitle}
             style={{ marginBottom: "6px", color: "#242424" }}
           >
-            Accelerate your journey to the cloud with azd
+            Manage your databases with Azure SQL
           </Text>
           <Text className={style.title3} style={{ color: "#242424" }}>
-            Azure Developer CLI (azd) is an open-source tool that accelerates
-            your application’s journey from local development to Azure.
+          Azure SQL Database is always running on the latest stable version of
+          the SQL Server database engine and patched OS with 99.99% availability.
           </Text>
         </div>
         <div className={styles.video}>
           <iframe
             className={styles.iframe}
-            src="https://www.youtube.com/embed/9z3PiHSCcYs?si=F1yKpoiOQnzb4o-K"
-            title="Azure Developer CLI: GitHub to cloud in minutes - Universe 2022"
+            src="https://www.youtube.com/embed/voFjY-bb4J0?si=ArJspbivXpQ1iQRa"
+            title="What's new in security for Azure SQL and SQL Server | Data Exposed"
             allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
             allowFullScreen
           />

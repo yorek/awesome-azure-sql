@@ -1,0 +1,94 @@
+# Videos
+
+"Create secure API with .NET, Dapper and Azure SQL":
+  url: "https://www.youtube.com/watch?v=TdvFYyLMHB0"
+  description: "Live coding recording of development of a backend API with security, full CI/CD - test included and unexpected requirements, just like the real world."
+  icon: ":tv:"
+  tags:
+    - "Videos"
+
+"Data Loading Best Practices on Azure SQL DB":
+  url: "https://www.youtube.com/watch?v=WP-bqtVdJg4"
+  description: "20 minutes video dedicate on the explanation on the best practices to load data into Azure SQL as fast as possible"
+  icon: ":tv:"
+  tags:
+    - "Videos"
+    - "Best Practices"
+    
+"Serverless Full-Stack Kickstart":
+  url: "https://www.youtube.com/watch?v=TIh52zbi8Dk"
+  description: "recording of the session delivered at the Serverless conference, on how to create a full-stack application from scratch using Azure Static Web Apps, Azure Functions and Azure SQL"
+  icon: ":tv:"
+  tags:
+    - "Videos"
+
+"Data Exposed Show":
+  url: "https://aka.ms/azuresqlyt"
+  description: "an ongoing series to learn everything about the Azure Data platform, Azure SQL included"
+  icon: ":tv:"
+  tags:
+    - "Videos"
+    
+"Azure SQL Bootcamp":
+  url: "https://aka.ms/azuresqlbootcamp"
+  description: "interactive Azure SQL learning with Anna Hoffman and Bob Ward. Get your Azure SQL questions answered, learn to solve real-world scenarios, and more."
+  icon: ":tv:"
+  tags:
+    - "Videos"
+
+"Taming Dynamic Schemas":
+  url: "https://www.youtube.com/watch?v=aaxymYhaIPE"
+  description: "three different design tecniques to manage dynamic schemas in Azure SQL ranging from a pure relational solution to a full document/JSON one."
+  icon: ":tv:"
+  tags:
+    - "Videos"
+
+"Azure Friday: Azure SQL Database: A developer's best friend":
+  url: "https://www.youtube.com/watch?v=We5bSDHnzW8"
+  description: "an introduction to some features of Azure SQL Database what you want to start to use right now"
+  icon: ":tv:"
+  tags:
+    - "Videos / Azure Friday"     
+
+"Azure Friday: Azure SQL Database: Multi-model features":
+  url: "https://www.youtube.com/watch?v=n6p8nJQXXoI"
+  description: "Azure SQL Database is relational, modern, multi-model database, with supports for JSON, Graph and Geospatial models"
+  icon: ":tv:"
+  tags:
+    - "Videos / Azure Friday"     
+
+"Azure Friday: Azure SQL Database: An introduction to temporal tables":
+  url: "https://www.youtube.com/watch?v=FeB6aAQQfsQ"
+  description: "temporal tables helps to automatically track and query the changes that happends on your data in your database"
+  icon: ":tv:"
+  tags:
+    - "Videos / Azure Friday"     
+
+"Azure Friday: Calling external REST endpoints from Azure SQL Database":
+  url: "https://www.youtube.com/watch?v=R6l-2XJyu2c"
+  description: "Call a REST endpoint directly from Azure SQL, and integrate with everything."
+  icon: ":tv:"
+  tags:
+    - "Videos / Azure Friday"    
+
+"Azure Friday: Connect your Static Web Apps to Azure Databases using REST or GraphQL":
+  url: "https://www.youtube.com/watch?v=gCrBSSOezSQ"
+  description: "Build a Jamstack solution with Azure Static Web Apps and Data API Builder"
+  icon: ":tv:"
+  tags:
+    - "Videos / Azure Friday"    
+
+"Increase developer velocity with Azure SQL Database from data to API":
+  url: "https://www.youtube.com/watch?v=pH5MwGzRN7Y&list=PLlrxD0HtieHjolPmqWVyk446uLMPWo4oP&index=161"
+  description: "All the latest features available in Azure SQL to increase developer velocity. From the new SQLCMD to GraphQL and REST API."
+  icon: ":tv:"
+  tags:
+    - "Videos / Microsoft Build 2023"     
+
+"GraphQL: New services and tools for building API-driven apps":
+  url: "https://www.youtube.com/watch?v=GsXGbUWEQzo&list=PLlrxD0HtieHjolPmqWVyk446uLMPWo4oP&index=70"
+  description: "How to use GraphQL natively with Azure SQL, Azure Static Web Apps and Azure API Management"
+  icon: ":tv:"
+  tags:
+    - "Videos / Microsoft Build 2023"    
+    - "GraphQL"

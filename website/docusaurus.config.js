@@ -12,19 +12,19 @@ const config = {
   //    See: https://docusaurus.io/docs/deployment#using-environment-variables
   customFields: {
     description:
-      "Azure Developer CLI (azd) templates are idiomatic application templates created using the `azd` conventions so that you can use `azd` to get started on Azure.",
+      "An awesome list of Azure SQL samples for Developers of any Language and Platform.",
   },
 
   // CONFIG: Landing Pages uses this (also globally via siteConfig)
-  title: "Awesome Azure Developer CLI",
+  title: "Awesome Azure SQL",
   tagline: "Discover - Create - Contribute",
 
   // CONIFIG: Used for GitHub Pages
-  url: "https://azure.github.io",
-  baseUrl: "/awesome-azd/",
+  url: "https://john0isaac.github.io",
+  baseUrl: "/awesome-azure-sql/",
   favicon: "img/favicon.ico",
-  organizationName: "azure",
-  projectName: "awesome-azd",
+  organizationName: "john0isaac",
+  projectName: "awesome-azure-sql",
   deploymentBranch: "gh-pages",
 
   // CONFIG: Early detection for site health
@@ -62,9 +62,9 @@ const config = {
       // CONFIG: navbar logo, items, style, stickiness
       //    See: https://docusaurus.io/docs/next/api/themes/configuration#navbar
       navbar: {
-        title: "awesome-azd",
+        title: "awesome-azure-sql",
         logo: {
-          alt: "Awesome Azd logo",
+          alt: "Awesome Azure SQL logo",
           src: "img/logo.png",
           href: "/",
           target: "_self",
@@ -84,7 +84,7 @@ const config = {
             docId: "intro",
           },
           {
-            to: "https://aka.ms/azd",
+            to: "https://aka.ms/az-sql",
             label: "Docs",
             position: "left",
           },
@@ -96,7 +96,7 @@ const config = {
 
           // right
           {
-            href: "https://github.com/Azure/awesome-azd",
+            href: "https://github.com/john0isaac/awesome-azure-sql",
             position: "right",
             className: "header-github-link",
             "aria-label": "GitHub repository",
@@ -105,7 +105,7 @@ const config = {
           // CONFIG:
           // Make sure you have class defined in src/css/custom.css
           {
-            to: "https://azure.github.io/awesome-azd/docs/intro",
+            to: "https://john0isaac.github.io/awesome-azure-sql/docs/intro",
             label: "Submit your template!",
             position: "right",
             className: "button",
@@ -119,12 +119,8 @@ const config = {
         style: "light",
         links: [
           {
-            label: `azd-templates`,
-            to: "https://github.com/topics/azd-templates",
-          },
-          {
-            label: `azd Reference`,
-            to: "https://learn.microsoft.com/azure/developer/azure-developer-cli/reference",
+            label: `Azure SQL Reference`,
+            to: "https://aka.ms/az-sql",
           },
           {
             label: "Privacy Statement ",
