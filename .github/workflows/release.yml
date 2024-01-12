@@ -19,6 +19,7 @@ jobs:
         working-directory: website
         run: |
           npm ci
+          node src/data/generate.js
           npm run build
 
       # Popular action to deploy to GitHub Pages:
