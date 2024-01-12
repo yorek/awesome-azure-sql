@@ -21,15 +21,6 @@ export type User = {
   tags: TagType[];
 };
 
-export type Temp = {
-  title: string;
-  description: string;
-  website: string;
-  author: string;
-  url: string | null;
-  tags: TagType[];
-};
-
 // NN: Updated TagType to suit Static Web Apps
 export type TagType =
   | "msft"
