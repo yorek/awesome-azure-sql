@@ -15,7 +15,7 @@ import * as fs from 'fs-web';
 const itemsPath = "../items/";
 var templates = [];
 try {
-  var items = fs.readdirSync(itemsPath);
+  var items = fs.readdir(itemsPath);
   items.forEach(item => {
     var jsonData = readYamlToJSON(itemsPath + item);
     templates = templates.concat(getAwesomeObjects(jsonData));
@@ -53,7 +53,7 @@ export const sortedUsers = sortUsers();
  * @returns The JSON representation of the YAML data.
  */
 function readYamlToJSON(filename) {
-  let yamlData = yaml.load(fs.readFileSync(filename, 'utf8'));
+  let yamlData = yaml.load(fs.readFile(filename, 'utf8'));
   return JSON.parse(JSON.stringify(yamlData));
 };
 
