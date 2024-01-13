@@ -36,7 +36,14 @@ function getAwesomeObjects(jsonData) {
     for (var _i = 0, _a = Object.entries(jsonData); _i < _a.length; _i++) {
         var _b = _a[_i], key = _b[0], value = _b[1];
         var temp = value;
-        awesomeObjects.push(Object.assign({}, { title: key, description: temp.description, website: temp.website, author: temp.author, source: temp.url, tags: _getUniqueTags(temp.tags) }));
+        var allTags = [];
+        if (!!temp.tags) {
+            allTags.push.apply(allTags, _getUniqueTags(temp.tags));
+        }
+        if (!!temp.websiteTags) {
+            allTags.push.apply(allTags, _getUniqueTags(temp.websiteTags));
+        }
+        awesomeObjects.push(Object.assign({}, { title: key, description: temp.description, website: temp.website, author: temp.author, source: temp.url, tags: allTags }));
     }
     return awesomeObjects;
     // get unique tags
@@ -44,11 +51,11 @@ function getAwesomeObjects(jsonData) {
         var uniqueTagsList = [];
         allTags.forEach(function (element) {
             if (element.indexOf("/") > -1) {
-                uniqueTagsList.indexOf(element.split(" / ")[0]) === -1 ? uniqueTagsList.push(element.split(" / ")[0].toLowerCase().replace(/\s/g, "-")) : null;
-                uniqueTagsList.indexOf(element.split(" / ")[1]) === -1 ? uniqueTagsList.push(element.split(" / ")[1].toLowerCase().replace(/\s/g, "-")) : null;
+                uniqueTagsList.indexOf(element.split(" / ")[0].toLowerCase().replace(/\s/g, "-")) === -1 ? uniqueTagsList.push(element.split(" / ")[0].toLowerCase().replace(/\s/g, "-")) : null;
+                uniqueTagsList.indexOf(element.split(" / ")[1].toLowerCase().replace(/\s/g, "-")) === -1 ? uniqueTagsList.push(element.split(" / ")[1].toLowerCase().replace(/\s/g, "-")) : null;
             }
             else {
-                uniqueTagsList.push(element.toLowerCase().replace(/\s/g, "-"));
+                uniqueTagsList.indexOf(element.toLowerCase().replace(/\s/g, "-")) === -1 ? uniqueTagsList.push(element.toLowerCase().replace(/\s/g, "-")) : null;
             }
         });
         return uniqueTagsList;

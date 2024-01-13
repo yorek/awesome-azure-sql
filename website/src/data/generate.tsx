@@ -8,6 +8,7 @@ type Temp = {
     author: string;
     url: string | null;
     tags: Array<string>[];
+    websiteTags: Array<string>[];
   };
 
 const itemsPath = "./items/";
@@ -45,7 +46,14 @@ function readYamlToJSON(filename) {
     var awesomeObjects = [];
     for (let [key, value] of Object.entries(jsonData)) {
       let temp = value as Temp;
-      awesomeObjects.push(Object.assign({}, { title: key, description: temp.description, website: temp.website, author: temp.author, source: temp.url, tags: _getUniqueTags(temp.tags) }));
+      let allTags = []
+      if (!!temp.tags){
+        allTags.push(..._getUniqueTags(temp.tags));
+      }
+      if (!!temp.websiteTags){
+        allTags.push(..._getUniqueTags(temp.websiteTags));
+      }
+      awesomeObjects.push(Object.assign({}, { title: key, description: temp.description, website: temp.website, author: temp.author, source: temp.url, tags: allTags }));
     }
     return awesomeObjects;
     // get unique tags
@@ -53,10 +61,10 @@ function readYamlToJSON(filename) {
       let uniqueTagsList = [];
       allTags.forEach(element => {
         if (element.indexOf("/") > -1) {
-          uniqueTagsList.indexOf(element.split(" / ")[0]) === -1 ? uniqueTagsList.push(element.split(" / ")[0].toLowerCase().replace(/\s/g, "-")) : null;
-          uniqueTagsList.indexOf(element.split(" / ")[1]) === -1 ? uniqueTagsList.push(element.split(" / ")[1].toLowerCase().replace(/\s/g, "-")) : null;
+          uniqueTagsList.indexOf(element.split(" / ")[0].toLowerCase().replace(/\s/g, "-")) === -1 ? uniqueTagsList.push(element.split(" / ")[0].toLowerCase().replace(/\s/g, "-")) : null;
+          uniqueTagsList.indexOf(element.split(" / ")[1].toLowerCase().replace(/\s/g, "-")) === -1 ? uniqueTagsList.push(element.split(" / ")[1].toLowerCase().replace(/\s/g, "-")) : null;
         } else {
-          uniqueTagsList.push(element.toLowerCase().replace(/\s/g, "-"));
+          uniqueTagsList.indexOf(element.toLowerCase().replace(/\s/g, "-")) === -1 ? uniqueTagsList.push(element.toLowerCase().replace(/\s/g, "-")) : null;
         }
       });
       return uniqueTagsList;
