@@ -34,65 +34,82 @@ export type TagType =
   | "java"
   | "python"
   | "django"
-  | "reactjs"
+  | "react-js"
   | "nodejs"
   | "kubernetes"
   | "keda"
   | "grafana"
   | "prometheus"
-  | "appservice"
+  | "app-service"
   | "cosmosdb"
   | "monitor"
-  | "keyvault"
+  | "key-vault"
   | "aca"
   | "mongodb"
   | "signalR"
   | "functions"
-  | "blobstorage"
+  | "blob-storage"
   | "azuredb-postgreSQL"
-  | "azuresql"
-  | "webapps"
+  | "azure-sql"
+  | "web-apps"
   | "terraform"
   | "swa"
   | "dapr"
-  | "servicebus"
-  | "vnets"
-  | "fastapi"
+  | "service-bus"
+  | "v-nets"
+  | "fast-api"
   | "fhir"
   | "ahds"
-  | "appinsights"
-  | "loganalytics"
-  | "cognitivesearch"
+  | "app-insights"
+  | "log-analytics"
+  | "cognitive-search"
   | "openai"
-  | "azureai"
+  | "azure-ai"
   | "flask"
   | "apim"
   | "spring"
   | "thymeleaf"
   | "sap"
-  | "sapcloudsdk"
-  | "nestjs"
+  | "sap-cloud-sdk"
+  | "nest-js"
   | "dataverse"
   | "chatgpt"
   | "aks"
-  | "azurecdn"
-  | "frontdoor"
-  | "enterprisepatterns"
+  | "azure-cdn"
+  | "front-door"
+  | "enterprise-patterns"
   | "jupyter"
-  | "datascience"
-  | "azurespringapps"
-  | "rediscache"
+  | "data-science"
+  | "azure-spring-apps"
+  | "redis-cache"
   | "ai"
   | "php"
+  | "graphql"
   | "agw"
-  | "streamlit"
-  | "azurebot"
+  | "stream-lit"
+  | "azure-bot"
   | "ade"
-  | "platformengineering"
-  | "semantickernel"
-  | "webcomponents"
-  | "microfrontend"
-  | "blazor";
+  | "platform-engineering"
+  | "semantic-kernel"
+  | "web-components"
+  | "micro-frontend"
+  | "blazor"
+  | "getting-started"
+  | "code-sample"
+  | "blog"
+  | "article"
+  | "video"
+  | "podcast"
+  | "documentation"
+  | "workshop"
+  | "script"
+  | "social-media"
+  | "conferences"
+  | "books"
+  | "libraries"
+  | "tools"
+  | "devops"
+  | "fullstack";
 
 // LIST OF AVAILABLE TAGS
 // Each tag in lit about must have a defined object here
@@ -127,170 +144,246 @@ export const Tags: { [type in TagType]: Tag } = {
 
   //============  FOR REGULAR USE
 
+  // Content Type
+  "getting-started": {
+    label: "Getting Started",
+    description: "Resources related to getting started",
+    type: "Type",
+  },
+  "code-sample": {
+    label: "Code Samples",
+    description: "Resources related to code samples",
+    type: "Type",
+  },
+  blog: {
+    label: "Blog",
+    description: "Resources related to blog posts",
+    type: "Type",
+  },
+  article: {
+    label: "Article",
+    description: "Resources related to articles",
+    type: "Type",
+  },
+  video: {
+    label: "Video",
+    description: "Resources related to videos",
+    type: "Type",
+  },
+  podcast: {
+    label: "Podcast",
+    description: "Resources related to podcasts",
+    type: "Type",
+  },
+  documentation: {
+    label: "Documentation",
+    description: "Resources related to documentation",
+    type: "Type",
+  },
+  workshop: {
+    label: "Documentation",
+    description: "Resources related to documentation",
+    type: "Type",
+  },
+  script: {
+    label: "Script",
+    description: "Resources related to scripts",
+    type: "Type",
+  },
+  "social-media": {
+    label: "Social Media",
+    description: "Resources related to social media",
+    type: "Type",
+  },
+  "conferences": {
+    label: "Conference",
+    description: "Resources related to conferences",
+    type: "Type",
+  },
+  "books": {
+    label: "Book",
+    description: "Resources related to documentation",
+    type: "Type",
+  },
+  "libraries": {
+    label: "Library",
+    description: "Resources related to libraries",
+    type: "Type",
+  },
+  "tools": {
+    label: "Tool",
+    description: "Resources related to tools",
+    type: "Type",
+  },
   // Language Tags
 
+  graphql: {
+    label: "GraphQL",
+    description: "Resource contains GraphQL app code",
+    type: "Language",
+  },
   javascript: {
     label: "JavaScript",
-    description: "Template contains JavaScript app code",
+    description: "Resource contains JavaScript app code",
     type: "Language",
   },
   typescript: {
     label: "TypeScript",
-    description: "Template contains TypeScript app code",
+    description: "Resource contains TypeScript app code",
     type: "Language",
   },
   dotnetCsharp: {
     label: ".NET/C#",
-    description: "Template contains .NET and/or C# app code",
+    description: "Resource contains .NET and/or C# app code",
     type: "Language",
   },
   java: {
     label: "Java",
-    description: "Template contains Java app code",
+    description: "Resource contains Java app code",
     type: "Language",
   },
   python: {
     label: "Python",
-    description: "Template contains Python app code",
+    description: "Resource contains Python app code",
     type: "Language",
   },
   nodejs: {
     label: "Node.js",
-    description: "Template architecture uses Node.js",
+    description: "Resource architecture uses Node.js",
     type: "Language",
   },
   php: {
     label: "PHP",
-    description: "Template architecture uses PHP",
+    description: "Resource architecture uses PHP",
     type: "Language",
   },
 
   // ---- Tools
 
-  reactjs: {
-    label: "React.js",
-    description: "Template architecture uses React.js",
-    type: "Tools",
-  },
   sap: {
     label: "SAP",
     description:
-      "Template architecture uses Systems Applications and Products in data processing (SAP)",
+      "Resource architecture uses Systems Applications and Products in data processing (SAP)",
     type: "Tools",
   },
-  sapcloudsdk: {
+  "sap-cloud-sdk": {
     label: "SAP Cloud SDK",
-    description: "Template architecture uses SAP Cloud SDK",
+    description: "Resource architecture uses SAP Cloud SDK",
     type: "Tools",
   },
   thymeleaf: {
     label: "Thymeleaf",
-    description: "Template architecture uses Thymeleaf template engine",
+    description: "Resource architecture uses Thymeleaf template engine",
     type: "Tools",
   },
   chatgpt: {
     label: "ChatGPT",
-    description: "Template architecture uses ChatGPT model",
+    description: "Resource architecture uses ChatGPT model",
     type: "Tools",
   },
   jupyter: {
     label: "Jupyter Notebooks",
-    description: "Template architecture uses Jupyter Notebooks",
+    description: "Resource architecture uses Jupyter Notebooks",
     type: "Tools",
   },
   keda: {
     label: "KEDA",
     description:
-      "Template architecture uses Kubernetes Event Driven Autoscaling (KEDA)",
+      "Resource architecture uses Kubernetes Event Driven Autoscaling (KEDA)",
     type: "Tools",
   },
   dapr: {
     label: "Dapr",
     description:
-      "Template architecture uses Distributed Application Runtime (dapr)",
+      "Resource architecture uses Distributed Application Runtime (dapr)",
     type: "Tools",
   },
-  webcomponents: {
+  "web-components": {
     label: "Web Components",
-    description: "Template architecture uses Web Components",
+    description: "Resource architecture uses Web Components",
     type: "Tools",
   },
 
   // ---- Infrastructure as Code
   bicep: {
     label: "Bicep",
-    description: "Template uses Bicep for Infra as Code",
+    description: "Resource uses Bicep for Infra as Code",
     type: "Infrastructure as Code",
   },
   terraform: {
     label: "Terraform",
-    description: "Template uses Terraform for Infra as Code",
+    description: "Resource uses Terraform for Infra as Code",
     type: "Infrastructure as Code",
   },
 
   // ---- Database
   mongodb: {
     label: "MongoDB",
-    description: "Template architecture uses MongoDB",
+    description: "Resource architecture uses MongoDB",
     type: "Database",
   },
   prometheus: {
     label: "Prometheus",
-    description: "Template architecture uses Prometheus",
+    description: "Resource architecture uses Prometheus",
     type: "Database",
   },
 
   // ---- Framework
-  fastapi: {
+  "react-js": {
+    label: "React.js",
+    description: "Resource architecture uses React.js",
+    type: "Framework",
+  },
+  "fast-api": {
     label: "FastAPI",
-    description: "Template architecture uses FastAPI web framework",
+    description: "Resource architecture uses FastAPI web framework",
     type: "Framework",
   },
   flask: {
     label: "Flask",
-    description: "Template architecture uses Flask web framework",
+    description: "Resource architecture uses Flask web framework",
     type: "Framework",
   },
   django: {
     label: "Django",
-    description: "Template architecture uses Django web framework",
+    description: "Resource architecture uses Django web framework",
     type: "Framework",
   },
-  nestjs: {
+  "nest-js": {
     label: "NestJS",
-    description: "Template architecture uses NestJS framework",
+    description: "Resource architecture uses NestJS framework",
     type: "Framework",
   },
   spring: {
     label: "Spring",
-    description: "Template architecture uses Spring framework",
+    description: "Resource architecture uses Spring framework",
     type: "Framework",
   },
-  streamlit: {
+  "stream-lit": {
     label: "Streamlit",
-    description: "Template architecture uses Streamlit library",
+    description: "Resource architecture uses Streamlit library",
     type: "Framework",
   },
-  semantickernel: {
+  "semantic-kernel": {
     label: "Semantic Kernel",
-    description: "Template architecture uses Semantic Kernel",
+    description: "Resource architecture uses Semantic Kernel",
     type: "Framework",
   },
-  microfrontend: {
+  "micro-frontend": {
     label: "Micro Frontend",
-    description: "Template architecture uses Micro Frontend",
+    description: "Resource architecture uses Micro Frontend",
     type: "Framework",
   },
   blazor: {
     label: "Blazor",
-    description: "Template architecture uses Blazor",
+    description: "Resource architecture uses Blazor",
     type: "Framework",
   },
 
   // ---- Platform
   kubernetes: {
     label: "Kubernetes",
-    description: "Template architecture uses Kubernetes",
+    description: "Resource architecture uses Kubernetes",
     type: "Platform",
   },
 
@@ -298,17 +391,17 @@ export const Tags: { [type in TagType]: Tag } = {
   fhir: {
     label: "FHIR Service",
     description:
-      "Template architecture uses Fast Healthcare Interoperability Resources (FHIR) service",
+      "Resource architecture uses Fast Healthcare Interoperability Resources (FHIR) service",
     type: "Service",
   },
   dataverse: {
     label: "Dataverse",
-    description: "Template architecture uses Microsoft Dataverse",
+    description: "Resource architecture uses Microsoft Dataverse",
     type: "Service",
   },
-  webapps: {
+  "web-apps": {
     label: "Web Apps",
-    description: "Template architecture uses Web Apps",
+    description: "Resource architecture uses Web Apps",
     type: "Service",
   },
 
@@ -316,229 +409,239 @@ export const Tags: { [type in TagType]: Tag } = {
   ahds: {
     label: "Azure Health Data Service",
     description:
-      "Template architecture uses Azure Health Data Services workspace",
+      "Resource architecture uses Azure Health Data Services workspace",
     azureIcon: "./img/Azure-Health-Data-Service.svg",
     url: "https://azure.microsoft.com/products/health-data-services/",
     type: "Service",
   },
-  appinsights: {
+  "app-insights": {
     label: "Azure Application Insights",
-    description: "Template architecture uses Azure Application Insights",
+    description: "Resource architecture uses Azure Application Insights",
     azureIcon: "./img/Azure-Application-Insights.svg",
     url: "https://learn.microsoft.com/azure/azure-monitor/app/app-insights-overview",
     type: "Service",
   },
-  loganalytics: {
+  "log-analytics": {
     label: "Azure Log Analytics",
-    description: "Template architecture uses Azure Log Analytics",
+    description: "Resource architecture uses Azure Log Analytics",
     azureIcon: "./img/Azure-Log-Analytics.svg",
     url: "https://learn.microsoft.com/azure/azure-monitor/logs/log-analytics-overview",
     type: "Service",
   },
-  appservice: {
+  "app-service": {
     label: "Azure App Service",
-    description: "Template architecture uses Azure App Service",
+    description: "Resource architecture uses Azure App Service",
     azureIcon: "./img/Azure-App-Service.svg",
     url: "https://azure.microsoft.com/products/app-service",
     type: "Service",
   },
   monitor: {
     label: "Azure Monitor",
-    description: "Template architecture uses Azure Monitor Service",
+    description: "Resource architecture uses Azure Monitor Service",
     azureIcon: "./img/Azure-Monitor.svg",
     url: "https://azure.microsoft.com/products/monitor",
     type: "Service",
   },
-  keyvault: {
+  "key-vault": {
     label: "Azure Key Vault",
-    description: "Template architecture uses Azure Key Vault",
+    description: "Resource architecture uses Azure Key Vault",
     azureIcon: "./img/Azure-Key-Vault.svg",
     url: "https://azure.microsoft.com/products/key-vault",
     type: "Service",
   },
   aca: {
     label: "Azure Container Apps",
-    description: "Template architecture uses Azure Container Apps",
+    description: "Resource architecture uses Azure Container Apps",
     azureIcon: "./img/Azure-Container-Apps.svg",
     url: "https://azure.microsoft.com/products/container-apps",
     type: "Service",
   },
   cosmosdb: {
     label: "Azure CosmosDB",
-    description: "Template architecture uses Azure CosmosDB",
+    description: "Resource architecture uses Azure CosmosDB",
     azureIcon: "./img/Azure-Cosmos-DB.svg",
     url: "https://azure.microsoft.com/products/cosmos-db/",
     type: "Service",
   },
   signalR: {
     label: "Azure SignalR",
-    description: "Template architecture uses Azure SignalR",
+    description: "Resource architecture uses Azure SignalR",
     azureIcon: "./img/Azure-SignalR.svg",
     url: "https://azure.microsoft.com/products/signalr-service",
     type: "Service",
   },
   functions: {
     label: "Azure Functions",
-    description: "Template architecture uses Azure Functions",
+    description: "Resource architecture uses Azure Functions",
     azureIcon: "./img/Azure-Function.svg",
     url: "https://azure.microsoft.com/products/functions",
     type: "Service",
   },
-  blobstorage: {
+  "blob-storage": {
     label: "Azure Blob Storage",
-    description: "Template architecture uses Azure Blob Storage",
+    description: "Resource architecture uses Azure Blob Storage",
     azureIcon: "./img/Azure-Storage.svg",
     url: "https://azure.microsoft.com/products/storage/blobs",
     type: "Service",
   },
-  azuresql: {
+  "azure-sql": {
     label: "Azure SQL",
-    description: "Template architecture uses Azure SQL",
+    description: "Resource architecture uses Azure SQL",
     azureIcon: "./img/Azure-SQL.svg",
     url: "https://azure.microsoft.com/products/azure-sql/database",
     type: "Database",
   },
   "azuredb-postgreSQL": {
     label: "Azure PostgreSQL",
-    description: "Template architecture uses Azure Database for PostgreSQL",
+    description: "Resource architecture uses Azure Database for PostgreSQL",
     azureIcon: "./img/Azure-PostgreSQL.svg",
     url: "https://azure.microsoft.com/products/postgresql",
     type: "Database",
   },
   swa: {
     label: "Azure Static Web Apps",
-    description: "Template architecture uses Azure Static Web Apps",
+    description: "Resource architecture uses Azure Static Web Apps",
     azureIcon: "./img/Azure-Static-Web-Apps.svg",
     url: "https://azure.microsoft.com/products/app-service/static",
     type: "Service",
   },
-  servicebus: {
+  "service-bus": {
     label: "Azure Service Bus",
-    description: "Template architecture uses Azure Service Bus",
+    description: "Resource architecture uses Azure Service Bus",
     azureIcon: "./img/Azure-Service-Bus.svg",
     url: "https://azure.microsoft.com/products/service-bus",
     type: "Service",
   },
-  vnets: {
+  "v-nets": {
     label: "Azure Virtual Networks (VNET)",
-    description: "Template architecture uses Azure Virtual Networks",
+    description: "Resource architecture uses Azure Virtual Networks",
     azureIcon: "./img/Azure-Virtual-Networks.svg",
     url: "https://azure.microsoft.com/products/virtual-network",
     type: "Service",
   },
-  cognitivesearch: {
+  "cognitive-search": {
     label: "Azure Cognitive Search",
-    description: "Template architecture uses Azure Cognitive Search",
+    description: "Resource architecture uses Azure Cognitive Search",
     azureIcon: "./img/Azure-Cognitive-Search.svg",
     url: "https://azure.microsoft.com/products/ai-services/cognitive-search",
     type: "Service",
   },
   openai: {
     label: "Azure OpenAI Service",
-    description: "Template architecture uses Azure OpenAI Service",
+    description: "Resource architecture uses Azure OpenAI Service",
     azureIcon: "./img/Azure-OpenAI-Service.svg",
     darkModeAzureIcon: "./img/Azure-OpenAI-Service-white.svg",
     url: "https://azure.microsoft.com/products/ai-services/openai-service",
     type: "Service",
   },
-  azureai: {
+  "azure-ai": {
     label: "Azure AI Service",
-    description: "Template architecture uses Azure AI Service",
+    description: "Resource architecture uses Azure AI Service",
     azureIcon: "./img/Azure-AI-Service.svg",
     url: "https://azure.microsoft.com/solutions/ai",
     type: "Service",
   },
   apim: {
     label: "Azure API Management",
-    description: "Template architecture uses Azure API Management",
+    description: "Resource architecture uses Azure API Management",
     azureIcon: "./img/Azure-API-Management.svg",
     url: "https://azure.microsoft.com/products/api-management",
     type: "Service",
   },
   aks: {
     label: "Azure Kubernetes Service",
-    description: "Template architecture uses Azure Kubernetes Service",
+    description: "Resource architecture uses Azure Kubernetes Service",
     azureIcon: "./img/Azure-Kubernetes-Service.svg",
     url: "https://azure.microsoft.com/products/kubernetes-service",
     type: "Service",
   },
-  azurecdn: {
+  "azure-cdn": {
     label: "Azure Content Delivery Network",
-    description: "Template architecture uses Azure Content Delivery Network",
+    description: "Resource architecture uses Azure Content Delivery Network",
     azureIcon: "./img/Azure-Front-Door-And-CDN.svg",
     url: "https://azure.microsoft.com/products/cdn",
     type: "Service",
   },
-  frontdoor: {
+  "front-door": {
     label: "Azure Front Door",
-    description: "Template architecture uses Azure Front Door",
+    description: "Resource architecture uses Azure Front Door",
     azureIcon: "./img/Azure-Front-Door-And-CDN.svg",
     url: "https://azure.microsoft.com/products/frontdoor",
     type: "Service",
   },
   grafana: {
     label: "Azure Managed Grafana",
-    description: "Template architecture uses Azure Managed Grafana",
+    description: "Resource architecture uses Azure Managed Grafana",
     azureIcon: "./img/Azure-Managed-Grafana.svg",
     url: "https://azure.microsoft.com/products/managed-grafana",
     type: "Service",
   },
-  azurespringapps: {
+  "azure-spring-apps": {
     label: "Azure Spring Apps",
-    description: "Template architecture uses Azure Spring Apps",
+    description: "Resource architecture uses Azure Spring Apps",
     azureIcon: "./img/Azure-Spring-Apps.svg",
     url: "https://azure.microsoft.com/products/spring-apps",
     type: "Service",
   },
-  rediscache: {
+  "redis-cache": {
     label: "Azure Cache for Redis",
-    description: "Template architecture uses Azure Cache for Redis",
+    description: "Resource architecture uses Azure Cache for Redis",
     azureIcon: "./img/Azure-Cache-for-Redis.svg",
     url: "https://azure.microsoft.com/products/cache",
     type: "Service",
   },
   agw: {
     label: "Azure Application Gateway",
-    description: "Template architecture uses Azure Application Gateway",
+    description: "Resource architecture uses Azure Application Gateway",
     azureIcon: "./img/Azure-Application-Gateway.svg",
     url: "https://azure.microsoft.com/products/application-gateway",
     type: "Service",
   },
-  azurebot: {
+  "azure-bot": {
     label: "Azure AI Bot Service",
-    description: "Template architecture uses Azure AI Bot Service",
+    description: "Resource architecture uses Azure AI Bot Service",
     azureIcon: "./img/Azure-AI-Bot-Services.svg",
     url: "https://azure.microsoft.com/products/ai-services/ai-bot-service",
     type: "Service",
   },
   ade: {
     label: "Azure Deployment Environments",
-    description: "Template architecture uses Azure Deployment Environments",
+    description: "Resource architecture uses Azure Deployment Environments",
     azureIcon: "./img/Azure-Deployment-Environments.svg",
     url: "https://azure.microsoft.com/products/deployment-environments",
     type: "Service",
   },
 
   // For Topics
-  datascience: {
+  "data-science": {
     label: "Data Science",
-    description: "Template architecture involves Data Science",
+    description: "Resource architecture involves Data Science",
     type: "Topic",
   },
-  enterprisepatterns: {
+  "enterprise-patterns": {
     label: "Enterprise App Patterns",
     description:
-      "Template architecture involves Enterprise Application Patterns",
+      "Resource architecture involves Enterprise Application Patterns",
     type: "Topic",
   },
   ai: {
     label: "Artificial Intelligence",
-    description: "Template architecture involves Artificial Intelligence",
+    description: "Resource architecture involves Artificial Intelligence",
     type: "Topic",
   },
-  platformengineering: {
+  "platform-engineering": {
     label: "Platform Engineering",
-    description: "Template architecture involves Platform Engineering",
+    description: "Resource architecture involves Platform Engineering",
+    type: "Topic",
+  },
+  "devops": {
+    label: "DevOps",
+    description: "Resources related to devops",
+    type: "Topic",
+  },
+  "fullstack": {
+    label: "Full Stack",
+    description: "Resources related to fullstack development",
     type: "Topic",
   },
 };
