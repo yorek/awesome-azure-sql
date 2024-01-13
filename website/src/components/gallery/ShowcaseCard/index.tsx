@@ -66,11 +66,6 @@ function ShowcaseCard({ user }: { user: User }): JSX.Element {
   const source = user.source;
   const star = useBaseUrl("/img/Sparkle.svg");
   const fire = useBaseUrl("/img/Fire.svg");
-  let azdInitCommand =
-    "azd init -t " + source.replace("https://github.com/", "");
-  if (azdInitCommand.includes("Azure-Samples/")) {
-    azdInitCommand = azdInitCommand.replace("Azure-Samples/", "");
-  }
   let headerLogo = useBaseUrl("/img/Community.svg");
   let headerText = "Community Authored";
 
@@ -206,7 +201,11 @@ function ShowcaseCard({ user }: { user: User }): JSX.Element {
           maxHeight: "inherit",
         }}
       >
-        <FluentUILink className={styleCSS.cardTitle} onClick={openPanel}>
+        <FluentUILink 
+          className={styleCSS.cardTitle}
+          href={user.source}
+          target="_blank"
+        >
           {user.title}
         </FluentUILink>
         <div
@@ -228,20 +227,6 @@ function ShowcaseCard({ user }: { user: User }): JSX.Element {
           </div>
         </div>
         <div className={styleCSS.cardDescription}>{user.description}</div>
-        {/* Panel is Fluent UI 8. Must use ThemeProvider */}
-        <ThemeProvider theme={colorMode != "dark" ? lightTheme : darkTheme}>
-          <Panel
-            headerText={user.title}
-            isLightDismiss
-            isOpen={isOpen}
-            onDismiss={dismissPanel}
-            closeButtonAriaLabel="Close"
-            type={PanelType.medium}
-            onRenderNavigationContent={onRenderNavigationContent}
-          >
-            <ShowcaseCardPanel user={user} />
-          </Panel>
-        </ThemeProvider>
         <div
           style={{
             paddingTop: "10px",
@@ -269,7 +254,7 @@ function ShowcaseCard({ user }: { user: User }): JSX.Element {
           id={"input_" + user.title}
           size="small"
           spellCheck={false}
-          defaultValue={azdInitCommand}
+          defaultValue={source}
           className={styleCSS.input}
         />
         <Popover withArrow size="small">
@@ -278,7 +263,7 @@ function ShowcaseCard({ user }: { user: User }): JSX.Element {
               size="small"
               className={styleCSS.copyIconButton}
               onClick={() => {
-                navigator.clipboard.writeText(azdInitCommand);
+                navigator.clipboard.writeText(source);
               }}
             >
               <img src={useBaseUrl("/img/Copy.svg")} height={20} alt="Copy" />

@@ -118,6 +118,14 @@ export default function ShowcaseLeftFilters() {
     const tagObject = Tags[tag];
     return tagObject.type === undefined;
   });
+  const typeTag = sortTagList.filter((tag) => {
+    const tagObject = Tags[tag];
+    return tagObject.type === "Type";
+  });
+  const topicTag = sortTagList.filter((tag) => {
+    const tagObject = Tags[tag];
+    return tagObject.type === "Topic";
+  });
   const languageTag = sortTagList.filter((tag) => {
     const tagObject = Tags[tag];
     return tagObject.type === "Language";
@@ -142,10 +150,6 @@ export default function ShowcaseLeftFilters() {
     const tagObject = Tags[tag];
     return tagObject.type === "Tools";
   });
-  const topicTag = sortTagList.filter((tag) => {
-    const tagObject = Tags[tag];
-    return tagObject.type === "Topic";
-  });
   const [openItems, setOpenItems] = React.useState([
     "1",
     "2",
@@ -154,6 +158,7 @@ export default function ShowcaseLeftFilters() {
     "5",
     "6",
     "7",
+    "8",
   ]);
   const handleToggle: AccordionToggleEventHandler<string> = (event, data) => {
     setOpenItems(data.openItems);
@@ -190,6 +195,7 @@ export default function ShowcaseLeftFilters() {
           );
         })}
       </div>
+
       <AccordionItem value="1">
         <AccordionHeader
           expandIconPosition="end"
@@ -198,10 +204,10 @@ export default function ShowcaseLeftFilters() {
               "linear-gradient(#D1D1D1 0 0) top /89.8% 0.6px no-repeat",
           }}
         >
-          <div style={{ fontSize: "16px", fontWeight: "500" }}>Language</div>
+          <div style={{ fontSize: "16px", fontWeight: "500" }}>Type</div>
         </AccordionHeader>
         <AccordionPanel>
-          <ShowcaseFilterViewAll tags={languageTag} number={"1"} />
+          <ShowcaseFilterViewAll tags={typeTag} number={"1"} />
         </AccordionPanel>
       </AccordionItem>
 
@@ -213,10 +219,10 @@ export default function ShowcaseLeftFilters() {
               "linear-gradient(#D1D1D1 0 0) top /89.8% 0.6px no-repeat",
           }}
         >
-          <div style={{ fontSize: "16px", fontWeight: "500" }}>Framework</div>
+          <div style={{ fontSize: "16px", fontWeight: "500" }}>Topic</div>
         </AccordionHeader>
         <AccordionPanel>
-          <ShowcaseFilterViewAll tags={frameworkTag} number={"2"} />
+          <ShowcaseFilterViewAll tags={topicTag} number={"2"} />
         </AccordionPanel>
       </AccordionItem>
 
@@ -228,10 +234,10 @@ export default function ShowcaseLeftFilters() {
               "linear-gradient(#D1D1D1 0 0) top /89.8% 0.6px no-repeat",
           }}
         >
-          <div style={{ fontSize: "16px", fontWeight: "500" }}>Services</div>
+          <div style={{ fontSize: "16px", fontWeight: "500" }}>Language</div>
         </AccordionHeader>
         <AccordionPanel>
-          <ShowcaseFilterViewAll tags={servicesTag} number={"3"} />
+          <ShowcaseFilterViewAll tags={languageTag} number={"3"} />
         </AccordionPanel>
       </AccordionItem>
 
@@ -243,14 +249,44 @@ export default function ShowcaseLeftFilters() {
               "linear-gradient(#D1D1D1 0 0) top /89.8% 0.6px no-repeat",
           }}
         >
-          <div style={{ fontSize: "16px", fontWeight: "500" }}>Database</div>
+          <div style={{ fontSize: "16px", fontWeight: "500" }}>Framework</div>
         </AccordionHeader>
         <AccordionPanel>
-          <ShowcaseFilterViewAll tags={databaseTag} number={"4"} />
+          <ShowcaseFilterViewAll tags={frameworkTag} number={"4"} />
         </AccordionPanel>
       </AccordionItem>
 
       <AccordionItem value="5">
+        <AccordionHeader
+          expandIconPosition="end"
+          style={{
+            background:
+              "linear-gradient(#D1D1D1 0 0) top /89.8% 0.6px no-repeat",
+          }}
+        >
+          <div style={{ fontSize: "16px", fontWeight: "500" }}>Services</div>
+        </AccordionHeader>
+        <AccordionPanel>
+          <ShowcaseFilterViewAll tags={servicesTag} number={"5"} />
+        </AccordionPanel>
+      </AccordionItem>
+
+      <AccordionItem value="6">
+        <AccordionHeader
+          expandIconPosition="end"
+          style={{
+            background:
+              "linear-gradient(#D1D1D1 0 0) top /89.8% 0.6px no-repeat",
+          }}
+        >
+          <div style={{ fontSize: "16px", fontWeight: "500" }}>Database</div>
+        </AccordionHeader>
+        <AccordionPanel>
+          <ShowcaseFilterViewAll tags={databaseTag} number={"6"} />
+        </AccordionPanel>
+      </AccordionItem>
+
+      <AccordionItem value="7">
         <AccordionHeader
           expandIconPosition="end"
           style={{
@@ -263,11 +299,11 @@ export default function ShowcaseLeftFilters() {
           </div>
         </AccordionHeader>
         <AccordionPanel>
-          <ShowcaseFilterViewAll tags={infrastructureAsCodeTag} number={"5"} />
+          <ShowcaseFilterViewAll tags={infrastructureAsCodeTag} number={"7"} />
         </AccordionPanel>
       </AccordionItem>
 
-      <AccordionItem value="6">
+      <AccordionItem value="8">
         <AccordionHeader
           expandIconPosition="end"
           style={{
@@ -278,24 +314,9 @@ export default function ShowcaseLeftFilters() {
           <div style={{ fontSize: "16px", fontWeight: "500" }}>Tools</div>
         </AccordionHeader>
         <AccordionPanel>
-          <ShowcaseFilterViewAll tags={otherTag} number={"6"} />
+          <ShowcaseFilterViewAll tags={otherTag} number={"8"} />
         </AccordionPanel>
       </AccordionItem>
-
-      <AccordionItem value="7">
-        <AccordionHeader
-          expandIconPosition="end"
-          style={{
-            background:
-              "linear-gradient(#D1D1D1 0 0) top /89.8% 0.6px no-repeat",
-          }}
-        >
-          <div style={{ fontSize: "16px", fontWeight: "500" }}>Topic</div>
-        </AccordionHeader>
-        <AccordionPanel>
-          <ShowcaseFilterViewAll tags={topicTag} number={"7"} />
-        </AccordionPanel>
-      </AccordionItem>
-    </Accordion>
+      </Accordion>
   );
 }
