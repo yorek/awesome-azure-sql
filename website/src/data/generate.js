@@ -2,6 +2,7 @@
 Object.defineProperty(exports, "__esModule", { value: true });
 var yaml = require("js-yaml");
 var fs = require("fs");
+var tags_1 = require("./tags");
 var itemsPath = "./items/";
 var templates = [];
 try {
@@ -51,11 +52,20 @@ function getAwesomeObjects(jsonData) {
         var uniqueTagsList = [];
         allTags.forEach(function (element) {
             if (element.indexOf("/") > -1) {
-                uniqueTagsList.indexOf(element.split(" / ")[0].toLowerCase().replace(/\s/g, "-")) === -1 ? uniqueTagsList.push(element.split(" / ")[0].toLowerCase().replace(/\s/g, "-")) : null;
-                uniqueTagsList.indexOf(element.split(" / ")[1].toLowerCase().replace(/\s/g, "-")) === -1 ? uniqueTagsList.push(element.split(" / ")[1].toLowerCase().replace(/\s/g, "-")) : null;
+                var leftTag = element.split(" / ")[0].toLowerCase().replace(/\s/g, "-");
+                var rightTag = element.split(" / ")[1].toLowerCase().replace(/\s/g, "-");
+                if (leftTag in tags_1.Tags) {
+                    uniqueTagsList.indexOf(leftTag) === -1 ? uniqueTagsList.push(leftTag) : null;
+                }
+                if (rightTag in tags_1.Tags) {
+                    uniqueTagsList.indexOf(rightTag) === -1 ? uniqueTagsList.push(rightTag) : null;
+                }
             }
             else {
-                uniqueTagsList.indexOf(element.toLowerCase().replace(/\s/g, "-")) === -1 ? uniqueTagsList.push(element.toLowerCase().replace(/\s/g, "-")) : null;
+                var newTag = element.toLowerCase().replace(/\s/g, "-");
+                if (newTag in tags_1.Tags) {
+                    uniqueTagsList.indexOf(newTag) === -1 ? uniqueTagsList.push(newTag) : null;
+                }
             }
         });
         return uniqueTagsList;

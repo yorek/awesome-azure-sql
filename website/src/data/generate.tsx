@@ -1,5 +1,6 @@
 import * as yaml from 'js-yaml';
 import * as fs from 'fs';
+import {Tags} from './tags';
 
 type Temp = {
     title: string;
@@ -61,10 +62,19 @@ function readYamlToJSON(filename) {
       let uniqueTagsList = [];
       allTags.forEach(element => {
         if (element.indexOf("/") > -1) {
-          uniqueTagsList.indexOf(element.split(" / ")[0].toLowerCase().replace(/\s/g, "-")) === -1 ? uniqueTagsList.push(element.split(" / ")[0].toLowerCase().replace(/\s/g, "-")) : null;
-          uniqueTagsList.indexOf(element.split(" / ")[1].toLowerCase().replace(/\s/g, "-")) === -1 ? uniqueTagsList.push(element.split(" / ")[1].toLowerCase().replace(/\s/g, "-")) : null;
+          let leftTag = element.split(" / ")[0].toLowerCase().replace(/\s/g, "-");
+          let rightTag = element.split(" / ")[1].toLowerCase().replace(/\s/g, "-"); 
+          if (leftTag in Tags){
+            uniqueTagsList.indexOf(leftTag) === -1 ? uniqueTagsList.push(leftTag) : null;
+          }
+          if (rightTag in Tags){ 
+          uniqueTagsList.indexOf(rightTag) === -1 ? uniqueTagsList.push(rightTag) : null;
+          }
         } else {
-          uniqueTagsList.indexOf(element.toLowerCase().replace(/\s/g, "-")) === -1 ? uniqueTagsList.push(element.toLowerCase().replace(/\s/g, "-")) : null;
+          let newTag = element.toLowerCase().replace(/\s/g, "-");
+          if (newTag in Tags){ 
+          uniqueTagsList.indexOf(newTag) === -1 ? uniqueTagsList.push(newTag) : null;
+          }
         }
       });
       return uniqueTagsList;

@@ -95,14 +95,14 @@ export type TagType =
   | "micro-frontend"
   | "blazor"
   | "getting-started"
-  | "code-sample"
-  | "blog"
-  | "article"
-  | "video"
+  | "code-samples"
+  | "blogs"
+  | "articles"
+  | "videos"
   | "podcast"
   | "documentation"
-  | "workshop"
-  | "script"
+  | "workshops"
+  | "scripts"
   | "social-media"
   | "conferences"
   | "books"
@@ -150,22 +150,22 @@ export const Tags: { [type in TagType]: Tag } = {
     description: "Resources related to getting started",
     type: "Type",
   },
-  "code-sample": {
+  "code-samples": {
     label: "Code Samples",
     description: "Resources related to code samples",
     type: "Type",
   },
-  blog: {
+  blogs: {
     label: "Blog",
     description: "Resources related to blog posts",
     type: "Type",
   },
-  article: {
+  articles: {
     label: "Article",
     description: "Resources related to articles",
     type: "Type",
   },
-  video: {
+  videos: {
     label: "Video",
     description: "Resources related to videos",
     type: "Type",
@@ -180,12 +180,12 @@ export const Tags: { [type in TagType]: Tag } = {
     description: "Resources related to documentation",
     type: "Type",
   },
-  workshop: {
+  workshops: {
     label: "Documentation",
     description: "Resources related to documentation",
     type: "Type",
   },
-  script: {
+  scripts: {
     label: "Script",
     description: "Resources related to scripts",
     type: "Type",
