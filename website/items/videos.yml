@@ -6,6 +6,8 @@
   icon: ":tv:"
   tags:
     - "Videos"
+  author: "Davide Mauri"
+  website: "https://github.com/yorek"
 
 "Data Loading Best Practices on Azure SQL DB":
   url: "https://www.youtube.com/watch?v=WP-bqtVdJg4"
@@ -14,13 +16,17 @@
   tags:
     - "Videos"
     - "Best Practices"
-    
+  author: "Davide Mauri"
+  website: "https://github.com/yorek"
+
 "Serverless Full-Stack Kickstart":
   url: "https://www.youtube.com/watch?v=TIh52zbi8Dk"
   description: "recording of the session delivered at the Serverless conference, on how to create a full-stack application from scratch using Azure Static Web Apps, Azure Functions and Azure SQL"
   icon: ":tv:"
   tags:
     - "Videos"
+  author: "Davide Mauri"
+  website: "https://github.com/yorek"
 
 "Data Exposed Show":
   url: "https://aka.ms/azuresqlyt"
@@ -28,13 +34,17 @@
   icon: ":tv:"
   tags:
     - "Videos"
-    
+  author: "Davide Mauri"
+  website: "https://github.com/yorek"
+
 "Azure SQL Bootcamp":
   url: "https://aka.ms/azuresqlbootcamp"
   description: "interactive Azure SQL learning with Anna Hoffman and Bob Ward. Get your Azure SQL questions answered, learn to solve real-world scenarios, and more."
   icon: ":tv:"
   tags:
     - "Videos"
+  author: "Davide Mauri"
+  website: "https://github.com/yorek"
 
 "Taming Dynamic Schemas":
   url: "https://www.youtube.com/watch?v=aaxymYhaIPE"
@@ -42,6 +52,8 @@
   icon: ":tv:"
   tags:
     - "Videos"
+  author: "Davide Mauri"
+  website: "https://github.com/yorek"
 
 "Azure Friday: Azure SQL Database: A developer's best friend":
   url: "https://www.youtube.com/watch?v=We5bSDHnzW8"
@@ -49,6 +61,8 @@
   icon: ":tv:"
   tags:
     - "Videos / Azure Friday"     
+  author: "Davide Mauri"
+  website: "https://github.com/yorek"
 
 "Azure Friday: Azure SQL Database: Multi-model features":
   url: "https://www.youtube.com/watch?v=n6p8nJQXXoI"
@@ -56,6 +70,8 @@
   icon: ":tv:"
   tags:
     - "Videos / Azure Friday"     
+  author: "Davide Mauri"
+  website: "https://github.com/yorek"
 
 "Azure Friday: Azure SQL Database: An introduction to temporal tables":
   url: "https://www.youtube.com/watch?v=FeB6aAQQfsQ"
@@ -63,6 +79,8 @@
   icon: ":tv:"
   tags:
     - "Videos / Azure Friday"     
+  author: "Davide Mauri"
+  website: "https://github.com/yorek"
 
 "Azure Friday: Calling external REST endpoints from Azure SQL Database":
   url: "https://www.youtube.com/watch?v=R6l-2XJyu2c"
@@ -70,6 +88,8 @@
   icon: ":tv:"
   tags:
     - "Videos / Azure Friday"    
+  author: "Davide Mauri"
+  website: "https://github.com/yorek"
 
 "Azure Friday: Connect your Static Web Apps to Azure Databases using REST or GraphQL":
   url: "https://www.youtube.com/watch?v=gCrBSSOezSQ"
@@ -77,6 +97,8 @@
   icon: ":tv:"
   tags:
     - "Videos / Azure Friday"    
+  author: "Davide Mauri"
+  website: "https://github.com/yorek"
 
 "Increase developer velocity with Azure SQL Database from data to API":
   url: "https://www.youtube.com/watch?v=pH5MwGzRN7Y&list=PLlrxD0HtieHjolPmqWVyk446uLMPWo4oP&index=161"
@@ -84,6 +106,8 @@
   icon: ":tv:"
   tags:
     - "Videos / Microsoft Build 2023"     
+  author: "Davide Mauri"
+  website: "https://github.com/yorek"
 
 "GraphQL: New services and tools for building API-driven apps":
   url: "https://www.youtube.com/watch?v=GsXGbUWEQzo&list=PLlrxD0HtieHjolPmqWVyk446uLMPWo4oP&index=70"
@@ -92,3 +116,5 @@
   tags:
     - "Videos / Microsoft Build 2023"    
     - "GraphQL"
+  author: "Davide Mauri"
+  website: "https://github.com/yorek"

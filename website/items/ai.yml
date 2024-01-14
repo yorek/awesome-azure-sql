@@ -7,6 +7,12 @@
   tags:    
     - "Vectors"
     - "AI"
+  websiteTags:
+    - "msft"
+    - "popular"
+    - "azuresql"
+  author: "Davide Mauri"
+  website: "https://github.com/yorek"
 
 "Build a Session Recommender with Azure SQL database and OpenAI":
   url: "https://github.com/Azure-Samples/azure-sql-db-session-recommender"
@@ -17,3 +23,12 @@
     - "AI"
     - "Code Samples / Vectors"
     - "Code Samples / AI"
+  websiteTags:
+    - "msft"
+    - "popular"
+    - "azure-sql"
+    - "bicep"
+    - "dotnetCsharp"
+    - "openai"
+  author: "Davide Mauri"
+  website: "https://github.com/yorek"

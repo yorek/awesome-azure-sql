@@ -7,6 +7,8 @@
   tags: 
     - "Getting Started"
     - "Videos"
+  author: "Davide Mauri"
+  website: "https://github.com/yorek"
 
 "SQL Tips for Developers - A Beginners Guide":
   url: "https://www.youtube.com/playlist?list=PLt5BGZJ-tmXwSrKdq-o8gfC5bmrYWCTal"
@@ -15,6 +17,8 @@
   tags:
     - "Getting Started"
     - "Videos"   
+  author: "Davide Mauri"
+  website: "https://github.com/yorek"
 
 "Programming Databases with T-SQL for Beginners":
   description: "8 videos to learn T-SQL "
@@ -23,6 +27,8 @@
   tags: 
     - "Getting Started"
     - "Videos"    
+  author: "Davide Mauri"
+  website: "https://github.com/yorek"
 
 "Azure SQL Performance Troubleshooting":
   description: "7 videos dedicated to performance troubleshooting"
@@ -31,6 +37,8 @@
   tags: 
     - "Getting Started"
     - "Videos"    
+  author: "Davide Mauri"
+  website: "https://github.com/yorek"
 
 "A Full Stack Application with Azure SQL & Prisma for Beginners":
   description: "A series of 37 videos to learn how to build a full-stack application with Typescript, Node, Prisma and Azure SQL"
@@ -39,6 +47,8 @@
   tags: 
     - "Getting Started"
     - "Videos"
+  author: "Davide Mauri"
+  website: "https://github.com/yorek"
 
 "Jamstack/Fullstack solution from zero to hero":
   description: "Fullstack/Jamstack solution with Vue.js, Azure Functions, Azure Static Web apps and Azure SQL"
@@ -48,4 +58,5 @@
     - "Getting Started"
     - "Code Samples / Full Stack"    
     - "Code Samples / Jamstack"    
-   
+  author: "Davide Mauri"
+  website: "https://github.com/yorek"

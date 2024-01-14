@@ -5,9 +5,13 @@
   description: "building applications in the Microsoft cloud with Azure SQL"
   tags:
     - "Books"
+  author: "Davide Mauri"
+  website: "https://github.com/yorek"
 
 "Azure SQL Revealed":
   url: "https://www.apress.com/it/book/9781484259306"
   description: "a guide to the cloud for SQL Server Professionals"
   tags:
     - "Books"
+  author: "Davide Mauri"
+  website: "https://github.com/yorek"

@@ -5,3 +5,5 @@
   description: "list of user groups and community resources like events, recordings, blogs and so on."
   tags:
     - "Community"
+  author: "Davide Mauri"
+  website: "https://github.com/yorek"

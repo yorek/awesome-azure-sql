@@ -5,12 +5,16 @@
   description: "solution for near-realtime monitoring using Grafana and the Telegraf SQL plugin"
   tags: 
     - "Tools"
+  author: "Davide Mauri"
+  website: "https://github.com/yorek"
 
 "Smart Bulk Copy":
   url: "https://github.com/Azure-Samples/smartbulkcopy"
   description: "high-Speed Bulk Copy tool to move data from one Azure SQL / SQL Server database to another"
   tags: 
     - "Tools"
+  author: "Davide Mauri"
+  website: "https://github.com/yorek"
 
 "sqlpackage.exe":
   url: "https://docs.microsoft.com/en-us/sql/tools/sqlpackage/sqlpackage"
@@ -18,7 +22,9 @@
   tags: 
     - "Tools"
     - "DevOps"  
-    
+  author: "Davide Mauri"
+  website: "https://github.com/yorek"
+
 "dbatools":
   url: "https://dbatools.io/"
   description: "dbatools is a free PowerShell module with over 500 SQL Server administration, best practice and migration commands included."
@@ -26,15 +32,21 @@
     - "Tools"
     - "Administration"  
     - "Migration"
-   
+  author: "Davide Mauri"
+  website: "https://github.com/yorek"
+
 "sqlcmd-go":
   url: "https://github.com/microsoft/go-sqlcmd"
   description: "modern sqlcmd tool to manage and query SQL Server and Azure SQL from the command line."
   tags: 
     - "Tools"
+  author: "Davide Mauri"
+  website: "https://github.com/yorek"
 
 "Dotmim.Sync":
   url: "https://github.com/Mimetis/Dotmim.Sync"
   description: "A brand new database synchronization framework, multi platform, multi databases, developed on top of .Net Standard 2.0."
   tags:
     - "Tools / Sync"
+  author: "Davide Mauri"
+  website: "https://github.com/yorek"
