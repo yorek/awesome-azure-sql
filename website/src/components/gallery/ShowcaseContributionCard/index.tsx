@@ -76,7 +76,7 @@ export default function ShowcaseContributionCard(): React.ReactElement {
           height: "0px",
         }}
       >
-        See your template here!
+        See your resource here!
       </div>
       <div
         style={{
@@ -104,7 +104,7 @@ export default function ShowcaseContributionCard(): React.ReactElement {
             );
           }}
         >
-          Submit a template
+          Submit a resource
         </Button>
         <Button
           size="medium"
@@ -112,7 +112,7 @@ export default function ShowcaseContributionCard(): React.ReactElement {
           className={styleCSS.requestButton}
           onClick={() => {
             window.open(
-              "https://github.com/john0isaac/awesome-azure-sql/issues/",
+              "https://github.com/john0isaac/awesome-azure-sql/issues/new/choose",
               "_blank"
             );
           }}

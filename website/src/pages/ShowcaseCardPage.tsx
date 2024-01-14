@@ -124,9 +124,9 @@ export default function ShowcaseCardPage() {
             {templateNumber}
           </Text>
           {templateNumber != 1 ? (
-            <Text size={400}>templates</Text>
+            <Text size={400}>resources</Text>
           ) : (
-            <Text size={400}>template</Text>
+            <Text size={400}>resources</Text>
           )}
           {InputValue != null ? (
             <>
