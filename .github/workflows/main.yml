@@ -27,7 +27,7 @@ jobs:
         run: dotnet run --project ./ALG/ALG.csproj
       - name: Check for modified files
         id: git-check
-        run: echo "modified=$(if git diff-index --quiet HEAD --; then echo "false"; else echo "true"; fi)" >> $GITHUB_OUTPUT
+        run: echo "modified=$(if git diff --name-only  HEAD -- == "README.md"; then echo "false"; else echo "true"; fi)" >> $GITHUB_OUTPUT
       - name: Commit files
         if: steps.git-check.outputs.modified == 'true'
         run: |                  
