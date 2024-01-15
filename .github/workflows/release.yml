@@ -19,6 +19,7 @@ jobs:
         working-directory: website
         run: |
           npm ci
+          tsc src/data/generate.tsx --jsx 'react'
           node src/data/generate.js
           npm run build
 
