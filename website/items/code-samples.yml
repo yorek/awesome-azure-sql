@@ -6,8 +6,6 @@
   tags: 
     - "Code Samples / Full Stack"
     - "Best Practices"
-  author: "Davide Mauri"
-  website: "https://github.com/yorek"
 
 "Azure SQL DB Samples and Best Practices":
   url: "https://github.com/yorek/azure-sql-db-samples"
@@ -15,16 +13,12 @@
   tags: 
     - "Code Samples / Generic"
     - "Best Practices"
-  author: "Davide Mauri"
-  website: "https://github.com/yorek"
 
 "Azure SQL Hyperscale Autoscaler":
   url: "https://github.com/azure-samples/azure-sql-db-hyperscale-autoscaler"
   description: "how to create a serverless solution to automatically scale Azure SQL Hyperscale, based on detected workload"
   tags: 
     - "Code Samples / Generic"
-  author: "Davide Mauri"
-  website: "https://github.com/yorek"
 
 "TodoMVC Sample App Full Stack Implementation":
   url: "https://github.com/azure-samples/azure-sql-db-todo-mvc"
@@ -32,8 +26,6 @@
   tags: 
     - "Code Samples / REST"    
     - "Code Samples / Full Stack"   
-  author: "Davide Mauri"
-  website: "https://github.com/yorek"
 
 "Fast Data Loading in Azure SQL DB using Azure Databricks":
   url: "https://docs.microsoft.com/en-us/samples/azure-samples/azure-sql-db-databricks/azure-sql-db-databricks/"
@@ -41,64 +33,48 @@
   tags: 
     - "Code Samples / Big Data"
     - "Code Samples / Data Loading"    
-  author: "Davide Mauri"
-  website: "https://github.com/yorek"
 
 "Azure SQL Change Stream with Debezium":
   url: "https://github.com/Azure-Samples/azure-sql-db-change-stream-debezium"
   description: "set up a change stream from Azure SQL using the open source tool [Debezium](https://debezium.io/)" 
   tags:
     - "Code Samples / Change Stream" 
-  author: "Davide Mauri"
-  website: "https://github.com/yorek"
 
 "Azure SQL DB Import Data Samples":
   url: "https://github.com/Azure-Samples/azure-sql-db-import-data"
   description: "samples on how to import data (JSON, CSV, Flat-Files, etc) into Azure SQL"
   tags:
     - "Code Samples / Data Loading"
-  author: "Davide Mauri"
-  website: "https://github.com/yorek"
 
 "Azure SQL Database CI/CD Pipeline with GitHub Actions":
   url: "https://github.com/Azure-Samples/azure-sql-db-ci-cd"
   description: "a sample on how to deploy Azure SQL using the open source [DbUp](http://dbup.github.io/) and running test using [NUnit](https://nunit.org/)"
   tags:
     - "Code Samples / DevOps"
-  author: "Davide Mauri"
-  website: "https://github.com/yorek"
 
 "Monitor GeoFences in real-time using Azure SQL and Stream Analytics":
   url: "https://docs.microsoft.com/en-us/samples/azure-samples/azure-sql-db-serverless-geospatial-stream-analytics/azure-sql-db-serverless-geospatial-stream-analytics/"
   description: "end-to-end solution to processing incoming public transportation data using Azure SQL, Azure Functions, Events Hubs and Stream Analytics"
   tags:
     - "Code Samples / Geospatial"
-  author: "Davide Mauri"
-  website: "https://github.com/yorek"
 
 "Real-Time Serverless GeoSpatial Public Transportation GeoFencing Solution":
   url: "https://docs.microsoft.com/en-us/samples/azure-samples/azure-sql-db-serverless-geospatial/azure-sql-db-serverless-geospatial/"
   description: "end-to-end solution to processing incoming public transportation data using Azure SQL and Azure Functions"
   tags:
     - "Code Samples / Geospatial"
-  author: "Davide Mauri"
-  website: "https://github.com/yorek"
 
 "Million Song Dataset in Azure SQL DB / SQL Server":
   url: "https://docs.microsoft.com/en-us/samples/azure-samples/millionsongdataset-sql/millionsongdataset-sql/"
   description: "using graph objects and columnstore in Azure SQL with the Million Song dataset"
   tags:
     - "Code Samples / Graph"
-  author: "Davide Mauri"
-  website: "https://github.com/yorek"
 
 "Azure SQL & GraphQL Samples":
   url: "https://github.com/azure-samples/azure-sql-db-graphql"
   description: "samples on how to create a GraphQL solution using Azure SQL using .NET, Python or Node"
   tags:
     - "Code Samples / GraphQL"
-  author: "Davide Mauri"
-  website: "https://github.com/yorek"
 
 "REST & GraphQL TodoMVC Sample App Full Stack Implementation with Prisma":
   url: "https://github.com/Azure-Samples/azure-sql-db-prisma"
@@ -107,72 +83,54 @@
     - "Code Samples / GraphQL"
     - "Code Samples / REST"
     - "Code Samples / Full Stack"   
-  author: "Davide Mauri"
-  website: "https://github.com/yorek"
 
 "Streaming at Scale":
   url: "https://docs.microsoft.com/en-us/samples/azure-samples/streaming-at-scale/streaming-at-scale/"
   description: "end-to-end solution to implement a streaming at scale scenario"
   tags:
     - "Code Samples / Streaming"
-  author: "Davide Mauri"
-  website: "https://github.com/yorek"
 
 "Creating a REST API with .NET Core and Azure SQL":
   url: "https://github.com/azure-samples/azure-sql-db-dotnet-rest-api"
   description: "create a REST API using Azure SQL, Dapper and .NET"
   tags:
     - "Code Samples / REST"
-  author: "Davide Mauri"
-  website: "https://github.com/yorek"
 
 "Creating a REST API with Python and Azure SQL":
   url: "https://github.com/Azure-Samples/azure-sql-db-python-rest-api/"
   description: "create a REST API using Azure SQL, Python and Flask"
   tags:
     - "Code Samples / REST"
-  author: "Davide Mauri"
-  website: "https://github.com/yorek"
 
 "TodoMVC Backend Implementation with Azure Functions, Node and Azure SQLL":
   url: "https://github.com/azure-samples/azure-sql-db-todo-backend-func-node"
   description: "create a REST API using Azure SQL, Azure Functions and Node"
   tags:
     - "Code Samples / REST"
-  author: "Davide Mauri"
-  website: "https://github.com/yorek"
 
 "Using Change Tracking API to sync data between Apps and the Cloud":
   url: "https://docs.microsoft.com/en-us/samples/azure-samples/azure-sql-db-sync-api-change-tracking/azure-sql-db-dotnet-rest-api/"
   description: "create a Python REST API to return only changed data from last sync using the Change Tracking feature of Azure SQL"
   tags:
     - "Code Samples / REST"
-  author: "Davide Mauri"
-  website: "https://github.com/yorek"
 
 "Serverless REST API with Azure Functions, Node and Azure SQL":
   url: "https://github.com/azure-samples/azure-sql-db-node-rest-api"
   description: "create a serverless REST API using Azure Functions, Node and Azure SQL"
   tags:
     - "Code Samples / REST"
-  author: "Davide Mauri"
-  website: "https://github.com/yorek"
 
 "Creating API to securely access data using Azure SQL Row Level Security":
   url: "https://github.com/Azure-Samples/azure-sql-db-secure-data-access-api"
   description: "using the Row Level Security feature of Azure SQL to create secure REST API with Python, Flask and JWT"
   tags:
     - "Code Samples / REST"
-  author: "Davide Mauri"
-  website: "https://github.com/yorek"
 
 "ScriptDOM Samples":
   url: "https://github.com/arvindshmicrosoft/SQLScriptDomSamples"
   description: "samples on how to use the ScriptDOM parser to parse T-SQL statements"
   tags:
     - "Code Samples / ScriptDOM"
-  author: "Davide Mauri"
-  website: "https://github.com/yorek"
 
 "REST & GraphQL TodoMVC Sample App Full Stack Implementation with Directus":
   url: "https://github.com/azure-samples/azure-sql-db-rest-graphql-directus"
@@ -180,9 +138,7 @@
   tags:
     - "Code Samples / REST"
     - "Code Samples / GraphQL"
-    - "Code Samples / Full Stack"   
-  author: "Davide Mauri"
-  website: "https://github.com/yorek"
+    - "Code Samples / Full Stack"
 
 "Azure SQL Database Hyperscale Named Replicas OLTP Scale-Out Samples":
   url: "https://github.com/azure-samples/azure-sql-db-named-replica-oltp-scaleout"
@@ -190,39 +146,30 @@
   tags:
     - "Code Samples / REST"
     - "Code Samples / Generic"
-  author: "Davide Mauri"
-  website: "https://github.com/yorek"
 
 "TodoMVC Backend Implementation with Azure WebApps, .Net Core and Azure SQL":
   url: "https://github.com/azure-samples/azure-sql-db-todo-backend-dotnet"
   description: "implementation of the Todo Backend API using ASP.NET Core, JSON, Dapper and Azure SQL"
   tags:
-    - "Code Samples / REST"    
-  author: "Davide Mauri"
-  website: "https://github.com/yorek"
+    - "Code Samples / REST"
+
 
 "Dynamic Schema Management With Azure SQL":
   url: "https://github.com/azure-samples/azure-sql-db-todo-backend-dotnet"
   description: "samples on how efficiently to handle dynamic schemas in Azure SQL"
   tags:
     - "Code Samples / REST"   
-    - "Code Samples / Dynamic Schema"   
-  author: "Davide Mauri"
-  website: "https://github.com/yorek"
+    - "Code Samples / Dynamic Schema"
 
 "Build serverless, full stack applications in Azure":
   url: "https://github.com/Azure-Samples/serverless-full-stack-apps-azure-sql"
   description: "full stack solution using Vue.js, Azure Static Web Apps, Azure Function, Azure SQL Database and a microservice architecture to monitor in real-time public transportation data, create a geofence and send notification when geofence is activated"
   tags:
     - "Code Samples / REST"   
-    - "Code Samples / Full Stack"   
-  author: "Davide Mauri"
-  website: "https://github.com/yorek"
+    - "Code Samples / Full Stack"
 
 "Create REST API in Python with Django, using the Django REST Framework and Azure SQL":
   url: "https://github.com/azure-samples/azure-sql-db-django/tree/main/"
   description: "This sample uses the Django web framework and Django REST framework package to easily implement REST APIs. mssql-django backend used to establish database connectivity with Azure SQL DB and Django."
   tags:
     - "Code Samples / REST" 
-  author: "Davide Mauri"
-  website: "https://github.com/yorek"    

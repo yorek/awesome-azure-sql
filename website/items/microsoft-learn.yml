@@ -7,8 +7,6 @@
     - "Microsoft Learn"
   websiteTags:
     - "Documentation"
-  author: "Davide Mauri"
-  website: "https://github.com/yorek"
 
 "Azure SQL Modules @ Microsoft Learn":
   description: "all the Microsoft Learn modules related to Azure SQL. From security to development, from performances to maintenance."
@@ -17,8 +15,6 @@
     - "Microsoft Learn"
   websiteTags:
     - "Documentation"
-  author: "Davide Mauri"
-  website: "https://github.com/yorek"
 
 "Build Serverless Full Stack Apps on Azure":
   description: "learn how to create, build, and deploy modern full stack applications in Azure by using the language of your choice (Python, Node.js, or .NET) and with a Vue.js frontend. Topics covered include modern database capabilities, CI/CD and DevOps, backend API development, REST, and more."
@@ -27,8 +23,6 @@
     - "Microsoft Learn"
   websiteTags:
     - "Documentation"
-  author: "Davide Mauri"
-  website: "https://github.com/yorek"
 
 "Deploy IoT solutions with Azure SQL Database":
   url: "https://docs.microsoft.com/en-us/learn/modules/deploy-iot-solution-azure-sql-database/"
@@ -37,8 +31,6 @@
     - "Microsoft Learn"
   websiteTags:
     - "Documentation"
-  author: "Davide Mauri"
-  website: "https://github.com/yorek"
 
 "Data replication on Azure SQL Databases":
   url: "https://learn.microsoft.com/en-us/training/modules/azure-sql-replication/"
@@ -47,5 +39,3 @@
     - "Microsoft Learn"
   websiteTags:
     - "Documentation"
-  author: "Davide Mauri"
-  website: "https://github.com/yorek"

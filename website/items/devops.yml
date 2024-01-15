@@ -5,9 +5,7 @@
   description: "what is Data DevOps and a discussion around the first option: migration based deployment"
   icon: ":tv:"  
   tags: 
-    - "DevOps"    
-  author: "Davide Mauri"
-  website: "https://github.com/yorek"
+    - "DevOps"
 
 "DevOps for Azure SQL (2 of 2): Using Azure Pipelines for Azure SQL Deployments":
   url: "https://www.youtube.com/watch?v=G7H6HbzwAfs"
@@ -15,8 +13,6 @@
   icon: ":tv:"  
   tags: 
     - "DevOps"
-  author: "Davide Mauri"
-  website: "https://github.com/yorek"
 
 "DevOps for Azure SQL":
   url: "https://devblogs.microsoft.com/azure-sql/devops-for-azure-sql/"
@@ -24,8 +20,6 @@
   icon: "📄"
   tags: 
     - "DevOps"
-  author: "Davide Mauri"
-  website: "https://github.com/yorek"
 
 "Continuous Delivery for Azure SQL DB using Azure DevOps Multi-stage Pipelines":
   url: "https://devblogs.microsoft.com/azure-sql/continuous-delivery-for-azure-sql-db-using-azure-devops-multi-stage-pipelines/"
@@ -33,8 +27,6 @@
   icon: "📄"
   tags: 
     - "DevOps"
-  author: "Davide Mauri"
-  website: "https://github.com/yorek"
 
 "Advanced automated deployment of Azure SQL Database with Azure DevOps":
   url: "https://erikej.github.io/sqlserver/2021/01/11/azure-sql-advanced-deployment-part1.html"
@@ -42,8 +34,6 @@
   icon: "📄"
   tags: 
     - "DevOps"
-  author: "Davide Mauri"
-  website: "https://github.com/yorek"
 
 "Use GitHub Actions to connect to Azure SQL Database":
   url: "https://docs.microsoft.com/en-us/azure/azure-sql/database/connect-github-actions-sql-db"
@@ -51,5 +41,3 @@
   icon: ":blue_book:"
   tags: 
     - "DevOps"
-  author: "Davide Mauri"
-  website: "https://github.com/yorek"

@@ -5,13 +5,9 @@
   description: "Azure SQL team blog with focus on developers"
   tags:
     - "Blogs / Official"
-  author: "Davide Mauri"
-  website: "https://github.com/yorek"
 
 "Azure SQL @ TechCommunity":
   url: "https://techcommunity.microsoft.com/t5/azure-sql/bg-p/AzureSQLBlog"
   description: "Azure SQL team blog with focus on IT Pros"
   tags:
     - "Blogs / Official"
-  author: "Davide Mauri"
-  website: "https://github.com/yorek"

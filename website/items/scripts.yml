@@ -5,8 +5,6 @@
   description: "comprehensive diagnostic and health-check queries"
   tags: 
     - "Scripts"
-  author: "Davide Mauri"
-  website: "https://github.com/yorek"
 
 "Azure SQL Tips":
   url: "https://aka.ms/sqldbtips"
@@ -14,13 +12,9 @@
   tags: 
     - "Scripts"
     - "Best Practices"
-  author: "Davide Mauri"
-  website: "https://github.com/yorek"
 
 "sp_whoisactive":
   url: "https://github.com/amachanic/sp_whoisactive"
   description: "comprehensive activity monitoring stored procedure"
   tags: 
     - "Scripts"
-  author: "Davide Mauri"
-  website: "https://github.com/yorek"

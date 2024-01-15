@@ -8,8 +8,6 @@
     - "Labs & Workshops"
   websiteTags:
     - "workshops"
-  author: "Davide Mauri"
-  website: "https://github.com/yorek"
 
 "Security Workshop":
   description: "Workshop: SQL Server Security Ground to Cloud"
@@ -20,8 +18,6 @@
     - "Security"
   websiteTags:
     - "workshops"
-  author: "Davide Mauri"
-  website: "https://github.com/yorek"
 
 "Azure SQL Database Developer Workshop":
   url: "https://github.com/Azure-Samples/azure-sql-db-developers-workshop"
@@ -33,5 +29,3 @@
     - "Code Samples / Full Stack"   
   websiteTags:
     - "workshops"
-  author: "Davide Mauri"
-  website: "https://github.com/yorek"

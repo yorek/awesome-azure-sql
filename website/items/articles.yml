@@ -5,21 +5,15 @@
   description: "using Extended Events to profile query execution"
   tags:
     - "Articles"
-  author: "Davide Mauri"
-  website: "https://github.com/yorek"
 
 "How to use batching to improve application performance":
   url: "https://docs.microsoft.com/azure/azure-sql/performance-improve-use-batching"
   description: "an explanation of batching techniques that can be used to improve performance by a lot"
   tags:
     - "Articles"
-  author: "Davide Mauri"
-  website: "https://github.com/yorek"
 
 "The SQL Developer Experience: Beyond RDBMS":
   url: "https://www.sqlservercentral.com/articles/the-sql-developer-experience-beyond-rdbms"
   description: "an overview of SQL Server and Azure from a developer point of view"
   tags:
     - "Articles"
-  author: "Davide Mauri"
-  website: "https://github.com/yorek"
