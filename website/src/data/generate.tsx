@@ -54,7 +54,7 @@ function readYamlToJSON(filename) {
       if (!!temp.websiteTags){
         allTags.push(..._getUniqueTags(temp.websiteTags));
       }
-      awesomeObjects.push(Object.assign({}, { title: key, description: temp.description, website: temp.website, author: temp.author, source: temp.url, tags: allTags }));
+      awesomeObjects.push(Object.assign({}, { title: key, description: temp.description, source: temp.url, tags: allTags }));
     }
     return awesomeObjects;
     // get unique tags

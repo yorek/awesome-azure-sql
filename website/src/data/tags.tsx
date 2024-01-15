@@ -23,7 +23,7 @@ export type User = {
 
 // NN: Updated TagType to suit Static Web Apps
 export type TagType =
-  | "msft"
+  | "official"
   | "community"
   | "new"
   | "popular"
@@ -109,7 +109,7 @@ export type TagType =
   | "libraries"
   | "tools"
   | "devops"
-  | "fullstack";
+  | "full-stack";
 
 // LIST OF AVAILABLE TAGS
 // Each tag in lit about must have a defined object here
@@ -125,13 +125,9 @@ export const Tags: { [type in TagType]: Tag } = {
   // =============     FOR ADMIN USE ONLY:
 
   // Special Tag
-  msft: {
-    label: "Microsoft Authored",
+  official: {
+    label: "Microsoft",
     description: "This tag is used for Microsoft resources.",
-  },
-  community: {
-    label: "Community Authored",
-    description: "This tag is used for community resources.",
   },
   new: {
     label: "New",
@@ -181,8 +177,8 @@ export const Tags: { [type in TagType]: Tag } = {
     type: "Type",
   },
   workshops: {
-    label: "Documentation",
-    description: "Resources related to documentation",
+    label: "Workshops",
+    description: "Resources related to Workshops",
     type: "Type",
   },
   scripts: {
@@ -213,6 +209,11 @@ export const Tags: { [type in TagType]: Tag } = {
   "tools": {
     label: "Tool",
     description: "Resources related to tools",
+    type: "Type",
+  },
+  community: {
+    label: "Community",
+    description: "This tag is used for community resources.",
     type: "Type",
   },
   // Language Tags
@@ -639,7 +640,7 @@ export const Tags: { [type in TagType]: Tag } = {
     description: "Resources related to devops",
     type: "Topic",
   },
-  "fullstack": {
+  "full-stack": {
     label: "Full Stack",
     description: "Resources related to fullstack development",
     type: "Topic",

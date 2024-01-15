@@ -1,8 +1,6 @@
 /**
- * This file contains the implementation for managing user data in the application.
- * It includes functions for reading YAML files, converting them to JSON, and extracting
- * relevant data to create user objects. It also provides functions for sorting and
- * organizing the user data.
+ * Copyright (c) Microsoft Corporation. All rights reserved.
+ * Licensed under the MIT License.
  */
 
 /* eslint-disable global-require */
