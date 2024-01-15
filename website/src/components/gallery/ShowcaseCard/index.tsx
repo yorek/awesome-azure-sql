@@ -29,8 +29,6 @@ import {
   ThemeProvider,
   PartialTheme,
 } from "@fluentui/react";
-import ShowcaseMultipleAuthors from "../ShowcaseMultipleAuthors/index";
-import ShowcaseCardPanel from "../ShowcaseCardPanel/index";
 import ShowcaseCardTag from "../ShowcaseTag/index";
 import { useColorMode } from "@docusaurus/theme-common";
 
@@ -67,15 +65,12 @@ function ShowcaseCard({ user }: { user: User }): JSX.Element {
   const star = useBaseUrl("/img/Sparkle.svg");
   const fire = useBaseUrl("/img/Fire.svg");
   let headerLogo = useBaseUrl("/img/Community.svg");
-  let headerText = "Community Authored";
+  let headerText = "";
 
   // Panel
-  const { colorMode } = useColorMode();
-  const [isOpen, { setTrue: openPanel, setFalse: dismissPanel }] =
-    useBoolean(false);
-  if (tags.includes("msft")) {
+  if (tags.includes("official")) {
     headerLogo = useBaseUrl("/img/Microsoft.svg");
-    headerText = "Microsoft Authored";
+    headerText = "Microsoft";
   }
   const onRenderNavigationContent: IRenderFunction<IPanelProps> =
     React.useCallback(
@@ -208,24 +203,6 @@ function ShowcaseCard({ user }: { user: User }): JSX.Element {
         >
           {user.title}
         </FluentUILink>
-        <div
-          style={{
-            verticalAlign: "middle",
-            display: "flex",
-            paddingTop: "2px",
-            alignItems: "center",
-            columnGap: "3px",
-          }}
-        >
-          <div className={styleCSS.cardTextBy}>by</div>
-          <div style={{ fontSize: "12px" }}>
-            <ShowcaseMultipleAuthors
-              key={"author_" + user.title}
-              user={user}
-              cardPanel={false}
-            />
-          </div>
-        </div>
         <div className={styleCSS.cardDescription}>{user.description}</div>
         <div
           style={{
@@ -249,32 +226,6 @@ function ShowcaseCard({ user }: { user: User }): JSX.Element {
         </div>
       </div>
       <CardPreview className={styleCSS.cardBreakLine} />
-      <CardFooter>
-        <Input
-          id={"input_" + user.title}
-          size="small"
-          spellCheck={false}
-          defaultValue={source}
-          className={styleCSS.input}
-        />
-        <Popover withArrow size="small">
-          <PopoverTrigger disableButtonEnhancement>
-            <Button
-              size="small"
-              className={styleCSS.copyIconButton}
-              onClick={() => {
-                navigator.clipboard.writeText(source);
-              }}
-            >
-              <img src={useBaseUrl("/img/Copy.svg")} height={20} alt="Copy" />
-            </Button>
-          </PopoverTrigger>
-
-          <PopoverSurface style={{ padding: "5px", fontSize: "12px" }}>
-            <div>Copied!</div>
-          </PopoverSurface>
-        </Popover>
-      </CardFooter>
     </Card>
   );
 }

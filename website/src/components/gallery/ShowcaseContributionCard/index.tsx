@@ -117,7 +117,7 @@ export default function ShowcaseContributionCard(): React.ReactElement {
             );
           }}
         >
-          Request a template
+          Request a resource
         </Button>
       </CardFooter>
     </Card>

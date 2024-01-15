@@ -45,8 +45,7 @@ export default function ShowcaseCardTag({
   const tagObjects = tags
     .filter(
       (tagObject) =>
-        tagObject != "msft" &&
-        tagObject != "community" &&
+        tagObject != "official" &&
         tagObject != "new" &&
         tagObject != "popular"
     )
