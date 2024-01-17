@@ -36,8 +36,8 @@
     - "DevOps"
 
 "Use GitHub Actions to connect to Azure SQL Database":
-  url: "https://docs.microsoft.com/en-us/azure/azure-sql/database/connect-github-actions-sql-db"
-  description: "official Azure SQL GitHub Actions documentation"
+  url: "https://docs.microsoft.com/azure/azure-sql/database/connect-github-actions-sql-db"
+  description: "The official Azure SQL GitHub Actions documentation."
   icon: ":blue_book:"
   tags: 
     - "DevOps"

@@ -1,8 +1,8 @@
 # Libraries 
 
 "EF Core":
-  url: "https://docs.microsoft.com/en-us/ef/core/"
-  description: "native .NET Core OR/M mapping tool."
+  url: "https://docs.microsoft.com/ef/core/"
+  description: "Native .NET Core OR/M mapping tool."
   tags: 
     - "Libraries / .NET"
 

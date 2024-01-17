@@ -28,7 +28,7 @@
     - "Code Samples / Full Stack"   
 
 "Fast Data Loading in Azure SQL DB using Azure Databricks":
-  url: "https://docs.microsoft.com/en-us/samples/azure-samples/azure-sql-db-databricks/azure-sql-db-databricks/"
+  url: "https://docs.microsoft.com/samples/azure-samples/azure-sql-db-databricks/azure-sql-db-databricks/"
   description: "samples and best practices on how use Azure SQL with Azure Databricks"
   tags: 
     - "Code Samples / Big Data"
@@ -53,20 +53,20 @@
     - "Code Samples / DevOps"
 
 "Monitor GeoFences in real-time using Azure SQL and Stream Analytics":
-  url: "https://docs.microsoft.com/en-us/samples/azure-samples/azure-sql-db-serverless-geospatial-stream-analytics/azure-sql-db-serverless-geospatial-stream-analytics/"
-  description: "end-to-end solution to processing incoming public transportation data using Azure SQL, Azure Functions, Events Hubs and Stream Analytics"
+  url: "https://docs.microsoft.com/samples/azure-samples/azure-sql-db-serverless-geospatial-stream-analytics/azure-sql-db-serverless-geospatial-stream-analytics/"
+  description: "End-to-end solution to processing incoming public transportation data using Azure SQL, Azure Functions, Events Hubs and Stream Analytics"
   tags:
     - "Code Samples / Geospatial"
 
 "Real-Time Serverless GeoSpatial Public Transportation GeoFencing Solution":
-  url: "https://docs.microsoft.com/en-us/samples/azure-samples/azure-sql-db-serverless-geospatial/azure-sql-db-serverless-geospatial/"
-  description: "end-to-end solution to processing incoming public transportation data using Azure SQL and Azure Functions"
+  url: "https://docs.microsoft.com/samples/azure-samples/azure-sql-db-serverless-geospatial/azure-sql-db-serverless-geospatial/"
+  description: "End-to-end solution to processing incoming public transportation data using Azure SQL and Azure Functions"
   tags:
     - "Code Samples / Geospatial"
 
 "Million Song Dataset in Azure SQL DB / SQL Server":
-  url: "https://docs.microsoft.com/en-us/samples/azure-samples/millionsongdataset-sql/millionsongdataset-sql/"
-  description: "using graph objects and columnstore in Azure SQL with the Million Song dataset"
+  url: "https://docs.microsoft.com/samples/azure-samples/millionsongdataset-sql/millionsongdataset-sql/"
+  description: "Using graph objects and columnstore in Azure SQL with the Million Song dataset"
   tags:
     - "Code Samples / Graph"
 
@@ -78,21 +78,21 @@
 
 "REST & GraphQL TodoMVC Sample App Full Stack Implementation with Prisma":
   url: "https://github.com/Azure-Samples/azure-sql-db-prisma"
-  description: "full-stack end-to-end implementation - both with REST and GraphQL support - with Azure SQL and Prisma.io of the well-known To-do list sample"
+  description: "Full-stack end-to-end implementation - both with REST and GraphQL support - with Azure SQL and Prisma.io of the well-known To-do list sample"
   tags:
     - "Code Samples / GraphQL"
     - "Code Samples / REST"
     - "Code Samples / Full Stack"   
 
 "Streaming at Scale":
-  url: "https://docs.microsoft.com/en-us/samples/azure-samples/streaming-at-scale/streaming-at-scale/"
-  description: "end-to-end solution to implement a streaming at scale scenario"
+  url: "https://docs.microsoft.com/samples/azure-samples/streaming-at-scale/streaming-at-scale/"
+  description: "End-to-end solution to implement a streaming at scale scenario"
   tags:
     - "Code Samples / Streaming"
 
 "Creating a REST API with .NET Core and Azure SQL":
   url: "https://github.com/azure-samples/azure-sql-db-dotnet-rest-api"
-  description: "create a REST API using Azure SQL, Dapper and .NET"
+  description: "Create a REST API using Azure SQL, Dapper and .NET"
   tags:
     - "Code Samples / REST"
 
@@ -109,8 +109,8 @@
     - "Code Samples / REST"
 
 "Using Change Tracking API to sync data between Apps and the Cloud":
-  url: "https://docs.microsoft.com/en-us/samples/azure-samples/azure-sql-db-sync-api-change-tracking/azure-sql-db-dotnet-rest-api/"
-  description: "create a Python REST API to return only changed data from last sync using the Change Tracking feature of Azure SQL"
+  url: "https://docs.microsoft.com/samples/azure-samples/azure-sql-db-sync-api-change-tracking/azure-sql-db-dotnet-rest-api/"
+  description: "Create a Python REST API to return only changed data from last sync using the Change Tracking feature of Azure SQL"
   tags:
     - "Code Samples / REST"
 

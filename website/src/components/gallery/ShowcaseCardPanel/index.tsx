@@ -444,7 +444,7 @@ export default function ShowcaseCardPanel({ user }: { user: User }) {
                     normal usage fees and charges. Learn more about the cost of
                     individual services by visiting the{" "}
                     <a
-                      href="https://azure.microsoft.com/en-us/pricing/calculator/"
+                      href="https://azure.microsoft.com/pricing/calculator/"
                       target="_blank"
                       className={styles.color}
                     >
