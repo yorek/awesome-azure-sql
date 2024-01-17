@@ -138,14 +138,6 @@ export default function ShowcaseLeftFilters() {
     const tagObject = Tags[tag];
     return tagObject.type === "Service";
   });
-  const databaseTag = sortTagList.filter((tag) => {
-    const tagObject = Tags[tag];
-    return tagObject.type === "Database";
-  });
-  const infrastructureAsCodeTag = sortTagList.filter((tag) => {
-    const tagObject = Tags[tag];
-    return tagObject.type === "Infrastructure as Code";
-  });
   const otherTag = sortTagList.filter((tag) => {
     const tagObject = Tags[tag];
     return tagObject.type === "Tools";
@@ -157,8 +149,6 @@ export default function ShowcaseLeftFilters() {
     "4",
     "5",
     "6",
-    "7",
-    "8",
   ]);
   const handleToggle: AccordionToggleEventHandler<string> = (event, data) => {
     setOpenItems(data.openItems);
@@ -279,42 +269,10 @@ export default function ShowcaseLeftFilters() {
               "linear-gradient(#D1D1D1 0 0) top /89.8% 0.6px no-repeat",
           }}
         >
-          <div style={{ fontSize: "16px", fontWeight: "500" }}>Database</div>
-        </AccordionHeader>
-        <AccordionPanel>
-          <ShowcaseFilterViewAll tags={databaseTag} number={"6"} />
-        </AccordionPanel>
-      </AccordionItem>
-
-      <AccordionItem value="7">
-        <AccordionHeader
-          expandIconPosition="end"
-          style={{
-            background:
-              "linear-gradient(#D1D1D1 0 0) top /89.8% 0.6px no-repeat",
-          }}
-        >
-          <div style={{ fontSize: "16px", fontWeight: "500" }}>
-            Infrastructure as Code
-          </div>
-        </AccordionHeader>
-        <AccordionPanel>
-          <ShowcaseFilterViewAll tags={infrastructureAsCodeTag} number={"7"} />
-        </AccordionPanel>
-      </AccordionItem>
-
-      <AccordionItem value="8">
-        <AccordionHeader
-          expandIconPosition="end"
-          style={{
-            background:
-              "linear-gradient(#D1D1D1 0 0) top /89.8% 0.6px no-repeat",
-          }}
-        >
           <div style={{ fontSize: "16px", fontWeight: "500" }}>Tools</div>
         </AccordionHeader>
         <AccordionPanel>
-          <ShowcaseFilterViewAll tags={otherTag} number={"8"} />
+          <ShowcaseFilterViewAll tags={otherTag} number={"6"} />
         </AccordionPanel>
       </AccordionItem>
       </Accordion>

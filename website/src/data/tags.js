@@ -123,7 +123,7 @@ exports.Tags = {
         description: "Resource contains TypeScript app code",
         type: "Language",
     },
-    dotnetCsharp: {
+    dotnetcsharp: {
         label: ".NET/C#",
         description: "Resource contains .NET and/or C# app code",
         type: "Language",
@@ -188,28 +188,6 @@ exports.Tags = {
         label: "Web Components",
         description: "Resource architecture uses Web Components",
         type: "Tools",
-    },
-    // ---- Infrastructure as Code
-    bicep: {
-        label: "Bicep",
-        description: "Resource uses Bicep for Infra as Code",
-        type: "Infrastructure as Code",
-    },
-    terraform: {
-        label: "Terraform",
-        description: "Resource uses Terraform for Infra as Code",
-        type: "Infrastructure as Code",
-    },
-    // ---- Database
-    mongodb: {
-        label: "MongoDB",
-        description: "Resource architecture uses MongoDB",
-        type: "Database",
-    },
-    prometheus: {
-        label: "Prometheus",
-        description: "Resource architecture uses Prometheus",
-        type: "Database",
     },
     // ---- Framework
     "react-js": {
@@ -367,14 +345,14 @@ exports.Tags = {
         description: "Resource architecture uses Azure SQL",
         azureIcon: "./img/Azure-SQL.svg",
         url: "https://azure.microsoft.com/products/azure-sql/database",
-        type: "Database",
+        type: "Service",
     },
-    "azuredb-postgreSQL": {
+    "azuredb-postgresql": {
         label: "Azure PostgreSQL",
         description: "Resource architecture uses Azure Database for PostgreSQL",
         azureIcon: "./img/Azure-PostgreSQL.svg",
         url: "https://azure.microsoft.com/products/postgresql",
-        type: "Database",
+        type: "Service",
     },
     swa: {
         label: "Azure Static Web Apps",

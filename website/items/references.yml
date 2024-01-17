@@ -2,8 +2,11 @@
 
 "ADO.NET ConnectionString Properties":
   url: "https://learn.microsoft.com/dotnet/api/microsoft.data.sqlclient.sqlconnection.connectionstring"
-  description: "All the properties usable in the ADO.NET connection string"  
+  description: "All the properties usable in the ADO.NET connection string."  
   tags: 
     - "Reference"
   websiteTags:
     - "Documentation"
+    - "Official"
+    - "azure-sql"
+    - "dotnetCsharp"

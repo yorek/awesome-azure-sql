@@ -2,9 +2,10 @@
 
 "Data Exposed Live":
   url: "https://aka.ms/learntv"
-  description: "Data Exposed Live, Wednesdays 9AM PT"
+  description: "Data Exposed Live, Wednesdays 9:00 AM PT."
   icon: ":tv:"
   tags:
     - "Shows"
   websiteTags:
-    - "videos"
+    - "Videos"
+    - "Official"
