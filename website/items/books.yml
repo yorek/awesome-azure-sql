@@ -6,7 +6,7 @@
   tags:
     - "Books"
   websiteTags:
-    - "azure-sql"
+    - "Azure AQL"
 
 "Azure SQL Revealed":
   url: "https://www.apress.com/it/book/9781484259306"
@@ -14,4 +14,4 @@
   tags:
     - "Books"
   websiteTags:
-    - "azure-sql"
+    - "Azure AQL"

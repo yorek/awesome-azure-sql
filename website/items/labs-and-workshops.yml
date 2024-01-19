@@ -7,9 +7,9 @@
   tags: 
     - "Labs & Workshops"
   websiteTags:
-    - "workshops"
+    - "Workshops"
     - "Official"
-    - "azure-sql"
+    - "Azure SQL"
 
 "Security Workshop":
   description: "Workshop: SQL Server Security Ground to Cloud"
@@ -19,8 +19,8 @@
     - "Labs & Workshops"
     - "Security"
   websiteTags:
-    - "workshops"
-    - "azure-sql"
+    - "Workshops"
+    - "Azure SQL"
 
 "Azure SQL Database Developer Workshop":
   url: "https://github.com/Azure-Samples/azure-sql-db-developers-workshop"
@@ -31,6 +31,6 @@
     - "Code Samples / GraphQL"
     - "Code Samples / Full Stack"   
   websiteTags:
-    - "workshops"
-    - "azure-sql"
+    - "Workshops"
+    - "Azure SQL"
     - "Official"

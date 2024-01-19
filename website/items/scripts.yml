@@ -6,7 +6,7 @@
   tags: 
     - "Scripts"
   websiteTags:
-    - "azure-sql"
+    - "Azure SQL"
 
 "Azure SQL Tips":
   url: "https://aka.ms/sqldbtips"
@@ -15,7 +15,7 @@
     - "Scripts"
     - "Best Practices"
   websiteTags:
-    - "azure-sql"
+    - "Azure SQL"
     - "Official"
 
 "sp_whoisactive":
@@ -24,4 +24,4 @@
   tags: 
     - "Scripts"
   websiteTags:
-    - "azure-sql"
+    - "Azure SQL"

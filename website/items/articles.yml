@@ -6,7 +6,7 @@
   tags:
     - "Articles"
   websiteTags:
-    - "azure-sql"
+    - "Azure SQL"
 
 "How to use batching to improve application performance":
   url: "https://docs.microsoft.com/azure/azure-sql/performance-improve-use-batching"
@@ -14,7 +14,7 @@
   tags:
     - "Articles"
   websiteTags:
-    - "azure-sql"
+    - "Azure SQL"
     - "Documentation"
     - "Official"
 
@@ -24,4 +24,4 @@
   tags:
     - "Articles"
   websiteTags:
-    - "azure-sql"
+    - "Azure SQL"
