@@ -2,22 +2,32 @@
 
 "Azure SQL Monitoring":
   url: "https://github.com/denzilribeiro/sqldbmonitoring"
-  description: "solution for near-realtime monitoring using Grafana and the Telegraf SQL plugin"
+  description: "Solution for near-realtime monitoring using Grafana and the Telegraf SQL plugin."
   tags: 
     - "Tools"
+  websiteTags:
+    - "Azure SQL"
 
 "Smart Bulk Copy":
   url: "https://github.com/Azure-Samples/smartbulkcopy"
-  description: "high-Speed Bulk Copy tool to move data from one Azure SQL / SQL Server database to another"
+  description: "High-Speed Bulk Copy tool to move data from one Azure SQL / SQL Server database to another."
   tags: 
     - "Tools"
+  websiteTags:
+    - "Azure SQL"
+    - "Official"
+    - "dotnetCsharp"
 
 "sqlpackage.exe":
   url: "https://docs.microsoft.com/sql/tools/sqlpackage/sqlpackage"
-  description: "SqlPackage.exe is a command-line utility that automates common database development and deployment tasks"
+  description: "SqlPackage.exe is a command-line utility that automates common database development and deployment tasks."
   tags: 
     - "Tools"
     - "DevOps"
+  websiteTags:
+    - "Azure SQL"
+    - "Official"
+    - "Documentation"
 
 "dbatools":
   url: "https://dbatools.io/"
@@ -26,15 +36,23 @@
     - "Tools"
     - "Administration"  
     - "Migration"
+  websiteTags:
+    - "Azure SQL"
 
 "sqlcmd-go":
   url: "https://github.com/microsoft/go-sqlcmd"
-  description: "modern sqlcmd tool to manage and query SQL Server and Azure SQL from the command line."
+  description: "Modern sqlcmd tool to manage and query SQL Server and Azure SQL from the command line."
   tags: 
     - "Tools"
+  websiteTags:
+    - "Azure SQL"
+    - "Official"
 
 "Dotmim.Sync":
   url: "https://github.com/Mimetis/Dotmim.Sync"
   description: "A brand new database synchronization framework, multi platform, multi databases, developed on top of .Net Standard 2.0."
   tags:
     - "Tools / Sync"
+  websiteTags:
+    - "Azure SQL"
+    - "dotnetCsharp"

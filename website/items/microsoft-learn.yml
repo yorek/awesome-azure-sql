@@ -6,6 +6,8 @@
   tags: 
     - "Microsoft Learn"
   websiteTags:
+    - "Azure SQL"
+    - "Official"
     - "Documentation"
 
 "Azure SQL Modules @ Microsoft Learn":
@@ -14,6 +16,8 @@
   tags: 
     - "Microsoft Learn"
   websiteTags:
+    - "Azure SQL"
+    - "Official"
     - "Documentation"
 
 "Build Serverless Full Stack Apps on Azure":
@@ -22,6 +26,10 @@
   tags:
     - "Microsoft Learn"
   websiteTags:
+    - "Azure SQL"
+    - "Official"
+    - "Full Stack"
+    - "Functions"
     - "Documentation"
 
 "Deploy IoT solutions with Azure SQL Database":
@@ -30,6 +38,8 @@
   tags: 
     - "Microsoft Learn"
   websiteTags:
+    - "Azure SQL"
+    - "Official"
     - "Documentation"
 
 "Data replication on Azure SQL Databases":
@@ -38,4 +48,6 @@
   tags:
     - "Microsoft Learn"
   websiteTags:
+    - "Azure SQL"
+    - "Official"
     - "Documentation"
