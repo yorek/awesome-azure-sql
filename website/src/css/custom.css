@@ -6,7 +6,7 @@
 
 /* You can override the default Infima variables here. */
 :root {
-  --ifm-color-primary: #7160e8;
+  --ifm-color-primary: #0A89EB;
   --ifm-color-primary-dark: #205585;
   --ifm-color-primary-darker: #1f507e;
   --ifm-color-primary-darkest: #194268;
@@ -16,8 +16,8 @@
   --ifm-code-font-size: 95%;
   --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.1);
   --ifm-navbar-link-color: #242424;
-  --ifm-color-purple: #7160e8;
-  --ifm-color-purple-light: #6656d1;
+  --ifm-color-purple: #0A89EB;
+  --ifm-color-purple-light: #097ED7;
 }
 
 .navbar {
@@ -33,9 +33,9 @@
 [data-theme="dark"] {
   --ifm-navbar-link-color: white;
   --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.3);
-  --ifm-color-purple: #a79cf1;
-  --ifm-color-purple-light: #a79cf1;
-  --ifm-color-primary: #a79cf1;
+  --ifm-color-purple: #0873C4;
+  --ifm-color-purple-light: #0873C4;
+  --ifm-color-primary: #0873C4;
 }
 
 .header-github-link:hover {
@@ -52,22 +52,22 @@
 }
 
 .button {
-  background-color: #7160e8;
+  background-color: #0A89EB;
   color: white;
 }
 
 .button:hover {
-  background-color: #5a4cb9;
+  background-color: #097ED7;
   color: white;
 }
 
 [data-theme="dark"] .button {
-  background-color: #5649b0;
+  background-color: #0873C4;
   color: white;
 }
 
 [data-theme="dark"] .button:hover {
-  background-color: #443a8c;
+  background-color: #0767B0;
   color: white;
 }
 
@@ -78,7 +78,7 @@ html[data-theme="dark"] .header-github-link:before {
 
 /* For readability concerns, you should choose a lighter palette in dark mode. */
 /* [data-theme='dark'] {
-  --ifm-color-primary: #7160E8;
+  --ifm-color-primary: #0A89EB;
   --ifm-color-primary-dark: #17cef2;
   --ifm-color-primary-darker: #0dc9ee;
   --ifm-color-primary-darkest: #0ba5c4;

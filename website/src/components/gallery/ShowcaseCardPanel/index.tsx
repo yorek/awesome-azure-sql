@@ -118,7 +118,7 @@ export default function ShowcaseCardPanel({ user }: { user: User }) {
           ":before":
             colorMode != "dark"
               ? { backgroundColor: "#6656d1" }
-              : { backgroundColor: "#A79CF1" },
+              : { backgroundColor: "#0873C4" },
           ":hover":
             colorMode != "dark"
               ? { backgroundColor: "#f3f2f1" }
