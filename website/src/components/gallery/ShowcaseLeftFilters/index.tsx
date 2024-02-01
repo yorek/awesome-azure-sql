@@ -138,17 +138,12 @@ export default function ShowcaseLeftFilters() {
     const tagObject = Tags[tag];
     return tagObject.type === "Service";
   });
-  const otherTag = sortTagList.filter((tag) => {
-    const tagObject = Tags[tag];
-    return tagObject.type === "Tools";
-  });
   const [openItems, setOpenItems] = React.useState([
     "1",
     "2",
     "3",
     "4",
     "5",
-    "6",
   ]);
   const handleToggle: AccordionToggleEventHandler<string> = (event, data) => {
     setOpenItems(data.openItems);
@@ -258,21 +253,6 @@ export default function ShowcaseLeftFilters() {
         </AccordionHeader>
         <AccordionPanel>
           <ShowcaseFilterViewAll tags={servicesTag} number={"5"} />
-        </AccordionPanel>
-      </AccordionItem>
-
-      <AccordionItem value="6">
-        <AccordionHeader
-          expandIconPosition="end"
-          style={{
-            background:
-              "linear-gradient(#D1D1D1 0 0) top /89.8% 0.6px no-repeat",
-          }}
-        >
-          <div style={{ fontSize: "16px", fontWeight: "500" }}>Tools</div>
-        </AccordionHeader>
-        <AccordionPanel>
-          <ShowcaseFilterViewAll tags={otherTag} number={"6"} />
         </AccordionPanel>
       </AccordionItem>
       </Accordion>
