@@ -88,7 +88,7 @@ export default function ShowcaseContributionCard(): React.ReactElement {
             margin: "0px",
           }}
         >
-          awesome-azure-sql is always welcoming resource contributions! Our community
+          awesome-azure-sql is always welcoming link contributions! Our community
           is excited to see what you make.
         </p>
       </div>
@@ -104,7 +104,7 @@ export default function ShowcaseContributionCard(): React.ReactElement {
             );
           }}
         >
-          Submit a resource
+          Submit a link
         </Button>
         <Button
           size="medium"

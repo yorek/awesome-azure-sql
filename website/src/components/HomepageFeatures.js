@@ -22,7 +22,7 @@ const FeatureList = [
     link: "https://john0isaac.github.io/awesome-azure-sql/",
     description:
       "View our gallery of community-contributed and Microsoft-authored resources.",
-    content: "View templates",
+    content: "View links",
   },
   {
     title: "Learn more about Azure SQL",

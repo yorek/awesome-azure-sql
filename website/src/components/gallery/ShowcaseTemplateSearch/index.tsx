@@ -12,9 +12,9 @@ import styles from "./styles.module.css";
 import useBaseUrl from "@docusaurus/useBaseUrl";
 import { useColorMode } from "@docusaurus/theme-common";
 
-const TITLE = "Resources Library";
+const TITLE = "Links Library";
 const DESCRIPTION =
-  "A community-contributed resources gallery for the Awesome Azure SQL resources.";
+  "A community-contributed links gallery for the Awesome Azure SQL resources.";
 const ADD_URL = "https://aka.ms/az-sql";
 export var InputValue: string | null = null;
 

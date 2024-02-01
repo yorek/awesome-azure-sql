@@ -12,7 +12,7 @@ const config = {
   //    See: https://docusaurus.io/docs/deployment#using-environment-variables
   customFields: {
     description:
-      "An awesome list of Azure SQL samples for Developers of any Language and Platform.",
+      "An awesome list of Azure SQL links for Developers of any Language and Platform.",
   },
 
   // CONFIG: Landing Pages uses this (also globally via siteConfig)
@@ -88,11 +88,6 @@ const config = {
             label: "Docs",
             position: "left",
           },
-          {
-            to: "https://learn.microsoft.com/azure/architecture/browse/",
-            label: "Resources",
-            position: "left",
-          },
 
           // right
           {
@@ -106,7 +101,7 @@ const config = {
           // Make sure you have class defined in src/css/custom.css
           {
             to: "https://john0isaac.github.io/awesome-azure-sql/docs/intro",
-            label: "Submit your template!",
+            label: "Submit your link!",
             position: "right",
             className: "button",
           },
