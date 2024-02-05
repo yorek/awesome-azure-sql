@@ -79,7 +79,7 @@ export default function ShowcaseEmptyResult({ id }: { id: string }) {
             </Text>
             <FluentUILink
               key="emptySearch_contributeTemplate"
-              href="https://john0isaac.github.io/awesome-azure-sql/docs/intro"
+              href="https://yorek.github.io/awesome-azure-sql/docs/intro"
               target="_blank"
               className={styles.colorLink}
             >
@@ -87,7 +87,7 @@ export default function ShowcaseEmptyResult({ id }: { id: string }) {
             </FluentUILink>
             <FluentUILink
               key="emptySearch_requestBoard"
-              href="https://github.com/john0isaac/awesome-azure-sql/issues/"
+              href="https://github.com/yorek/awesome-azure-sql/issues/"
               target="_blank"
               className={styles.colorLink}
             >

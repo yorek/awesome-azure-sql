@@ -19,7 +19,7 @@ const FeatureList = [
   {
     title: "Discover Resources",
     Svg: "img/home-discover.svg",
-    link: "https://john0isaac.github.io/awesome-azure-sql/",
+    link: "https://yorek.github.io/awesome-azure-sql/",
     description:
       "View our gallery of community-contributed and Microsoft-authored resources.",
     content: "View links",
@@ -35,7 +35,7 @@ const FeatureList = [
   {
     title: "Contribute to the Gallery",
     Svg: "img/home-contribute.svg",
-    link: "https://john0isaac.github.io/awesome-azure-sql/docs/intro",
+    link: "https://yorek.github.io/awesome-azure-sql/docs/intro",
     description:
       "Learn how to create a resource with step-by-step instructions.",
     content: "View contributor guide",

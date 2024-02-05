@@ -99,7 +99,7 @@ export default function ShowcaseContributionCard(): React.ReactElement {
           className={styleCSS.submitButton}
           onClick={() => {
             window.open(
-              "https://john0isaac.github.io/awesome-azure-sql/docs/intro",
+              "https://yorek.github.io/awesome-azure-sql/docs/intro",
               "_blank"
             );
           }}
@@ -112,7 +112,7 @@ export default function ShowcaseContributionCard(): React.ReactElement {
           className={styleCSS.requestButton}
           onClick={() => {
             window.open(
-              "https://github.com/john0isaac/awesome-azure-sql/issues/new/choose",
+              "https://github.com/yorek/awesome-azure-sql/issues/new/choose",
               "_blank"
             );
           }}

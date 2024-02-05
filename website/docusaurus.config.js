@@ -20,10 +20,10 @@ const config = {
   tagline: "Discover - Create - Contribute",
 
   // CONIFIG: Used for GitHub Pages
-  url: "https://john0isaac.github.io",
+  url: "https://yorek.github.io",
   baseUrl: "/awesome-azure-sql/",
   favicon: "img/favicon.ico",
-  organizationName: "john0isaac",
+  organizationName: "yorek",
   projectName: "awesome-azure-sql",
   deploymentBranch: "gh-pages",
 
@@ -91,7 +91,7 @@ const config = {
 
           // right
           {
-            href: "https://github.com/john0isaac/awesome-azure-sql",
+            href: "https://github.com/yorek/awesome-azure-sql",
             position: "right",
             className: "header-github-link",
             "aria-label": "GitHub repository",
@@ -100,7 +100,7 @@ const config = {
           // CONFIG:
           // Make sure you have class defined in src/css/custom.css
           {
-            to: "https://john0isaac.github.io/awesome-azure-sql/docs/intro",
+            to: "https://yorek.github.io/awesome-azure-sql/docs/intro",
             label: "Submit your link!",
             position: "right",
             className: "button",
