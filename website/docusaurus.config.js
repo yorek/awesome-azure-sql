@@ -21,7 +21,7 @@ const config = {
 
   // CONIFIG: Used for GitHub Pages
   url: "https://yorek.github.io",
-  baseUrl: "/awesome-azure-sql/",
+  baseUrl: "/",
   favicon: "img/favicon.ico",
   organizationName: "yorek",
   projectName: "awesome-azure-sql",
