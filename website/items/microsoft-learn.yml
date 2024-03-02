@@ -1,0 +1,53 @@
+# Microsoft Learn
+
+"Azure SQL fundamentals":
+  description: "Learn how to translate your existing SQL Server expertise to Azure SQL including Azure SQL Database and Azure SQL managed instance."
+  url: "https://aka.ms/azuresqlfundamentals"
+  tags: 
+    - "Microsoft Learn"
+  websiteTags:
+    - "Azure SQL"
+    - "Official"
+    - "Documentation"
+
+"Azure SQL Modules @ Microsoft Learn":
+  description: "All the Microsoft Learn modules related to Azure SQL. From security to development, from performances to maintenance."
+  url: "https://docs.microsoft.com/learn/browse/?expanded=azure&products=azure-sql-database"
+  tags: 
+    - "Microsoft Learn"
+  websiteTags:
+    - "Azure SQL"
+    - "Official"
+    - "Documentation"
+
+"Build Serverless Full Stack Apps on Azure":
+  description: "Learn how to create, build, and deploy modern full stack applications in Azure by using the language of your choice (Python, Node.js, or .NET) and with a Vue.js frontend. Topics covered include modern database capabilities, CI/CD and DevOps, backend API development, REST, and more."
+  url: "https://docs.microsoft.com/learn/paths/build-serverless-full-stack-apps-azure/"
+  tags:
+    - "Microsoft Learn"
+  websiteTags:
+    - "Azure SQL"
+    - "Official"
+    - "Full Stack"
+    - "Functions"
+    - "Documentation"
+
+"Deploy IoT solutions with Azure SQL Database":
+  url: "https://docs.microsoft.com/learn/modules/deploy-iot-solution-azure-sql-database/"
+  description: "Learn how Azure SQL Database provides a price-performant backend for IoT applications. You'll also deploy a template that includes Azure SQL Database, Azure VMs, Azure Functions, and Power BI which simplifies deploying and configuring IoT solutions."
+  tags: 
+    - "Microsoft Learn"
+  websiteTags:
+    - "Azure SQL"
+    - "Official"
+    - "Documentation"
+
+"Data replication on Azure SQL Databases":
+  url: "https://learn.microsoft.com/training/modules/azure-sql-replication/"
+  description: "Learn about logical data replication solutions (Change data capture (CDC), SQL Data Sync, and Change tracking) for data tracking, loading, replicating, and streaming that you can use to synchronize data changes from your Azure SQL Database to other destinations."
+  tags:
+    - "Microsoft Learn"
+  websiteTags:
+    - "Azure SQL"
+    - "Official"
+    - "Documentation"

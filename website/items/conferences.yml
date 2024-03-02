@@ -1,0 +1,9 @@
+# Conferences
+
+"SQLBits":
+  url: "https://sqlbits.com/"
+  description: "One of the most popular conference on Azure SQL and SQL Server. More than 1000 recordings available for free."
+  tags:
+    - "Conferences"
+  websiteTags:
+    - "Azure AQL"

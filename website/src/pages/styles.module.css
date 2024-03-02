@@ -1,0 +1,143 @@
+/**
+ * Copyright (c) Microsoft Corporation. All rights reserved.
+ * Licensed under the MIT License.
+ */
+
+.checkboxList {
+  flex-wrap: wrap;
+}
+
+.checkboxList,
+.showcaseList {
+  padding: 0;
+  list-style: none;
+}
+
+.checkboxListItem {
+  user-select: none;
+  white-space: nowrap;
+}
+
+.checkboxListItem:last-child {
+  margin-right: 0;
+}
+
+.cover {
+  pointer-events: none;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+}
+
+.searchContainer {
+  display: inline-block;
+  overflow: hidden;
+  position: relative;
+  width: 100%;
+}
+
+.searchArea {
+  position: relative;
+  position: relative;
+  width: 100%;
+  height: 300px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.heroBar {
+  width: 740px;
+}
+
+.showcaseList {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(285px, 1fr));
+  gap: 24px;
+}
+
+.showcaseFavorite {
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+  background-color: var(--site-color-favorite-background);
+}
+
+.showcaseHelpWanted {
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+  background-color: #33d4f4;
+}
+
+.helpText {
+  color: #245e94;
+}
+
+.showcaseFavoriteHeader {
+  display: flex;
+}
+
+.svgIconFavoriteXs,
+.svgIconFavorite {
+  color: var(--site-color-svg-icon-favorite);
+}
+
+.svgIconFavoriteXs {
+  margin-left: 0.625rem;
+  font-size: 1rem;
+}
+
+.svgIconFavorite {
+  margin-left: 1rem;
+}
+
+.filterAndCard {
+  display: flex;
+  padding: 30px;
+}
+
+[data-theme="dark"] .filterAndCard {
+  background-color: #1f1f1f;
+}
+
+.filter {
+  flex: 2;
+  margin: 0px 25px;
+  max-width: 256px;
+}
+
+.card {
+  flex: 8;
+  min-width: 15rem;
+  margin: 0px 25px;
+  margin: 0px 25px;
+}
+
+.load {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.cardLoad {
+  margin-top: 15rem;
+  width: 100%;
+}
+
+@media screen and (max-width: 996px) {
+  .filterAndCard {
+    flex-direction: column;
+  }
+
+  .filter {
+    max-width: 100%;
+  }
+
+  .heroBar {
+    width: 100%;
+  }
+
+  .cardLoad {
+    margin-top: 1rem;
+  }
+}

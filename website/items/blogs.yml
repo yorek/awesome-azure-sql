@@ -1,0 +1,17 @@
+# Blogs
+
+"Azure SQL Devs’ Corner":
+  url: "https://devblogs.microsoft.com/azure-sql/"
+  description: "Azure SQL team blog with focus on developers."
+  tags:
+    - "Blogs / Official"
+  websiteTags:
+    - "Azure SQL"
+
+"Azure SQL @ TechCommunity":
+  url: "https://techcommunity.microsoft.com/t5/azure-sql/bg-p/AzureSQLBlog"
+  description: "Azure SQL team blog with focus on IT Pros."
+  tags:
+    - "Blogs / Official"
+  websiteTags:
+    - "Azure SQL"

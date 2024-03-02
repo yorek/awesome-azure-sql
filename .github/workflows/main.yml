@@ -2,7 +2,11 @@ name: Build Readme
 
 on:
   push:
-    branches: [ main ]
+    branches: 
+      - main
+    paths:
+      - '**.yml'
+      - '!.github/**'
 
   # Allows you to run this workflow manually from the Actions tab
   workflow_dispatch:
@@ -22,14 +26,16 @@ jobs:
           dotnet-version: "6.0"
       - name: Render Readme
         run: dotnet run --project ./ALG/ALG.csproj
+      - name: Check for modified files
+        id: git-check
+        run: echo "modified=$(if [[ $(git diff --name-only  HEAD --) == "README.md" ]]; then echo "true"; else echo "false"; fi)" >> $GITHUB_OUTPUT
       - name: Commit files
+        if: steps.git-check.outputs.modified == 'true'
         run: |                  
-          git config --local user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git config --local user.name "github-actions[bot]"
-          git add ./README.md
-          git commit -m "Updated README" -a
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git remote set-url origin https://x-access-token:${{ secrets.GITHUB_TOKEN }}@github.com/${{ github.repository }}
+          git add ./README.md && git commit -m "Update README"
       - name: Push changes
-        uses: ad-m/github-push-action@master
-        with:
-          github_token: ${{ secrets.GITHUB_TOKEN }}
-          branch: ${{ github.ref }}      
+        if: steps.git-check.outputs.modified == 'true'
+        run: git push

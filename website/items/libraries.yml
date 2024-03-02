@@ -1,0 +1,75 @@
+# Libraries 
+
+"EF Core":
+  url: "https://docs.microsoft.com/ef/core/"
+  description: "Native .NET Core OR/M mapping tool"
+  tags: 
+    - "Libraries / .NET"
+  websiteTags:
+    - "Azure SQL"
+    - "Official"
+    - "dotnetCsharp"
+    - "Documentation"
+
+"Dapper":
+  url: "https://github.com/StackExchange/Dapper"
+  description: "A high-performance micro object mapper for .Net"
+  tags: 
+    - "Libraries / .NET"
+  websiteTags:
+    - "Azure SQL"
+    - "dotnetCsharp"
+
+"SqlKata":
+  url: "https://sqlkata.com/"
+  description: "A fluent SQL query builder for C#"
+  tags: 
+    - "Libraries / .NET"
+  websiteTags:
+    - "Azure SQL"
+    - "dotnetCsharp"
+
+"node-mssql": 
+  url: "https://www.npmjs.com/package/mssql"
+  description: "Microsoft SQL Server client for Node.js"
+  tags:
+    - "Libraries / Node"
+  websiteTags:
+    - "Azure SQL"
+    - "NodeJs"
+
+"Knex.js": 
+  url: "https://knexjs.org/" 
+  description: "\"Batteries included\" SQL query builder"
+  tags:
+    - "Libraries / Node"
+  websiteTags:
+    - "Azure SQL"
+    - "NodeJs"
+
+"Prisma": 
+  url: "https://www.prisma.io/"
+  description: "Next-generation ORM for Node.js and TypeScript"
+  tags:
+    - "Libraries / Node"
+  websiteTags:
+    - "Azure SQL"
+    - "NodeJs"
+
+"Sequelize": 
+  url: "https://sequelize.org/"
+  description: "A promise-based Node.js ORM"
+  tags:
+    - "Libraries / Node"
+  websiteTags:
+    - "Azure SQL"
+    - "NodeJs"
+
+"SQLAlchemy": 
+  url: "https://www.sqlalchemy.org/"
+  description: "Python SQL toolkit and Object Relational Mapper"
+  tags:
+    - "Libraries / Python"
+  websiteTags:
+    - "Azure SQL"
+    - "Python"

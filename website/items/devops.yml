@@ -1,0 +1,66 @@
+## DevOps
+
+"DevOps for Azure SQL (1 of 2): Getting Started":
+  url: "https://www.youtube.com/watch?v=j7OnxOz7YDY"
+  description: "What is Data DevOps and a discussion around the first option: migration based deployment."
+  icon: ":tv:"  
+  tags: 
+    - "DevOps"
+  websiteTags:
+    - "Azure SQL"
+    - "Official"
+    - "Videos"
+
+"DevOps for Azure SQL (2 of 2): Using Azure Pipelines for Azure SQL Deployments":
+  url: "https://www.youtube.com/watch?v=G7H6HbzwAfs"
+  description: "Discussion on state based deployment, and full demo on using Azure Pipelines to deploy the database."
+  icon: ":tv:"  
+  tags: 
+    - "DevOps"
+  websiteTags:
+    - "Azure SQL"
+    - "Official"
+    - "Videos"
+
+"DevOps for Azure SQL":
+  url: "https://devblogs.microsoft.com/azure-sql/devops-for-azure-sql/"
+  description: "What is DevOps and how it can be applied to Azure SQL?"
+  icon: "📄"
+  tags: 
+    - "DevOps"
+  websiteTags:
+    - "Azure SQL"
+    - "Official"
+    - "Blogs"
+
+"Continuous Delivery for Azure SQL DB using Azure DevOps Multi-stage Pipelines":
+  url: "https://devblogs.microsoft.com/azure-sql/continuous-delivery-for-azure-sql-db-using-azure-devops-multi-stage-pipelines/"
+  description: "How to create a CD pipeline using Azure DevOps."
+  icon: "📄"
+  tags: 
+    - "DevOps"
+  websiteTags:
+    - "Azure SQL"
+    - "Official"
+    - "Blogs"
+
+"Advanced automated deployment of Azure SQL Database with Azure DevOps":
+  url: "https://erikej.github.io/sqlserver/2021/01/11/azure-sql-advanced-deployment-part1.html"
+  description: "Detailed tutorial on how to deploy Azure SQL with Azure DevOps."
+  icon: "📄"
+  tags: 
+    - "DevOps"
+  websiteTags:
+    - "Azure SQL"
+    - "Blogs"
+
+"Use GitHub Actions to connect to Azure SQL Database":
+  url: "https://docs.microsoft.com/azure/azure-sql/database/connect-github-actions-sql-db"
+  description: "The official Azure SQL GitHub Actions documentation."
+  icon: ":blue_book:"
+  tags: 
+    - "DevOps"
+  websiteTags:
+    - "Azure SQL"
+    - "Official"
+    - "Documentation"

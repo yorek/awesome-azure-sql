@@ -1,0 +1,19 @@
+# Social Media
+
+"Twitter":
+  url: "https://twitter.com/AzureSQL"
+  description: "The official Twitter account for Azure SQL."
+  tags:
+    - "Social Media"
+  websiteTags:
+    - "Azure SQL"
+    - "Official"
+
+"YouTube":
+  url: "https://www.youtube.com/channel/UCNsev6sULZ_Zp06VL7uktuA"
+  description: "The official YouTube channel for Azure SQL."  
+  tags:
+    - "Social Media"
+  websiteTags:
+    - "Azure SQL"
+    - "Official"

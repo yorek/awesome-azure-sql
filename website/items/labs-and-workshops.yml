@@ -1,0 +1,36 @@
+# Labs & Workshops
+
+"SQL Workshops":
+  description: "Labs and workshops on Azure SQL (and more)."
+  url: "https://aka.ms/sqlworkshops"
+  icon: ":bar_chart:"
+  tags: 
+    - "Labs & Workshops"
+  websiteTags:
+    - "Workshops"
+    - "Official"
+    - "Azure SQL"
+
+"Security Workshop":
+  description: "Workshop: SQL Server Security Ground to Cloud"
+  url: "https://github.com/David-Seis/SecureYourAzureData"
+  icon: ":closed_lock_with_key:"
+  tags:
+    - "Labs & Workshops"
+    - "Security"
+  websiteTags:
+    - "Workshops"
+    - "Azure SQL"
+
+"Azure SQL Database Developer Workshop":
+  url: "https://github.com/Azure-Samples/azure-sql-db-developers-workshop"
+  description: "A collection of full Stack workshop that exposes developers to local development, CICD, REST, GraphQL and cloud services."
+  tags:
+    - "Labs & Workshops"
+    - "Code Samples / REST"
+    - "Code Samples / GraphQL"
+    - "Code Samples / Full Stack"   
+  websiteTags:
+    - "Workshops"
+    - "Azure SQL"
+    - "Official"

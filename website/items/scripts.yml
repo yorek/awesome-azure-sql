@@ -1,0 +1,27 @@
+# Scripts
+
+"Azure SQL Diagnostic Queries":
+  url: "https://glennsqlperformance.com/resources/"
+  description: "A comprehensive diagnostic and health-check queries."
+  tags: 
+    - "Scripts"
+  websiteTags:
+    - "Azure SQL"
+
+"Azure SQL Tips":
+  url: "https://aka.ms/sqldbtips"
+  description: "Get tips to improve database design, health, and performance right from the Azure SQL product group."
+  tags: 
+    - "Scripts"
+    - "Best Practices"
+  websiteTags:
+    - "Azure SQL"
+    - "Official"
+
+"sp_whoisactive":
+  url: "https://github.com/amachanic/sp_whoisactive"
+  description: "A comprehensive activity monitoring stored procedure."
+  tags: 
+    - "Scripts"
+  websiteTags:
+    - "Azure SQL"

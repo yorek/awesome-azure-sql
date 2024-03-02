@@ -1,0 +1,307 @@
+# Code Samples
+
+"To-Do List sample deployment with AZ Developer Tool (AZD)":
+  url: "https://github.com/azure-samples/todo-csharp-sql"
+  description: "A complete sample To Do application that demonstrates how to build an Azure solution using C#, Azure SQL for storage, and Azure Monitor for monitoring and logging, that uses AZD for completely automated deployment."
+  tags: 
+    - "Code Samples / Full Stack"
+    - "Best Practices"
+  websiteTags:
+    - "Azure SQL"
+    - "dotnetCsharp"
+    - "App Service"
+    - "React Js"
+    - "Official"
+
+"Azure SQL DB Samples and Best Practices":
+  url: "https://github.com/yorek/azure-sql-db-samples"
+  description: "Samples and Best practices to use Azure SQL DB to build modern, mission critical applications, with ease and confidence."
+  tags: 
+    - "Code Samples / Generic"
+    - "Best Practices"
+  websiteTags:
+    - "Azure SQL"
+
+"Azure SQL Hyperscale Autoscaler":
+  url: "https://github.com/azure-samples/azure-sql-db-hyperscale-autoscaler"
+  description: "How to create a serverless solution to automatically scale Azure SQL Hyperscale, based on detected workload."
+  tags: 
+    - "Code Samples / Generic"
+  websiteTags:
+    - "Azure SQL"
+    - "Official"
+    - "Functions"
+    - "dotnetCsharp"
+
+"TodoMVC Sample App Full Stack Implementation":
+  url: "https://github.com/azure-samples/azure-sql-db-todo-mvc"
+  description: "Full-Stack implementation of the famous ToDoMVC: Vue.js, .NET Core REST API, Azure SQL."
+  tags: 
+    - "Code Samples / REST"    
+    - "Code Samples / Full Stack"   
+  websiteTags:
+    - "Azure SQL"
+    - "Official"
+    - "Functions"
+    - "App Service"
+    - "SWA"
+    - "dotnetCsharp"
+
+"Fast Data Loading in Azure SQL DB using Azure Databricks":
+  url: "https://docs.microsoft.com/samples/azure-samples/azure-sql-db-databricks/azure-sql-db-databricks/"
+  description: "Samples and best practices on how use Azure SQL with Azure Databricks."
+  tags: 
+    - "Code Samples / Big Data"
+    - "Code Samples / Data Loading"
+  websiteTags:
+    - "Azure SQL"
+    - "Official"
+    - "Documentation"
+
+"Azure SQL Change Stream with Debezium":
+  url: "https://github.com/Azure-Samples/azure-sql-db-change-stream-debezium"
+  description: "Set up a change stream from Azure SQL using the open source tool [Debezium](https://debezium.io/)." 
+  tags:
+    - "Code Samples / Change Stream" 
+  websiteTags:
+    - "Azure SQL"
+    - "Official"
+    - "Functions"
+    - "dotnetCsharp"
+
+"Azure SQL DB Import Data Samples":
+  url: "https://github.com/Azure-Samples/azure-sql-db-import-data"
+  description: "Samples on how to import data (JSON, CSV, Flat-Files, etc) into Azure SQL."
+  tags:
+    - "Code Samples / Data Loading"
+  websiteTags:
+    - "Azure SQL"
+    - "Official"
+
+"Azure SQL Database CI/CD Pipeline with GitHub Actions":
+  url: "https://github.com/Azure-Samples/azure-sql-db-ci-cd"
+  description: "A sample on how to deploy Azure SQL using the open source [DbUp](http://dbup.github.io/) and running test using [NUnit](https://nunit.org/)."
+  tags:
+    - "Code Samples / DevOps"
+  websiteTags:
+    - "Azure SQL"
+    - "Official"
+    - "dotnetCsharp"
+    - "DevOps"
+
+"Monitor GeoFences in real-time using Azure SQL and Stream Analytics":
+  url: "https://docs.microsoft.com/samples/azure-samples/azure-sql-db-serverless-geospatial-stream-analytics/azure-sql-db-serverless-geospatial-stream-analytics/"
+  description: "End-to-end solution to processing incoming public transportation data using Azure SQL, Azure Functions, Events Hubs and Stream Analytics."
+  tags:
+    - "Code Samples / Geospatial"
+  websiteTags:
+    - "Azure SQL"
+    - "Official"
+    - "Documentation"
+    - "dotnetCsharp"
+
+"Real-Time Serverless GeoSpatial Public Transportation GeoFencing Solution":
+  url: "https://docs.microsoft.com/samples/azure-samples/azure-sql-db-serverless-geospatial/azure-sql-db-serverless-geospatial/"
+  description: "End-to-end solution to processing incoming public transportation data using Azure SQL and Azure Functions."
+  tags:
+    - "Code Samples / Geospatial"
+  websiteTags:
+    - "Azure SQL"
+    - "Official"
+    - "Functions"
+    - "Documentation"
+    - "dotnetCsharp"
+
+"Million Song Dataset in Azure SQL DB / SQL Server":
+  url: "https://docs.microsoft.com/samples/azure-samples/millionsongdataset-sql/millionsongdataset-sql/"
+  description: "Using graph objects and columnstore in Azure SQL with the Million Song dataset."
+  tags:
+    - "Code Samples / Graph"
+  websiteTags:
+    - "Azure SQL"
+    - "Official"
+    - "Documentation"
+
+"Azure SQL & GraphQL Samples":
+  url: "https://github.com/azure-samples/azure-sql-db-graphql"
+  description: "Samples on how to create a GraphQL solution using Azure SQL using .NET, Python or Node."
+  tags:
+    - "Code Samples / GraphQL"
+  websiteTags:
+    - "Azure SQL"
+    - "Official"
+    - "Functions"
+
+"REST & GraphQL TodoMVC Sample App Full Stack Implementation with Prisma":
+  url: "https://github.com/Azure-Samples/azure-sql-db-prisma"
+  description: "Full-stack end-to-end implementation - both with REST and GraphQL support - with Azure SQL and Prisma.io of the well-known To-do list sample."
+  tags:
+    - "Code Samples / GraphQL"
+    - "Code Samples / REST"
+    - "Code Samples / Full Stack"
+  websiteTags:
+    - "Azure SQL"
+    - "Official"
+    - "Functions"
+    - "Typescript"
+
+"Streaming at Scale":
+  url: "https://docs.microsoft.com/samples/azure-samples/streaming-at-scale/streaming-at-scale/"
+  description: "End-to-end solution to implement a streaming at scale scenario."
+  tags:
+    - "Code Samples / Streaming"
+  websiteTags:
+    - "Azure SQL"
+    - "Official"
+    - "Documentation"
+    - "Functions"
+    - "Kubernetes"
+    - "Blob Storage"
+    - "CosmosDB"
+    - "dotnetCsharp"
+
+"Creating a REST API with .NET Core and Azure SQL":
+  url: "https://github.com/azure-samples/azure-sql-db-dotnet-rest-api"
+  description: "Create a REST API using Azure SQL, Dapper and .NET."
+  tags:
+    - "Code Samples / REST"
+  websiteTags:
+    - "Azure SQL"
+    - "Official"
+    - "dotnetCsharp"
+    - "App Service"
+
+"Creating a REST API with Python and Azure SQL":
+  url: "https://github.com/Azure-Samples/azure-sql-db-python-rest-api/"
+  description: "Create a REST API using Azure SQL, Python and Flask."
+  tags:
+    - "Code Samples / REST"
+  websiteTags:
+    - "Azure SQL"
+    - "Official"
+    - "Python"
+    - "App Service"
+
+"TodoMVC Backend Implementation with Azure Functions, Node and Azure SQL":
+  url: "https://github.com/azure-samples/azure-sql-db-todo-backend-func-node"
+  description: "Create a REST API using Azure SQL, Azure Functions and Node."
+  tags:
+    - "Code Samples / REST"
+  websiteTags:
+    - "Azure SQL"
+    - "Official"
+    - "Functions"
+    - "NodeJS"
+
+"Using Change Tracking API to sync data between Apps and the Cloud":
+  url: "https://docs.microsoft.com/samples/azure-samples/azure-sql-db-sync-api-change-tracking/azure-sql-db-dotnet-rest-api/"
+  description: "Create a Python REST API to return only changed data from last sync using the Change Tracking feature of Azure SQL."
+  tags:
+    - "Code Samples / REST"
+  websiteTags:
+    - "Azure SQL"
+    - "App Service"
+    - "Official"
+    - "Documentation"
+    - "dotnetCsharp"
+
+"Serverless REST API with Azure Functions, Node and Azure SQL":
+  url: "https://github.com/azure-samples/azure-sql-db-node-rest-api"
+  description: "Create a serverless REST API using Azure Functions, Node and Azure SQL."
+  tags:
+    - "Code Samples / REST"
+  websiteTags:
+    - "Azure SQL"
+    - "Functions"
+    - "Official"
+    - "NodeJS"
+
+"Creating API to securely access data using Azure SQL Row Level Security":
+  url: "https://github.com/Azure-Samples/azure-sql-db-secure-data-access-api"
+  description: "Using the Row Level Security feature of Azure SQL to create secure REST API with Python, Flask and JWT."
+  tags:
+    - "Code Samples / REST"
+  websiteTags:
+    - "Azure SQL"
+    - "App Service"
+    - "Official"
+    - "Python"
+
+"ScriptDOM Samples":
+  url: "https://github.com/arvindshmicrosoft/SQLScriptDomSamples"
+  description: "Samples on how to use the ScriptDOM parser to parse T-SQL statements."
+  tags:
+    - "Code Samples / ScriptDOM"
+  websiteTags:
+    - "Azure SQL"
+    - "dotnetCsharp"
+
+"REST & GraphQL TodoMVC Sample App Full Stack Implementation with Directus":
+  url: "https://github.com/azure-samples/azure-sql-db-rest-graphql-directus"
+  description: "Full Stack TodoMVC Sample app, with REST and GraphQL support, using Directus, Azure Web Apps, Vue.Js and Azure SQL."
+  tags:
+    - "Code Samples / REST"
+    - "Code Samples / GraphQL"
+    - "Code Samples / Full Stack"
+  websiteTags:
+    - "Azure SQL"
+    - "App Service"
+    - "Official"
+
+"Azure SQL Database Hyperscale Named Replicas OLTP Scale-Out Samples":
+  url: "https://github.com/azure-samples/azure-sql-db-named-replica-oltp-scaleout"
+  description: "Sample of a massively scalable OLTP backed taking advantage of database secondary replicas to offload read-only workload."
+  tags:
+    - "Code Samples / REST"
+    - "Code Samples / Generic"
+  websiteTags:
+    - "Azure SQL"
+    - "App Service"
+    - "Official"
+    - "dotnetCsharp"
+
+"TodoMVC Backend Implementation with Azure WebApps, .Net Core and Azure SQL":
+  url: "https://github.com/azure-samples/azure-sql-db-todo-backend-dotnet"
+  description: "Implementation of the Todo Backend API using ASP.NET Core, JSON, Dapper and Azure SQL.s"
+  tags:
+    - "Code Samples / REST"
+  websiteTags:
+    - "Azure SQL"
+    - "App Service"
+    - "Official"
+    - "dotnetCsharp"
+
+"Dynamic Schema Management With Azure SQL":
+  url: "https://github.com/azure-samples/azure-sql-db-todo-backend-dotnet"
+  description: "Samples on how efficiently to handle dynamic schemas in Azure SQL"
+  tags:
+    - "Code Samples / REST"   
+    - "Code Samples / Dynamic Schema"
+  websiteTags:
+    - "Azure SQL"
+    - "App Service"
+    - "Official"
+    - "dotnetCsharp"
+
+"Build serverless, full stack applications in Azure":
+  url: "https://github.com/Azure-Samples/serverless-full-stack-apps-azure-sql"
+  description: "Full stack solution using Vue.js, Azure Static Web Apps, Azure Function, Azure SQL Database and a microservice architecture to monitor in real-time public transportation data, create a geofence and send notification when geofence is activated."
+  tags:
+    - "Code Samples / REST"   
+    - "Code Samples / Full Stack"
+  websiteTags:
+    - "Azure SQL"
+    - "SWA"
+    - "Functions"
+    - "Official"
+    - "Python"
+
+"Create REST API in Python with Django, using the Django REST Framework and Azure SQL":
+  url: "https://github.com/azure-samples/azure-sql-db-django/"
+  description: "This sample uses the Django web framework and Django REST framework package to easily implement REST APIs. mssql-django backend used to establish database connectivity with Azure SQL DB and Django."
+  tags:
+    - "Code Samples / REST" 
+  websiteTags:
+    - "Azure SQL"
+    - "Official"
+    - "Python"

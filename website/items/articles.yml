@@ -1,0 +1,27 @@
+# Articles
+
+"Bandwidth-friendly Query Profiling for Azure SQL Database":
+  url: "https://sqlperformance.com/2020/04/sql-performance/bandwidth-friendly-query-profiling-azure-sql-database"
+  description: "Using Extended Events to profile query execution."
+  tags:
+    - "Articles"
+  websiteTags:
+    - "Azure SQL"
+
+"How to use batching to improve application performance":
+  url: "https://docs.microsoft.com/azure/azure-sql/performance-improve-use-batching"
+  description: "An explanation of batching techniques that can be used to improve performance by a lot."
+  tags:
+    - "Articles"
+  websiteTags:
+    - "Azure SQL"
+    - "Documentation"
+    - "Official"
+
+"The SQL Developer Experience: Beyond RDBMS":
+  url: "https://www.sqlservercentral.com/articles/the-sql-developer-experience-beyond-rdbms"
+  description: "An overview of SQL Server and Azure from a developer point of view."
+  tags:
+    - "Articles"
+  websiteTags:
+    - "Azure SQL"

@@ -9,7 +9,7 @@ namespace AwesomeList;
 
 public class Program
 {
-    static readonly string yamlItemsPath = "items";
+    static readonly string yamlItemsPath = "website/items";
     
     static readonly string yamlSortingFile = "sorting.yml";
 

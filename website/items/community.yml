@@ -1,0 +1,9 @@
+# Community
+
+"Azure Data Community":
+  url: "https://www.microsoft.com/sql-server/community"
+  description: "A List of user groups and community resources like events, recordings, blogs and so on."
+  tags:
+    - "Community"
+  websiteTags:
+    - "Azure AQL"
