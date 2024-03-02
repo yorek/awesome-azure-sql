@@ -162,7 +162,7 @@ const config = {
         disableInDev: false,
       }      
     ],
-    "docusaurus-plugin-goatcounter"
+    ["docusaurus-plugin-goatcounter", {}]
   ],
 
   // CONFIG: Set presets for chosen theme
