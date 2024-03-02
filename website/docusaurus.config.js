@@ -62,7 +62,7 @@ const config = {
       // CONFIG: navbar logo, items, style, stickiness
       //    See: https://docusaurus.io/docs/next/api/themes/configuration#navbar
       navbar: {
-        title: "awesome-azure-sql",
+        title: "Awesome Azure SQL",
         logo: {
           alt: "Awesome Azure SQL logo",
           src: "img/logo.png",
