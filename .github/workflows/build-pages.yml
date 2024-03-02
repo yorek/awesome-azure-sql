@@ -1,4 +1,4 @@
-name: Release Azure SQL
+name: build-gh-pages
 
 # This pipeline is manually started only as part of releasing Azure SQL
 on:

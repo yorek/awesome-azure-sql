@@ -1,4 +1,4 @@
-name: Build Readme
+name: build-readme
 
 on:
   push:
