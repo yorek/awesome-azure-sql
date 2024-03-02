@@ -143,6 +143,10 @@ const config = {
         theme: prismThemes.github,
         darkTheme: prismThemes.dracula,
       },
+
+      goatcounter: {
+        code: 'awesomesql',
+      },
     }),
 
   // CONFIG: plugins
@@ -157,6 +161,7 @@ const config = {
         steps: 2, // the max number of images generated between min and max (inclusive)
         disableInDev: false,
       },
+      "docusaurus-plugin-goatcounter"
     ],
   ],
 

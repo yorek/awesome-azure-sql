@@ -47,6 +47,7 @@
   },
   "dependencies": {
     "@popperjs/core": "^2.11.8",
+    "docusaurus-plugin-goatcounter": "^3.0.0",
     "fs": "^0.0.1-security",
     "js-yaml": "^4.1.0",
     "scheduler": "^0.20.2",
