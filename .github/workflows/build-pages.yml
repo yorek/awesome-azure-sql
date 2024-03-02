@@ -1,7 +1,13 @@
 name: build-gh-pages
 
-# This pipeline is manually started only as part of releasing Azure SQL
 on:
+  push:
+    branches: 
+      - main
+    paths:
+      - '**.yml'
+      - '!.github/**'
+
   workflow_dispatch:
 
 jobs:
