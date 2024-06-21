@@ -272,8 +272,20 @@
     - "dotnetCsharp"
 
 "Dynamic Schema Management With Azure SQL":
-  url: "https://github.com/azure-samples/azure-sql-db-todo-backend-dotnet"
+  url: " https://github.com/Azure-Samples/azure-sql-db-dynamic-schema"
   description: "Samples on how efficiently to handle dynamic schemas in Azure SQL"
+  tags:
+    - "Code Samples / REST"   
+    - "Code Samples / Dynamic Schema"
+  websiteTags:
+    - "Azure SQL"
+    - "App Service"
+    - "Official"
+    - "dotnetCsharp"
+    
+"Dynamic Schema Management With Azure SQL and Entity Framework":
+  url: " https://github.com/Azure-Samples/azure-sql-db-dynamic-schema-ef"
+  description: "Samples on how efficiently to handle dynamic schemas in Azure SQL via Entity Framework"
   tags:
     - "Code Samples / REST"   
     - "Code Samples / Dynamic Schema"
