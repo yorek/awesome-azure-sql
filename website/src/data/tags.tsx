@@ -21,19 +21,20 @@ export type User = {
   tags: TagType[];
 };
 
-// NN: Updated TagType to suit Static Web Apps
+// Tag definition. Add new tags here and then add more details in the Tags object below
 export type TagType =
   | "official"
   | "community"
   | "new"
   | "popular"
   | "typescript"
-  | "dotnetcsharp"
+  | "dotnet"
+  | "aspire"
+  | "csharp"
   | "python"
   | "react-js"
   | "nodejs"
   | "app-service"
-  | "cosmosdb"
   | "functions"
   | "blob-storage"
   | "azure-sql"
@@ -56,7 +57,10 @@ export type TagType =
   | "libraries"
   | "tools"
   | "devops"
-  | "full-stack";
+  | "full-stack"
+  | "rag"
+  | "vectors"
+  ;
 
 // LIST OF AVAILABLE TAGS
 // Each tag in lit about must have a defined object here
@@ -170,7 +174,7 @@ export const Tags: { [type in TagType]: Tag } = {
     description: "Resource contains TypeScript app code",
     type: "Language",
   },
-  dotnetcsharp: {
+  csharp: {
     label: ".NET/C#",
     description: "Resource contains .NET and/or C# app code",
     type: "Language",
@@ -201,13 +205,13 @@ export const Tags: { [type in TagType]: Tag } = {
     url: "https://azure.microsoft.com/products/app-service",
     type: "Service",
   },
-  cosmosdb: {
-    label: "Azure CosmosDB",
-    description: "Resource architecture uses Azure CosmosDB",
-    azureIcon: "./img/Azure-Cosmos-DB.svg",
-    url: "https://azure.microsoft.com/products/cosmos-db/",
-    type: "Service",
-  },
+  // cosmosdb: {
+  //   label: "Azure CosmosDB",
+  //   description: "Resource architecture uses Azure CosmosDB",
+  //   azureIcon: "./img/Azure-Cosmos-DB.svg",
+  //   url: "https://azure.microsoft.com/products/cosmos-db/",
+  //   type: "Service",
+  // },
   functions: {
     label: "Azure Functions",
     description: "Resource architecture uses Azure Functions",
