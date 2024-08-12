@@ -28,7 +28,6 @@ export type TagType =
   | "new"
   | "popular"
   | "typescript"
-  | "dotnet"
   | "aspire"
   | "csharp"
   | "python"
@@ -162,8 +161,8 @@ export const Tags: { [type in TagType]: Tag } = {
     description: "This tag is used for community resources.",
     type: "Type",
   },
-  // Language Tags
 
+  // Language Tags
   graphql: {
     label: "GraphQL",
     description: "Resource contains GraphQL app code",
@@ -191,6 +190,11 @@ export const Tags: { [type in TagType]: Tag } = {
   },
 
   // ---- Framework
+  "aspire": {
+    label: ".NET Aspire",
+    description: "Links and resources related to .NET Aspire",
+    type: "Framework",
+  },
   "react-js": {
     label: "React.js",
     description: "Resource architecture uses React.js",
@@ -270,6 +274,16 @@ export const Tags: { [type in TagType]: Tag } = {
   "full-stack": {
     label: "Full Stack",
     description: "Resources related to fullstack development",
+    type: "Topic",
+  },
+  "rag": {
+    label: "RAG",
+    description: "Link and resources related to Retrieval Augmented Generation pattern",
+    type: "Topic",
+  },
+  "vectors": {
+    label: "Vectors",
+    description: "Link and resources related to vectors",
     type: "Topic",
   },
 };
