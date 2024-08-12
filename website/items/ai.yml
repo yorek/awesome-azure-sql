@@ -2,7 +2,7 @@
 
 "Vector Similarity Search with Azure SQL database and OpenAI":
   url: "https://devblogs.microsoft.com/azure-sql/vector-similarity-search-with-azure-sql-database-and-openai/"
-  description: "Azure SQL team blog with focus on developers."
+  description: "How to implement vector search in Azure SQL and SQL Server"
   icon: ":robot:"
   tags:    
     - "Vectors"
@@ -12,10 +12,12 @@
     - "Popular"
     - "Blogs"
     - "Official"
+    - "RAG"
+    - "Vector"
 
 "Build a Session Recommender with Azure SQL database and OpenAI":
   url: "https://github.com/Azure-Samples/azure-sql-db-session-recommender"
-  description: "Azure SQL team blog with focus on developers."
+  description: "An end-to-end sample to show how to do vector similarity search on your own data in Azure SQL"
   icon: ":robot:"
   tags:    
     - "Vectors"
@@ -29,5 +31,7 @@
     - "SWA"
     - "Full-Stack"
     - "Azure SQL"
-    - "dotnetCsharp"
+    - "CSharp"
     - "OpenAI"
+    - "RAG"
+    - "Vector"
