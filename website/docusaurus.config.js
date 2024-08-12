@@ -100,7 +100,7 @@ const config = {
           // CONFIG:
           // Make sure you have class defined in src/css/custom.css
           {
-            to: "https://yorek.github.io/awesome-azure-sql/docs/intro",
+            to: "/docs/intro",
             label: "Submit your link!",
             position: "right",
             className: "button",
@@ -114,15 +114,15 @@ const config = {
         style: "light",
         links: [
           {
-            label: `Azure SQL Reference`,
+            label: 'Azure SQL Reference',
             to: "https://aka.ms/az-sql",
           },
           {
-            label: "Privacy Statement ",
+            label: "Privacy Statement",
             to: "https://privacy.microsoft.com/privacystatement",
           },
           {
-            label: "Built With Docusaurus ",
+            label: "Built With Docusaurus",
             to: "https://docusaurus.io",
           },
           {
