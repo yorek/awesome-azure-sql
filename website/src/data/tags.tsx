@@ -209,13 +209,13 @@ export const Tags: { [type in TagType]: Tag } = {
     url: "https://azure.microsoft.com/products/app-service",
     type: "Service",
   },
-  // cosmosdb: {
-  //   label: "Azure CosmosDB",
-  //   description: "Resource architecture uses Azure CosmosDB",
-  //   azureIcon: "./img/Azure-Cosmos-DB.svg",
-  //   url: "https://azure.microsoft.com/products/cosmos-db/",
-  //   type: "Service",
-  // },
+  cosmosdb: {
+    label: "Azure CosmosDB",
+    description: "Resource architecture uses Azure CosmosDB",
+    azureIcon: "./img/Azure-Cosmos-DB.svg",
+    url: "https://azure.microsoft.com/products/cosmos-db/",
+    type: "Service",
+  },
   functions: {
     label: "Azure Functions",
     description: "Resource architecture uses Azure Functions",

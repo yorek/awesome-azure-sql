@@ -27,7 +27,7 @@ function closeCard(parentDiv) {
 const useStyles = makeStyles({
   card: {
     width: "350px",
-    height: "368px",
+    height: "250px",
     maxWidth: "100%",
     maxHeight: "100%",
     minWidth: "300px",
@@ -64,11 +64,11 @@ export default function ShowcaseContributionCard(): React.ReactElement {
           <img src={useBaseUrl("/img/close.svg")} height={20} alt="Close" />
         }
       ></ToggleButton>
-      <img
+      {/* <img
         src={useBaseUrl("/img/contributionCard.svg")}
         alt="contributionCard"
         style={{ maxHeight: "110px", alignSelf: "flex-start" }}
-      />
+      /> */}      
       <div
         style={{
           fontSize: "20px",
