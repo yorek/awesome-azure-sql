@@ -37,6 +37,7 @@ export type TagType =
   | "functions"
   | "blob-storage"
   | "azure-sql"
+  | "cosmosdb"
   | "swa"
   | "openai"
   | "azure-ai"
